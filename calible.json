@@ -1,0 +1,4272 @@
+[
+  {
+    "authors": "John Schember",
+    "id": 1,
+    "title": "Quick Start Guide"
+  },
+  {
+    "authors": "Sam Ruby, Dave Thomas, David Heinemeier Hansson",
+    "id": 3,
+    "title": "Agile Web Development with Rails 5"
+  },
+  {
+    "authors": "Dave Thomas",
+    "id": 6,
+    "title": "Programming Elixir \u2265 1.6"
+  },
+  {
+    "authors": "VM (Vicky) Brasseur",
+    "id": 9,
+    "title": "Forge Your Future with Open Source"
+  },
+  {
+    "authors": "Johanna Rothman",
+    "id": 11,
+    "title": "Create Your Successful Agile Project"
+  },
+  {
+    "authors": "Chris Adamson",
+    "id": 12,
+    "title": "Xcode Treasures"
+  },
+  {
+    "authors": "Jim R. Wilson",
+    "id": 13,
+    "title": "Node.js 8 the Right Way"
+  },
+  {
+    "authors": "Dmitry Zinoviev",
+    "id": 14,
+    "title": "Complex Network Analysis in Python"
+  },
+  {
+    "authors": "Sam Ruby, David Bryant Copeland & Dave Thomas",
+    "id": 15,
+    "title": "Agile Web Development with Rails 5.1"
+  },
+  {
+    "authors": "Johanna Rothman",
+    "id": 16,
+    "title": "Manage Your Project Portfolio, Second Edition"
+  },
+  {
+    "authors": "Noel Rappin",
+    "id": 17,
+    "title": "Take My Money"
+  },
+  {
+    "authors": "Andy Hunt Venkat Subramaniam",
+    "id": 19,
+    "title": "Practices of an Agile Developer"
+  },
+  {
+    "authors": "chromatic",
+    "id": 20,
+    "title": "Modern Perl, Fourth Edition"
+  },
+  {
+    "authors": "Paolo Perrotta",
+    "id": 22,
+    "title": "Metaprogramming Ruby 2"
+  },
+  {
+    "authors": "Joe Kutner",
+    "id": 23,
+    "title": "Remote Pairing"
+  },
+  {
+    "authors": "Myron Marston, Ian Dees",
+    "id": 25,
+    "title": "Effective Testing with RSpec 3"
+  },
+  {
+    "authors": "Nihal Mehta, Ph.D.",
+    "id": 27,
+    "title": "Quantum Computing"
+  },
+  {
+    "authors": "Sam Ruby, David Bryant Copeland & Dave Thomas",
+    "id": 30,
+    "title": "Agile Web Development with Rails 6"
+  },
+  {
+    "authors": "Antonio Cangiano",
+    "id": 32,
+    "title": "Technical Blogging, Second Edition"
+  },
+  {
+    "authors": "Kevin Hoffman",
+    "id": 33,
+    "title": "Programming WebAssembly with Rust"
+  },
+  {
+    "authors": "Venkat Subramaniam",
+    "id": 34,
+    "title": "Programming Kotlin"
+  },
+  {
+    "authors": "Ivo Balbaert, Simon St. Laurent",
+    "id": 35,
+    "title": "Programming Crystal"
+  },
+  {
+    "authors": "Rob Isenberg",
+    "id": 37,
+    "title": "Docker for Rails Developers"
+  },
+  {
+    "authors": "Daniel Pritchett",
+    "id": 38,
+    "title": "Build Chatbot Interactions"
+  },
+  {
+    "authors": "Aaron Sumner\u3068Junichi Ito (\u4f0a\u85e4\u6df3\u4e00)\u3068AKIMOTO Toshiharu & \u9b5a\u632f\u6c5f",
+    "id": 47,
+    "title": "Everyday Rails - RSpec\u306b\u3088\u308bRails\u30c6\u30b9\u30c8\u5165\u9580-20190225"
+  },
+  {
+    "authors": "Aaron Sumner\u3068Junichi Ito (\u4f0a\u85e4\u6df3\u4e00)\u3068AKIMOTO Toshiharu & \u9b5a\u632f\u6c5f",
+    "id": 48,
+    "title": "Everyday Rails - RSpec\u306b\u3088\u308bRails\u30c6\u30b9\u30c8\u5165\u9580-20190408"
+  },
+  {
+    "authors": "SRPC",
+    "id": 52,
+    "title": "\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3\u306b\u57fa\u3065\u304f\u307e\u308b\u308f\u304b\u308a\u8925\u7621\u30b1\u30a2"
+  },
+  {
+    "authors": "SRPC",
+    "id": 53,
+    "title": "\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3\u306b\u57fa\u3065\u304f\u307e\u308b\u308f\u304b\u308a\u8925\u7621\u30b1\u30a2 Part2"
+  },
+  {
+    "authors": "SRPC",
+    "id": 54,
+    "title": "\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3\u306b\u57fa\u3065\u304f\u307e\u308b\u308f\u304b\u308a\u8925\u7621\u30b1\u30a2 Part3"
+  },
+  {
+    "authors": "SRPC",
+    "id": 55,
+    "title": "\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3\u306b\u57fa\u3065\u304f\u307e\u308b\u308f\u304b\u308a\u8925\u7621\u30b1\u30a2 Part4"
+  },
+  {
+    "authors": "SRPC",
+    "id": 56,
+    "title": "\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3\u306b\u57fa\u3065\u304f\u307e\u308b\u308f\u304b\u308a\u8925\u7621\u30b1\u30a2 Part5"
+  },
+  {
+    "authors": "SRPC",
+    "id": 57,
+    "title": "\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3\u306b\u57fa\u3065\u304f\u307e\u308b\u308f\u304b\u308a\u8925\u7621\u30b1\u30a2 Part6"
+  },
+  {
+    "authors": "SRPC",
+    "id": 58,
+    "title": "\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3\u306b\u57fa\u3065\u304f\u307e\u308b\u308f\u304b\u308a\u8925\u7621\u30b1\u30a2 Part7"
+  },
+  {
+    "authors": "SRPC",
+    "id": 59,
+    "title": "\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3\u306b\u57fa\u3065\u304f\u307e\u308b\u308f\u304b\u308a\u8925\u7621\u30b1\u30a2 Part8"
+  },
+  {
+    "authors": "SRPC",
+    "id": 60,
+    "title": "\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3\u306b\u57fa\u3065\u304f\u307e\u308b\u308f\u304b\u308a\u8925\u7621\u30b1\u30a2 Part9"
+  },
+  {
+    "authors": "SRPC",
+    "id": 61,
+    "title": "\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3\u306b\u57fa\u3065\u304f\u307e\u308b\u308f\u304b\u308a\u8925\u7621\u30b1\u30a2 Part10"
+  },
+  {
+    "authors": "Brian Mulloy",
+    "id": 62,
+    "title": "Web API Design - Crafting Interfaces that Developers Love"
+  },
+  {
+    "authors": "Unknown",
+    "id": 63,
+    "title": "Are You Where Your Customers Are? Retail 3.0: Digital Transformation"
+  },
+  {
+    "authors": "Matt Garrish",
+    "id": 64,
+    "title": "Accessible EPUB 3"
+  },
+  {
+    "authors": "Russell Jurney",
+    "id": 65,
+    "title": "Agile Data Science"
+  },
+  {
+    "authors": "Daniel Jacobson",
+    "id": 66,
+    "title": "APIs: A Strategy Guide"
+  },
+  {
+    "authors": "Anton Kovalyov",
+    "id": 68,
+    "title": "Beautiful JavaScript"
+  },
+  {
+    "authors": "Pete Goodliffe",
+    "id": 71,
+    "title": "Becoming a Better Programmer"
+  },
+  {
+    "authors": "Joshua Backfield",
+    "id": 72,
+    "title": "Becoming Functional"
+  },
+  {
+    "authors": "Sam Newman",
+    "id": 73,
+    "title": "Building Microservices"
+  },
+  {
+    "authors": "Gavin Bell",
+    "id": 75,
+    "title": "Building Social Web Applications"
+  },
+  {
+    "authors": "Chris Dawson, Ben Straub",
+    "id": 76,
+    "title": "Building Tools with GitHub"
+  },
+  {
+    "authors": "Brian Messenlehner & Jason Coleman",
+    "id": 78,
+    "title": "Building Web Apps with WordPress"
+  },
+  {
+    "authors": "Allan Kelly",
+    "id": 79,
+    "title": "Business Patterns for Software Developers"
+  },
+  {
+    "authors": "Jennifer Murphy",
+    "id": 80,
+    "title": "Developing with Google+"
+  },
+  {
+    "authors": "Karim Yaghmour",
+    "id": 81,
+    "title": "Embedded Android"
+  },
+  {
+    "authors": "Emma Jane Hogbin Westby",
+    "id": 82,
+    "title": "Git for Teams"
+  },
+  {
+    "authors": "James Ferreira",
+    "id": 84,
+    "title": "Google Script: Enterprise Application Essentials"
+  },
+  {
+    "authors": "Yevgeniy Brikman",
+    "id": 85,
+    "title": "Hello, Startup"
+  },
+  {
+    "authors": "Alex MacCaw",
+    "id": 87,
+    "title": "JavaScript Web Applications"
+  },
+  {
+    "authors": "David Flanagan",
+    "id": 90,
+    "title": "JavaScript: The Definitive Guide - 6th"
+  },
+  {
+    "authors": "Eric Sarrion",
+    "id": 94,
+    "title": "jQuery UI"
+  },
+  {
+    "authors": "Alistair Croll & Benjamin Yoskovitz",
+    "id": 96,
+    "title": "Lean Analytics: Use Data to Build a Better Startup Faster"
+  },
+  {
+    "authors": "Carin Meier",
+    "id": 97,
+    "title": "Living Clojure"
+  },
+  {
+    "authors": "Nicholas C. Zakas",
+    "id": 99,
+    "title": "Maintainable JavaScript"
+  },
+  {
+    "authors": "Charles Platt",
+    "id": 100,
+    "title": "Make: Electronics"
+  },
+  {
+    "authors": "Charles Platt",
+    "id": 101,
+    "title": "Make: More Electronics"
+  },
+  {
+    "authors": "Lorna Jane Mitchell",
+    "id": 106,
+    "title": "PHP Web Services"
+  },
+  {
+    "authors": "Karl Fogel",
+    "id": 108,
+    "title": "Producing Open Source Software"
+  },
+  {
+    "authors": "Zachary Kessin",
+    "id": 109,
+    "title": "Programming HTML5 Applications"
+  },
+  {
+    "authors": "Eric Elliott",
+    "id": 111,
+    "title": "Programming JavaScript Applications"
+  },
+  {
+    "authors": "Will Iverson",
+    "id": 113,
+    "title": "Real World Web Services"
+  },
+  {
+    "authors": "Salvatore Loreto & Simon Pietro Romano",
+    "id": 115,
+    "title": "Real-Time Communication with WebRTC"
+  },
+  {
+    "authors": "Ash Maurya",
+    "id": 116,
+    "title": "Running Lean, Second Edition"
+  },
+  {
+    "authors": "Alan Harris & Konstantin Haase",
+    "id": 118,
+    "title": "Sinatra: Up and Running"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 119,
+    "title": "Tableau Data Visualization Cookbook"
+  },
+  {
+    "authors": "Tilo Linz",
+    "id": 120,
+    "title": "Testing in Scrum"
+  },
+  {
+    "authors": "Tom Stuart",
+    "id": 121,
+    "title": "Understanding Computation"
+  },
+  {
+    "authors": "Safari Content Team",
+    "id": 123,
+    "title": "Web Design Bibliography"
+  },
+  {
+    "authors": "Safari Content Team",
+    "id": 125,
+    "title": "Web Development Bibliography"
+  },
+  {
+    "authors": "Mike Loukides",
+    "id": 126,
+    "title": "What is DevOps?"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 129,
+    "title": "\u7c21\u7d04\uff01\uff1f\u03bb\u30ab\u5a18\u4e8c\u671f"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 130,
+    "title": "\u7c21\u7d04\uff01\uff1f\u03bb\u30ab\u5a18"
+  },
+  {
+    "authors": "\u6e21\u8fba\u660c\u5bdb",
+    "id": 131,
+    "title": "\u3064\u304f\u3063\u3066\u5b66\u3076\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u8a00\u8a9e\u3000Ruby\u306b\u3088\u308bScheme\u51e6\u7406\u7cfb\u306e\u5b9f\u88c5"
+  },
+  {
+    "authors": "[\"\u897f\u6c38\u4fca\u6587\"]",
+    "id": 134,
+    "title": "BareMetal\u3067\u904a\u3076 Raspberry Pi"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 136,
+    "title": "GoogleAndroid\u30d5\u309a\u30ed\u30af\u3099\u30e9\u30df\u30f3\u30af\u3099\u5165\u9580\u6539\u8a022\u7248-1.0.0"
+  },
+  {
+    "authors": "\u30de\u30c3\u30d7\u30b3\u30f3\u30b7\u30a7\u30eb\u30b8\u30e5\u682a\u5f0f\u4f1a\u793e\uff1a\u53e4\u6a4b \u5927\u5730\u3001\u9996\u90fd\u5927\u5b66\u6771\u4eac\uff1a\u6e21\u9089 \u82f1\u5fb3\u3001\u682a\u5f0f\u4f1a\u793e\u30b4\u30fc\u30ac\uff1a\u5c0f\u5c71 \u6587\u5f66",
+    "id": 138,
+    "title": "Google Earth\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u958b\u767a\u30ac\u30a4\u30c9 KML\u3001Earth&API\u5fb9\u5e95\u6d3b\u7528(for ykominami@gmail.com)"
+  },
+  {
+    "authors": "Unknown",
+    "id": 140,
+    "title": "GoogleMapsAPI\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u5165\u9580\u6539\u8a022\u7248-1.0.0"
+  },
+  {
+    "authors": "arton",
+    "id": 142,
+    "title": "Ruby\u74b0\u5883\u69cb\u7bc9\u8b1b\u5ea7 Windows\u7de8(for ykominami@gmail.com)"
+  },
+  {
+    "authors": "\u897f\u91ce \u7adc\u592a\u90ce",
+    "id": 143,
+    "title": "\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u3092\u3064\u304f\u308b\u82f1\u8a9e"
+  },
+  {
+    "authors": "\u67cf\u6728\u9905\u5b50\u3001\u98a8\u85ac",
+    "id": 145,
+    "title": "\u304d\u3064\u306d\u3055\u3093\u3067\u3082\u308f\u304b\u308bLLVM"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 147,
+    "title": "\u30b5\u30fc\u30d0\u30b5\u30a4\u30c9JavaScript Node.js\u5165\u9580"
+  },
+  {
+    "authors": "\u9577\u5c3e\u771f",
+    "id": 148,
+    "title": "\u672a\u6765\u306e\u56f3\u66f8\u9928\u3092\u4f5c\u308b\u3068\u306f"
+  },
+  {
+    "authors": "HyperGEAR, Inc.",
+    "id": 150,
+    "title": "\u7814\u7a76\u958b\u767a\u8cbb\u306e\u4f1a\u8a08\u51e6\u7406\u57fa\u6e96"
+  },
+  {
+    "authors": "\u60c5\u5831\u30b7\u30b9\u30c6\u30e0\u539a\u751f\u8ab2",
+    "id": 151,
+    "title": "\u5e73\u621016\u5e74\u5ea6\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30fb\u30aa\u30fc\u30af\u30b7\u30e7\u30f3\u306b\u304a\u3051\u308b\u300c\u8ca9\u58f2\u696d\u8005\u300d\u306b\u4fc2\u308b\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3"
+  },
+  {
+    "authors": "\u60c5\u5831\u30b7\u30b9\u30c6\u30e0\u539a\u751f\u8ab2",
+    "id": 152,
+    "title": "\u7b2c\u56db\u7ae0\u3000\u4e0d\u5f53\u666f\u54c1\u985e\u53ca\u3073\u4e0d\u5f53\u8868\u793a\u9632\u6b62\u6cd5\u95a2\u4fc2\uff08\u624b\u7d9a\u95a2\u4fc2\uff09"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 153,
+    "title": "\u7279\u5b9a\u5546\u53d6\u5f15\u306b\u95a2\u3059\u308b\u6cd5\u5f8b"
+  },
+  {
+    "authors": "TYAC5107",
+    "id": 154,
+    "title": "Taro13-\u7279\u5546\u6cd5_\u65bd\u884c\u4ee4_041110.jtd"
+  },
+  {
+    "authors": "\u7d4c\u6e08\u7523\u696d\u7701",
+    "id": 155,
+    "title": "\u5e73\u621019\u5e74\u5ea6 \u7279\u5b9a\u5546\u53d6\u5f15\u306b\u95a2\u3059\u308b\u6cd5\u5f8b\u7b49\u306e\u65bd\u884c\u306b\u3064\u3044\u3066"
+  },
+  {
+    "authors": "Fumei",
+    "id": 156,
+    "title": "T-Kernel 2.0\u4ed5\u69d8\u66f8"
+  },
+  {
+    "authors": "Oracle Corporation",
+    "id": 157,
+    "title": "Oracle1\u00ae VM VirtualBox1\u00ae User Manual"
+  },
+  {
+    "authors": "Fumei",
+    "id": 158,
+    "title": "\u65e5\u7acb\u8a55\u8ad61988\u5e7412\u6708\u53f7:\u201cH16\u201d\u7528ITRON\u4ed5\u69d8\u30ea\u30a2\u30eb\u30bf\u30a4\u30e0\u30aa\u30da\u30ec\u30fc\u30c6\u30a3\u30f3\u30b0\u30b7\u30b9\u30c6\u30e0\u201cHI16\u201d"
+  },
+  {
+    "authors": "Fumei",
+    "id": 160,
+    "title": "ansible automation for sysadmin"
+  },
+  {
+    "authors": "Marc-Andr\u00e9 Cournoyer",
+    "id": 161,
+    "title": "Create Your Own Programming Language"
+  },
+  {
+    "authors": "Fumei",
+    "id": 162,
+    "title": "Design Guidelines for Domain Sp"
+  },
+  {
+    "authors": "Jos\u00e9 Roberto Olivas Mendoza",
+    "id": 163,
+    "title": "Developing Windows Services Succinctly"
+  },
+  {
+    "authors": "Jiro TANAHASHI",
+    "id": 164,
+    "title": "EV3way-ET18b (ETP125VBL8) Building Instruction"
+  },
+  {
+    "authors": "Fumei",
+    "id": 165,
+    "title": "FreeRTOS Reference Manual V10.0"
+  },
+  {
+    "authors": "Fumei",
+    "id": 166,
+    "title": "introducing-crystal"
+  },
+  {
+    "authors": "user",
+    "id": 167,
+    "title": "ITM_03.book"
+  },
+  {
+    "authors": "\u30b3\u30d4\u30fc",
+    "id": 168,
+    "title": "VMM\u3092\u7528\u3044\u305f\u5b9f\u30c7\u30d0\u30a4\u30b9\u30c9\u30e9\u30a4\u30d0\u306e\u691c\u8a3c\u74b0\u5883\u306e\u8a2d\u8a08"
+  },
+  {
+    "authors": "Fumei",
+    "id": 169,
+    "title": "\u4eee\u60f3\u30de\u30b7\u30f3\u30e2\u30cb\u30bf\u306b\u304a\u3051\u308b\u30c7\u30d0\u30a4\u30b9\u30c9\u30e9\u30a4\u30d0\u5b89\u5168\u6027\u5411\u4e0a\u306b\u95a2\u3059\u308b\u63d0\u6848"
+  },
+  {
+    "authors": "Fumei",
+    "id": 170,
+    "title": "\u7d44\u307f\u8fbc\u307f\u958b\u767a\u30cb\u30e5\u30fc\u30b9\u307e\u3068\u3081(2019\u5e744\uff5e6\u6708)"
+  },
+  {
+    "authors": "Fumei",
+    "id": 172,
+    "title": "ricsin2009"
+  },
+  {
+    "authors": "Mitchel Resnick, John Maloney, Andr & #233;s Monroy-Hern & #225;ndez, Natalie Rusk, Evelyn Eastmond, Karen Brennan, Amon Millner, Eric Rosenbaum, Jay Silver, Brian Silverman, Yasmin Kafai",
+    "id": 173,
+    "title": "Scratch: Programming for All"
+  },
+  {
+    "authors": "Author",
+    "id": 174,
+    "title": "\u8a73\u8aacROS\u30ed\u30dc\u30c3\u30c8\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0"
+  },
+  {
+    "authors": "view5",
+    "id": 175,
+    "title": "\u30c6\u30ad\u30b9\u30c8\u578bDSL\u958b\u767a\u30d5\u30ec\u30fc\u30e0\u30ef\u30fc\u30afXtext\u5165\u9580"
+  },
+  {
+    "authors": "Yuu YOSHIMURA",
+    "id": 176,
+    "title": "The Rust Programming Language: 2nd Edition"
+  },
+  {
+    "authors": "Zapier",
+    "id": 177,
+    "title": "The Ultimate Guide to Remote Work"
+  },
+  {
+    "authors": "\u5ddd\u5408 \u79c0\u5b9f\uff3b\u8457\uff3d\u3001hideyosi\uff3b\u30a4\u30e9\u30b9\u30c8\uff3d\u3001USU-YA\uff3b\u8457\uff3d\uff0f\u30de\u30a4\u30ca\u30d3\uff3b\u767a\u884c\uff3d",
+    "id": 178,
+    "title": "30\u65e5\u3067\u3067\u304d\u308b\uff01 OS\u81ea\u4f5c\u5165\u9580"
+  },
+  {
+    "authors": "David Copeland",
+    "id": 180,
+    "title": "Build Awesome Command-Line Applications in Ruby 2"
+  },
+  {
+    "authors": "Fumei",
+    "id": 181,
+    "title": "Cloud Native Infrastructure"
+  },
+  {
+    "authors": "Masashi Umezawa",
+    "id": 188,
+    "title": "\u81ea\u7531\u81ea\u5728Squeak\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0"
+  },
+  {
+    "authors": "Kolban",
+    "id": 189,
+    "title": "Kolban's Book on ESP32 - JULY 2"
+  },
+  {
+    "authors": "Rick Waldron, Anna Gerber, Davi",
+    "id": 190,
+    "title": "Make: JavaScript Robotics"
+  },
+  {
+    "authors": "Mario Andr\u00e9s Pagella",
+    "id": 191,
+    "title": "Making Isometric Social Real-Time Games with HTML5, CSS3, and Javascript"
+  },
+  {
+    "authors": "Brian Blackman & Gordon Beeming & Michael Fourie",
+    "id": 192,
+    "title": "Managing Agile Open-Source Software Projects with Visual Studio Online"
+  },
+  {
+    "authors": "Romilly Cocking",
+    "id": 193,
+    "title": "micro:bit MicroPython in 60 minutes"
+  },
+  {
+    "authors": "Christoph Schiller",
+    "id": 194,
+    "title": "Motion Mountain - The Adventure of Physics"
+  },
+  {
+    "authors": "Junichi Ito (\u4f0a\u85e4\u6df3\u4e00)",
+    "id": 195,
+    "title": "RSpec\u30e6\u30fc\u30b6\u306e\u305f\u3081\u306eMinitest\u30c1\u30e5\u30fc\u30c8\u30ea\u30a2\u30eb"
+  },
+  {
+    "authors": "Ruby on Rails Community",
+    "id": 196,
+    "title": "Ruby on Rails \u30ac\u30a4\u30c9\uff1a\u4f53\u7cfb\u7684\u306b Rails \u3092\u5b66\u307c\u3046"
+  },
+  {
+    "authors": "Ian Dees",
+    "id": 197,
+    "title": "Scripted GUI Testing with Ruby"
+  },
+  {
+    "authors": "Fumei",
+    "id": 199,
+    "title": "Trello-Embrace-Remote-Work-Ulti"
+  },
+  {
+    "authors": "Ben Collins-Sussman, Brian W. Fitzpatrick & C. Michael Pilato",
+    "id": 200,
+    "title": "Version Control with Subversion - For Subversion 1.7"
+  },
+  {
+    "authors": "Joe Booth",
+    "id": 201,
+    "title": "Visual Studio Add-Ins Succinctly"
+  },
+  {
+    "authors": "Stephen Diehl",
+    "id": 202,
+    "title": "Write You a Haskell"
+  },
+  {
+    "authors": "\u5185\u7530\u516c\u592a",
+    "id": 204,
+    "title": "C++\u3067\u3067\u304d\u308b\uff01OS\u81ea\u4f5c\u5165\u9580"
+  },
+  {
+    "authors": "Kashiken",
+    "id": 205,
+    "title": "ESP32\u3092VS Code\u3067\u30c7\u30d0\u30c3\u30b0\u3057\u3066\u307f\u305f"
+  },
+  {
+    "authors": "Kashiken",
+    "id": 206,
+    "title": "ESP32\u3092VSCode\u3067\u30c7\u30d0\u30c3\u30b0\u3057\u3066\u307f\u305f \u6b63\u8aa4\u8868"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 207,
+    "title": "Friends-RISC-V.pdf"
+  },
+  {
+    "authors": "Fumei",
+    "id": 208,
+    "title": "M5Stack\u5165\u958001"
+  },
+  {
+    "authors": "Fumei",
+    "id": 209,
+    "title": "\u6280\u8853\u66f8\u3092\u66f8\u304f\u4eba\u306e\u305f\u3081\u306e\u5f97\u3059\u308b\u5236\u5ea6\u3001\u640d\u3059\u308b\u884c\u52d5\u3000\u7b2c2\u7248"
+  },
+  {
+    "authors": "Fumei",
+    "id": 210,
+    "title": "\u30b3\u30f3\u30d1\u30a4\u30e9\u3092\u4f5c\u3063\u3066\u3042\u305d\u307c\u3046"
+  },
+  {
+    "authors": "\u5185\u7530\u516c\u592a",
+    "id": 211,
+    "title": "Linux\u30ab\u30fc\u30cd\u30eb\u30e2\u30b8\u30e5\u30fc\u30eb\u81ea\u4f5c\u5165\u9580"
+  },
+  {
+    "authors": "Kishima Craft Works",
+    "id": 212,
+    "title": "\u30bc\u30ed\u304b\u3089\u59cb\u3081\u308bmruby\u30c7\u30d0\u30a4\u30b9\u4f5c\u308a"
+  },
+  {
+    "authors": "Kishima Craft Works",
+    "id": 213,
+    "title": "mruby \u30d0\u30a4\u30c8\u30b3\u30fc\u30c9\u30cf\u30f3\u30c9\u30d6\u30c3\u30af"
+  },
+  {
+    "authors": "Fumei",
+    "id": 214,
+    "title": "osgirls_for_verification.pdf"
+  },
+  {
+    "authors": "Yuka O'oka",
+    "id": 215,
+    "title": "\u308a\u3042\u30af\u30c8-2ed-190413"
+  },
+  {
+    "authors": "Yuka O'oka",
+    "id": 216,
+    "title": "\u308a\u3042\u30af\u30c8-2ed-190415"
+  },
+  {
+    "authors": "Fumei",
+    "id": 217,
+    "title": "Rust\u3067GBA\u306e\u30d7\u30ed\u30b0\u30e9\u30e0\u3092\u4f5c\u308d\u3046\uff01"
+  },
+  {
+    "authors": "LaTeX & hyperref package",
+    "id": 218,
+    "title": "\u9032\u6357\u5927\u967801"
+  },
+  {
+    "authors": "\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u306e\u95c7, yutopp, pocketberserker, amutake",
+    "id": 219,
+    "title": "\u9032\u6357\u5927\u967803 \u8a00\u8a9e\u51e6\u7406\u7cfb\u306e\u30b9\u30b9\u30e1"
+  },
+  {
+    "authors": "LaTeX & hyperref package",
+    "id": 220,
+    "title": "\u9032\u6357\u5927\u967804"
+  },
+  {
+    "authors": "SATySFi",
+    "id": 221,
+    "title": "\u9032\u6357\u5927\u967805"
+  },
+  {
+    "authors": "\u5185\u7530\u516c\u592a",
+    "id": 222,
+    "title": "\u30b7\u30b9\u30c6\u30e0\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0 \u30cf\u30f3\u30c9\u30d6\u30c3\u30af"
+  },
+  {
+    "authors": "\u306a\u306e\u306a\u306e\uff08@nano2aloerina\uff09",
+    "id": 223,
+    "title": "\u5b9f\u8df5\u3067\u5b66\u3076\uff01Electron+Vue.js\u3067\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30a2\u30d7\u30ea\u958b\u767a"
+  },
+  {
+    "authors": "\u5ca1\u672c\u548c\u6a39",
+    "id": 224,
+    "title": "\u624b\u7d9a\u304dHaskell"
+  },
+  {
+    "authors": "\u5185\u7530\u516c\u592a",
+    "id": 225,
+    "title": "USB 3.0 \u30db\u30b9\u30c8\u30c9\u30e9\u30a4\u30d0\u81ea\u4f5c\u5165\u9580"
+  },
+  {
+    "authors": "Fumei",
+    "id": 226,
+    "title": "\u30bc\u30ed\u304b\u3089\u5275\u308b\u6697\u53f7\u901a\u8ca8"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 227,
+    "title": "\u30aa\u30da\u30a2\u30f3\u30d7\u3067\u5012\u7acb\u632f\u5b50\u3092\u5236\u5fa1\u3057\u3066\u307f\u305f\u672c"
+  },
+  {
+    "authors": "Tero Karvinen, Kimmo Karvinen & Ville Valtokari",
+    "id": 229,
+    "title": "Make: Sensors"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 230,
+    "title": "LEARNING IONIC"
+  },
+  {
+    "authors": "Tatsuhiko Miyagawa",
+    "id": 232,
+    "title": "Rebuild ep34 Transcript"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 233,
+    "title": "Getting-Real"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 234,
+    "title": "Packrat Parsing\u3092\u7528\u3044\u305fRuby\u306e\u69cb\u6587\u89e3\u6790"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 235,
+    "title": "\u6a5f\u68b0\u5b66\u7fd2\u30e2\u30c7\u30eb\u3092\u642d\u8f09\u3057\u305f\u30bb\u30fc\u30d5\u30c6\u30a3\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u306a\u30b7\u30b9\u30c6\u30e0\u306e\u54c1\u8cea\u4fdd\u8a3c"
+  },
+  {
+    "authors": "ek000029",
+    "id": 236,
+    "title": "\u30b7\u30fc\u30b9\u30eb\u30fc\u578b\u30b9\u30de\u30fc\u30c8\u30b0\u30e9\u30b9\u3067\u30cf\u30f3\u30ba\u30d5\u30ea\u30fc\u4f53\u9a13"
+  },
+  {
+    "authors": "\u6c60\u7530\u6df3",
+    "id": 237,
+    "title": "\u30c6\u30ec\u30ef\u30fc\u30af\u306b\u304a\u3051\u308b\u300c\u52b4\u52d9\u30fb\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u300d\u3068\u30c1\u30e3\u30c3\u30c8\u30dc\u30c3\u30c8\u30fb\u81ea\u52d5\u5316\u306b\u3088\u308b\u300c\u60c5\u30b7\u30b9\u306e\u50cd\u304d\u65b9\u6539\u9769\u300d"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 238,
+    "title": "\u30d7\u30ed\u30b0\u30e9\u30de\u30fc\u306e\u305f\u3081\u306e\u570f\u8ad6\uff08\u4e0a\uff09"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 239,
+    "title": "\u30d7\u30ed\u30b0\u30e9\u30de\u30fc\u306e\u305f\u3081\u306e\u570f\u8ad6\uff08\u4e2d\uff09"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 240,
+    "title": "\u30d7\u30ed\u30b0\u30e9\u30de\u30fc\u306e\u305f\u3081\u306e\u570f\u8ad6\uff08\u4e0b\uff09"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 241,
+    "title": "Linux-Kernel-in-a-nutshell-ch01"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 242,
+    "title": "Linux-Kernel-in-a-nutshell-ch02"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 243,
+    "title": "Linux-Kernel-in-a-nutshell-ch03"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 244,
+    "title": "Linux-Kernel-in-a-nutshell-ch04"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 245,
+    "title": "Linux-Kernel-in-a-nutshell-ch05"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 246,
+    "title": "Linux-Kernel-in-a-nutshell-ch06"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 247,
+    "title": "Linux-Kernel-in-a-nutshell-ch07"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 248,
+    "title": "Linux-Kernel-in-a-nutshell-ch08"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 249,
+    "title": "Linux-Kernel-in-a-nutshell-ch09"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 250,
+    "title": "Linux-Kernel-in-a-nutshell-ch10"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 251,
+    "title": "Linux-Kernel-in-a-nutshell-ch11"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 252,
+    "title": "Linux-Kernel-in-a-nutshell-appa"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 253,
+    "title": "Linux-Kernel-in-a-nutshell-appb"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 254,
+    "title": "Linux-Kernel-in-a-nutshell-part1"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 255,
+    "title": "Linux-Kernel-in-a-nutshell-part2"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 256,
+    "title": "Linux-Kernel-in-a-nutshell-part3"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 257,
+    "title": "Linux-Kernel-in-a-nutshell-part4"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 258,
+    "title": "Linux-Kernel-in-a-nutshell-title"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 259,
+    "title": "Linux-Kernel-in-a-nutshell-index"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 260,
+    "title": "Linux-Kernel-in-a-nutshell-TOC"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 261,
+    "title": "Linux-Kernel-in-a-nutshell-colo"
+  },
+  {
+    "authors": "Christoph Schiller",
+    "id": 263,
+    "title": "Motion Mountain - The Adventure of Physics - I"
+  },
+  {
+    "authors": "Christoph Schiller",
+    "id": 264,
+    "title": "Motion Mountain - The Adventure of Physics - II"
+  },
+  {
+    "authors": "Christoph Schiller",
+    "id": 265,
+    "title": "Motion Mountain - The Adventure of Physics - III"
+  },
+  {
+    "authors": "Christoph Schiller",
+    "id": 266,
+    "title": "Motion Mountain - The Adventure of Physics -IV"
+  },
+  {
+    "authors": "Christoph Schiller",
+    "id": 267,
+    "title": "Motion Mountain - The Adventure of Physics - V"
+  },
+  {
+    "authors": "Christoph Schiller",
+    "id": 268,
+    "title": "Motion Mountain - The Adventure of Physics - VI"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 269,
+    "title": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u306e\u305f\u3081\u306e\u78ba\u7acb\u7d71\u8a08-\u88dc\u8db3\u7de8"
+  },
+  {
+    "authors": "G4-02",
+    "id": 270,
+    "title": "Scilab-Xcos-\u4ed8\u9332A"
+  },
+  {
+    "authors": "G4-02",
+    "id": 271,
+    "title": "Scilab-Xcos-\u4ed8\u9332B"
+  },
+  {
+    "authors": "G4-02",
+    "id": 272,
+    "title": "Scilab-Xcos-\u4ed8\u9332C"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 273,
+    "title": "\u6570\u5b66\u548c\u5c1a"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 274,
+    "title": "\u8cea\u554f\u3078\u306e\u56de\u7b54-\u6570\u5b66\u548c\u5c1a"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 277,
+    "title": "\u30c7\u30fc\u30bf\u3068\u30c7\u30fc\u30bf\u89e3\u6790"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 278,
+    "title": "\u6539\u5b9a\u65b0\u7248\u7d71\u8a08\u89e3\u6790"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 279,
+    "title": "\u78ba\u7387\u8ad6\u53ca\u7d71\u8a08\u8ad6"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 280,
+    "title": "\u8cea\u7684\u60c5\u5831\u306e\u591a\u5909\u91cf\u89e3\u6790"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 281,
+    "title": "\u5c11\u6570\u4f8b\u306e\u307e\u3068\u3081\u65b9"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 282,
+    "title": "\u4e71\u6570\u306e\u77e5\u8b58"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 283,
+    "title": "\u65b0\u7248\u7d71\u8a08\u5b66\u306e\u8a8d\u8b58\u3000\u57fa\u790e\u3068\u65b9\u6cd5"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 284,
+    "title": "\u8eab\u8fd1\u306a\u30c7\u30fc\u30bf\u306b\u3088\u308b\u7d71\u8a08\u5165\u9580"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 285,
+    "title": "\u591a\u5909\u91cf\u89e3\u6790\u8ad6"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 286,
+    "title": "\u7d71\u8a08\u79d1\u5b66\u306e\u4e09\u5341\u5e74\u3000\u308f\u304c\u5e2b\u308f\u304c\u53cb"
+  },
+  {
+    "authors": "Python Documentation Authors",
+    "id": 287,
+    "title": "Python 3.6.3 documentation"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 288,
+    "title": "TaskWarriors"
+  },
+  {
+    "authors": "nasum",
+    "id": 289,
+    "title": "\u30b3\u30f3\u30c6\u30ca\u6642\u4ee3\u306eWeb\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u306e\u4f5c\u308a\u65b9"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 290,
+    "title": "Mind\u7248\u3084\u3055\u3057\u3044\u89e3\u8aac\u3000\u56f3\u89e3\u8a8d\u77e5\u75c7"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 291,
+    "title": "BTRON3\u4ed5\u69d8\u66f8 Ver 3.20.00"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 292,
+    "title": "ITRON Debugging Interface Specification"
+  },
+  {
+    "authors": "\u30c8\u30ed\u30f3\u5354\u4f1a ITRON\u90e8\u4f1a",
+    "id": 293,
+    "title": "ITRON\u30c7\u30d0\u30c3\u30ae\u30f3\u30b0\u30a4\u30f3\u30bf\u30d5\u30a7\u30fc\u30b9\u4ed5\u69d8"
+  },
+  {
+    "authors": "\u201a\u00f2\u0152\u00d8",
+    "id": 294,
+    "title": "ITRON\u30fbuITRON\u6a19\u6e96\u30cf\u30f3\u30c9\u30d6\u30c3\u30af"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 295,
+    "title": "JTRON2.0 SPEIFICATION"
+  },
+  {
+    "authors": "JTRON\u4ed5\u69d8WG",
+    "id": 296,
+    "title": "JTRON 2.1\u4ed5\u69d8"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 297,
+    "title": "ITRON\u304b\u3089T-Kernel\u3078\u306e\u30df\u30c9\u30eb\u30a6\u30a7\u30a2\u79fb\u884c\u30ac\u30a4\u30c9Version1.00"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 298,
+    "title": "\u03bcITRON4.03E"
+  },
+  {
+    "authors": "<8FBC91BA8140906995BD>",
+    "id": 299,
+    "title": "mitron403.book"
+  },
+  {
+    "authors": "Noboru Koshizuka",
+    "id": 300,
+    "title": "ITRON\u304b\u3089T-Kernel\u3078\u306e\u30df\u30c9\u30eb\u30a6\u30a7\u30a2\u79fb\u884c\u306b\u3064\u3044\u3066"
+  },
+  {
+    "authors": "kindaichi",
+    "id": 301,
+    "title": "\u7d44\u8fbc\u307f\u30b7\u30b9\u30c6\u30e0\u306b\u304a\u3051\u308bPDIC\u6a5f\u80fd\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3\uff0dDIC\u30a2\u30fc\u30ad\u30c6\u30af\u30c1\u30e3\u306e\u5c0e\u5165\uff0d\uff12\uff10\uff10\uff14\u5e74\uff14\u6708\u7248"
+  },
+  {
+    "authors": "TAKADA Hiroaki",
+    "id": 302,
+    "title": "uITRON4.0\u4ed5\u69d8\u3000\u4fdd\u8b77\u6a5f\u80fd\u62e1\u5f35(uITRON4.0/PX\u4ed5\u69d8) Ver. 1.00.00"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 303,
+    "title": "ITRON TCP/IP API\u4ed5\u69d8 Ver 1.00.01"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 304,
+    "title": "ITRON TCP/IP API \u4ed5\u69d8Ver 2.00.00"
+  },
+  {
+    "authors": "820558",
+    "id": 305,
+    "title": "ITRON TCP/IP API Specification Ver. 2.00.00"
+  },
+  {
+    "authors": "kmatsui",
+    "id": 306,
+    "title": "T-Kernel\u7d44\u8fbc\u307f\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3 Version 1.00"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 307,
+    "title": "T-Kernel\u3068ITRON\u306e\u6700\u65b0\u52d5\u5411"
+  },
+  {
+    "authors": "kmatsui",
+    "id": 308,
+    "title": "T-Kernel/Standard Extension\u30bd\u30fc\u30b9\u30b3\u30fc\u30c9\u6d3b\u7528\u30ce\u30a6\u30cf\u30a6\u306e\u3054\u7d39\u4ecb-TRON\u3000SHOW\u3000\uff12\uff10\uff10\uff17\u767a\u8868\u6848"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 309,
+    "title": "tpro 2007j"
+  },
+  {
+    "authors": "\u201a\u00f2\u0152\u00d8",
+    "id": 310,
+    "title": "uITRON3.0\u4ed5\u69d8Ver 3.02.02"
+  },
+  {
+    "authors": "\u201a\u00f2\u0152\u00d8",
+    "id": 311,
+    "title": "uITRON3.0\u4ed5\u69d8Ver. 3.02.02 WG"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 312,
+    "title": "Callback DSL on Haxe"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 313,
+    "title": "Haxe\u306b\u3064\u3044\u3066"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 314,
+    "title": "Mocloudos Feather-weight Cloud OS developed within 14 man-days"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 315,
+    "title": "mruby_nginx_module"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 316,
+    "title": "2013-ocamlmeeting-130824003145-phpapp02"
+  },
+  {
+    "authors": "kim",
+    "id": 317,
+    "title": "lispmeetup14-140226032148-phpapp02"
+  },
+  {
+    "authors": "\u00e8\u2018\u00b1\u00e6\u00b2\u00bc \u00e5\u2122\u201e\u00e5\u00bc\u0178 (@kazh98)",
+    "id": 318,
+    "title": "Racket - Racket FFI Package"
+  },
+  {
+    "authors": "chokudai Takahashi",
+    "id": 319,
+    "title": "\u5b9f\u8df5\u30fb\u6700\u5f37\u6700\u901f\u306e\u30a2\u30eb\u30b4\u30ea\u30ba\u30e0\u52c9\u5f37\u4f1a\u7b2c\u4e00\u56de\u8b1b\u7fa9\u8cc7\u6599"
+  },
+  {
+    "authors": "chokudai Takahashi",
+    "id": 320,
+    "title": "\u5b9f\u8df5\u30fb\u6700\u5f37\u6700\u901f\u306e\u30a2\u30eb\u30b4\u30ea\u30ba\u30e0\u52c9\u5f37\u4f1a\u7b2c\u4e8c\u56de\u8b1b\u7fa9\u8cc7\u6599"
+  },
+  {
+    "authors": "T.Nawata",
+    "id": 321,
+    "title": "Before LISPs - Just Part of the Past - #10 chiku.util -"
+  },
+  {
+    "authors": "The Pragmatic Programmers, LLC (#nx000x)",
+    "id": 322,
+    "title": "Interface-Oriented Design"
+  },
+  {
+    "authors": "Mike Riley",
+    "id": 326,
+    "title": "Programming Your Home, P1.0"
+  },
+  {
+    "authors": "Antonio Cangiano",
+    "id": 331,
+    "title": "Technical Blogging, P1.0"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 333,
+    "title": "ScratchSneakPreview"
+  },
+  {
+    "authors": "JSTQB",
+    "id": 334,
+    "title": "JSTQB_Sample_Question_Foundation_V2011_J01.pdf"
+  },
+  {
+    "authors": "JSTQB",
+    "id": 335,
+    "title": "ALTM Sample Questions"
+  },
+  {
+    "authors": "JSTQB",
+    "id": 336,
+    "title": "JSTQB-glossary.V2.3.J01"
+  },
+  {
+    "authors": "JSTQB",
+    "id": 337,
+    "title": "JSTQB-Syllabus.Advanced_Overview_Version2012.J01"
+  },
+  {
+    "authors": "JSTQB",
+    "id": 338,
+    "title": "JSTQB-Syllabus.Advanced_Version2012.J03"
+  },
+  {
+    "authors": "JSTQB",
+    "id": 339,
+    "title": "CTFL sylabii Japanese"
+  },
+  {
+    "authors": "SHARP Corp.",
+    "id": 340,
+    "title": "MZ-80 SERIES BASIC"
+  },
+  {
+    "authors": "SHARP Corp.",
+    "id": 341,
+    "title": "MZ-80 SERIES SYSTEM PROGRAM"
+  },
+  {
+    "authors": "yamaguchi.toru",
+    "id": 342,
+    "title": "Introduction OpenID Authentication 2.0 Revival"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 343,
+    "title": "A Theory of Type Polymorphism in Programming"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 344,
+    "title": "googlecloudfordevelopers-devfestmanila-100706105846-phpapp01"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 345,
+    "title": "\u73fe\u5834\u958b\u767a\u8005\u8996\u70b9\u3067\u7b54\u3048\u308bWindows Azure\u696d\u52d9\u30a2\u30d7\u30ea\u958b\u767a\u306e\u5b9f\u969b"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 346,
+    "title": "thinkcomplexity"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 347,
+    "title": "Ruby\u306b\u304a\u3051\u308b\u69cb\u6587\u8ffd\u52a0\u306e\u8a66\u307f"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 348,
+    "title": "INTUITIONISTIC TYPE THEORY"
+  },
+  {
+    "authors": "Dominique D. Guinard Vlad M. Trifa",
+    "id": 350,
+    "title": "Building the Web of Things"
+  },
+  {
+    "authors": "Paul Jensen",
+    "id": 352,
+    "title": "Cross-Platform Desktop Applications"
+  },
+  {
+    "authors": "Matt Bailey",
+    "id": 355,
+    "title": "CoreOS in Action: Running Applications on Container Linux"
+  },
+  {
+    "authors": "Dominique D. Guinard & Vlad M. Trifa",
+    "id": 356,
+    "title": "Using the Web to Build the IoT"
+  },
+  {
+    "authors": "John Resig Bear Bibeault Josip Maras",
+    "id": 358,
+    "title": "Secrets of the JavaScript Ninja, Second Edition"
+  },
+  {
+    "authors": "John Resig & Bear Bibeault",
+    "id": 360,
+    "title": "Secrets of the JavaScript Ninja"
+  },
+  {
+    "authors": "Craig Grummitt",
+    "id": 361,
+    "title": "iOS Development with Swift"
+  },
+  {
+    "authors": "Fran\u00e7ois Chollet",
+    "id": 362,
+    "title": "Deep Learning with R"
+  },
+  {
+    "authors": "Max Pumperla & Kevin Ferguson",
+    "id": 364,
+    "title": "Deep Learning and the Game of Go"
+  },
+  {
+    "authors": "Dragana",
+    "id": 366,
+    "title": "Exploring Cloud Computing"
+  },
+  {
+    "authors": "Dragana",
+    "id": 367,
+    "title": "Exploring the Data Jungle"
+  },
+  {
+    "authors": "Nishant Shukla & Kenneth Fricklas & with Kenneth Fricklas",
+    "id": 368,
+    "title": "Machine Learning with TensorFlow"
+  },
+  {
+    "authors": "Lyza Danger Gardner",
+    "id": 370,
+    "title": "JavaScript on Things: Hacking hardware for web developers"
+  },
+  {
+    "authors": "Dragana",
+    "id": 372,
+    "title": "Exploring requirements with Specification by Example"
+  },
+  {
+    "authors": "Vitaly Bragilevsky",
+    "id": 375,
+    "title": "Haskell in Depth MEAP V11"
+  },
+  {
+    "authors": "\u702c\u826f\u548c\u5f18\u3001\u6c34\u5cf6\u5b8f\u592a\u3001\u6cb3\u5185\u5d07\u3001\u9ebb\u690d\u6cf0\u8f14\u3001\u9752\u5c71\u76f4\u7d00",
+    "id": 378,
+    "title": "\u5b9f\u8df5Scala\u5165\u9580"
+  },
+  {
+    "authors": "Unknown",
+    "id": 379,
+    "title": "Introduction to Programming in ATS"
+  },
+  {
+    "authors": "hmatsu47",
+    "id": 381,
+    "title": "MySQL 8.0\u306e\u8584\u3044\u672c"
+  },
+  {
+    "authors": "hmatsu47",
+    "id": 382,
+    "title": "MySQL 8.0\u306e\u8584\u3044\u672c\u3010\u8ffd\u88dc\u7248\u3011"
+  },
+  {
+    "authors": "David S. Alberts",
+    "id": 383,
+    "title": "The Agility Advantage: A Survival Guide for Complex Enterprises and Endeavors"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 384,
+    "title": "r5rs-ja"
+  },
+  {
+    "authors": "Takahiro Tosaki",
+    "id": 385,
+    "title": "\u30d5\u30a1\u30f3\u30af\u30b7\u30e7\u30ca\u30eb\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3068\u30ab\u30c6\u30b4\u30ea\u30fc\u8ad6\u306e\u8003\u3048\u65b9\u3001\u305d\u306e\u57fa\u790e\u3092\u8eab\u306b\u3064\u3051\u308b\u3000\u7b2c1\u56de : \u30ab\u30c6\u30b4\u30ea\u30fc\u8ad6\u3001\u30e9\u30e0\u30c0\u62bd\u8c61\u3001\u53ca\u3073\u3001\u30bf\u30a4\u30d7\u30b7\u30b9\u30c6\u30e0\u9593\u306e\u76f8\u4e92\u95a2\u4fc2"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 386,
+    "title": "\u73fe\u5f79\u6771\u5927\u9662\u751f\u304c\u6559\u3048\u308b\u9ad8\u6821\u6570\u5b66\u306e\u8003\u3048\u65b9"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 387,
+    "title": "\u8c4a\u7a63\u570f-tr10"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 388,
+    "title": "Statistics.pdf-\u7d71\u8a08\u5b66\u5165\u9580 \u5c0f\u6ce2\u79c0\u96c4 March 2013"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 389,
+    "title": "Thirty-three Miniatures: Mathematical and Algorithmic Applications of Linear Algebra"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 390,
+    "title": "tut3.pdf-GAP\u306e\u904a\u3073\u65b9"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 391,
+    "title": "V9N1 103.pdf-\u7fa4\u8ad6\u8a08\u7b97\u30b7\u30b9\u30c6\u30e0GAP"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 392,
+    "title": "1257-8.pdf-\u300c\u71b1\u306e\u89e3\u6790\u7684\u7406\u8def\u300dFourier\u5c55\u958b\u516c\u5f0f\u3068Fourier\u7a4d\u5206\u516c\u5f0f \u305d\u306eFourier\u81ea\u8eab\u306b\u3088\u308b\u8a3c\u660e"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 393,
+    "title": "\u4e0d\u78ba\u5b9a\u6027\u539f\u7406\u30fb\u4fdd\u5b58\u6cd5\u5247\u30fb\u91cf\u5b50\u8a08\u7b97 \u5c0f\u6fa4\u6b63\u76f4"
+  },
+  {
+    "authors": "Gloria Sharp",
+    "id": 394,
+    "title": "Decoherence and the Transition from Quantum to Classical-Revisited"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 395,
+    "title": "GakkaishiDaemonPUB.pdf-\u300c\u60aa\u9b54\u300d\u3068\u306e\u53d6\u5f15-\u30a8\u30f3\u30c8\u30ed\u30d4\u30fc\u3092\u3081\u3050\u3063\u3066"
+  },
+  {
+    "authors": "Konishi",
+    "id": 396,
+    "title": "HeatTransfer 6thAll.pdf-\u4f1d\u71b1\u5de5\u5b66\u8b1b\u7fa9\u30ce\u30fc\u30c8(\u7b2c6\u7248)"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 397,
+    "title": "Jamifine.pdf-\u30a2\u30e9\u30f3\u30fb\u30b3\u30f3\u30cc\u3000\u30a8\u30f3\u30c8\u30ed\u30d4\u30fc"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 398,
+    "title": "\u5143\u7d20\u306e\u5468\u671f\u8868-periodictable"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 399,
+    "title": "\u7b2c1\u56de\u30d7\u30ed\u30b0\u30e9\u30de\u306e\u305f\u3081\u306e\u8a08\u7b97\u6a5f\u79d1\u5b66-\u30aa\u30d6\u30b8\u30a7\u30af\u30c8\u6307\u5411\u5165\u9580-gunmacs-oosc-01-130808140515-phpapp02"
+  },
+  {
+    "authors": "Windows \u30e6\u30fc\u30b6\u30fc",
+    "id": 400,
+    "title": "\u30ac\u30ed\u30a2\u7406\u8ad6\u306e\u521d\u6b69 \u65b9\u7a0b\u5f0f\u3068\u7fa4\u8ad6"
+  },
+  {
+    "authors": "junpei.tsuji.0509@gmail.com",
+    "id": 401,
+    "title": "\u7d44\u307f\u8fbc\u307f\u3084\u308d\u3046\u305c\uff01 \u30bd\u30d5\u30c8\u5c4b\u3055\u3093\u5411\u3051\u306e\u96fb\u5b50\u5de5\u4f5c\u8b1b\u5ea7"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 402,
+    "title": "\u6570\u5b66\u554f\u984c_ol"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 403,
+    "title": "\u884c\u5217\u306e\u57fa\u790e\u3068\u305d\u306e\u5fdc\u7528-matrixlecupload-140323080121-phpapp02"
+  },
+  {
+    "authors": "Sam Guckenheimer",
+    "id": 404,
+    "title": "Updated talk from AgileCon 2009"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 405,
+    "title": "\u30af\u30e9\u30a6\u30c9\u3092\u652f\u3048\u308b\u3053\u308c\u304b\u3089\u306e\u6697\u53f7\u6280\u8853-ango"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 406,
+    "title": "Redmine\u30d5\u309a\u30e9\u30af\u3099\u30a4\u30f3\u306e\u6d3b\u7528"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 407,
+    "title": "backlogs.key"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 408,
+    "title": "Podcast\u3092\u30ab\u30b8\u30e5\u30a2\u30eb\u306b\u652f\u3048\u308b\u6280\u8853"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 409,
+    "title": "Advanced Module Systems(A Guide for the Perplexed)"
+  },
+  {
+    "authors": "ohnuki",
+    "id": 410,
+    "title": "JIRA\u3068Confluence\u306eTips\u96c6.ppt"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 411,
+    "title": "jenkins\u7d99\u7d9a\u7684\u30c7\u30ea\u30d0\u30ea\u30fc-github-121120201325-phpapp01"
+  },
+  {
+    "authors": "Lucian Mogosanu",
+    "id": 412,
+    "title": "Haskell Types Revisited"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 413,
+    "title": "Gradle\u3069\u3046\u3067\u3057\u3087\u3046-gradledoudesyo-140927034521-phpapp01"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 414,
+    "title": "Beaglebackbone-Block-Beacon\u53d7\u4fe1-blebeacon-140326195716-phpapp01"
+  },
+  {
+    "authors": "John Maynard Keynes, \u30b8\u30e7\u30f3\u30fb\u30e1\u30a4\u30ca\u30fc\u30c9\u30fb\u30b1\u30a4\u30f3\u30ba, Hiroo Yamagata, \u5c71\u5f62\u6d69\u751f",
+    "id": 416,
+    "title": "\u30b1\u30a4\u30f3\u30ba\u300e\u96c7\u7528\u3001\u5229\u5b50\u3001\u304a\u91d1\u306e\u4e00\u822c\u7406\u8ad6\u300f"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 417,
+    "title": "Android Studio\u3068Gradle\u3092\u5229 \u7528\u3057\u305fScala\u8a00\u8a9e\u306b\u3088\u308b Android\u30a2\u30d7\u30ea\u306e\u958b\u767a"
+  },
+  {
+    "authors": "sajid.s",
+    "id": 418,
+    "title": "Computer MAKING IN THE 21st CENTURY"
+  },
+  {
+    "authors": "\u4e2d\u91ce\u96c5\u4e4b",
+    "id": 419,
+    "title": "Gecko\u306eDOM\u30a4\u30d9\u30f3\u30c8\u51e6\u7406\u306e\u5b9f\u88c5"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 420,
+    "title": "\u30d4\u30b1\u30c6\u30a3\u300c21\u4e16\u7d00\u306e\u8cc7\u672c\u300d\u8a33\u8005\u89e3\u8aac"
+  },
+  {
+    "authors": "ksk",
+    "id": 421,
+    "title": "\u95a2\u6570\u578b\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u306e\u4eca\u6614\uff08\u4eee\uff09"
+  },
+  {
+    "authors": "Shohei Hido",
+    "id": 422,
+    "title": "\uff08\u9053\u5177\u3068\u3057\u3066\u306e\uff09\u30c7\u30fc\u30bf\u30b5\u30a4\u30a8\u30f3\u30c6\u30a3\u30b9\u30c8\u306e\u3064\u304b\u3044\u65b9"
+  },
+  {
+    "authors": "AnjanS",
+    "id": 423,
+    "title": "\u30b8\u30e3\u30fc\u30ca\u30eb\u306b\u304a\u3051\u308b\u67fb\u8aad\u3068\u3001\u7de8\u96c6\u8005\u306e\u610f\u601d\u6c7a\u5b9a"
+  },
+  {
+    "authors": "AnjanS",
+    "id": 424,
+    "title": "\u8ad6\u6587\u3092\u6295\u7a3f\u3059\u308b\u30b8\u30e3\u30fc\u30ca\u30eb\u306e\u9078\u3073\u65b9"
+  },
+  {
+    "authors": "AnjanS",
+    "id": 425,
+    "title": "\u52b9\u679c\u7684\u306a\u8ad6\u6587\u69cb\u6210\uff1a\u8ad6\u6587\u3092\u901a\u3057\u3066\u4fa1\u5024\u3042\u308b\u30a2\u30a4\u30c7\u30a2\u3092\u4f1d\u3048\u308b\u65b9\u6cd5"
+  },
+  {
+    "authors": "ohtsu shigeki",
+    "id": 426,
+    "title": "SSL/TLS\u306e\u57fa\u790e\u3068\u6700\u65b0\u52d5\u5411-\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30ad\u30e3\u30f3\u30d72015"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 427,
+    "title": "The Meeting Architect's Toolbox"
+  },
+  {
+    "authors": "yuki-sasaki",
+    "id": 428,
+    "title": "\u66ab\u5b9a\u7248-\u79d1\u5b66\u306e\u5065\u5168\u306a\u767a\u5c55\u306e\u305f\u3081\u306b-\u8aa0\u5b9f\u306a\u79d1\u5b66\u8005\u306e\u5fc3\u5f97-"
+  },
+  {
+    "authors": "ykomi",
+    "id": 429,
+    "title": "cryptograpy-an-introduction-3rd"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 430,
+    "title": "\u7406\u5de5\u7cfb\u306e\u305f\u3081\u306e\u30c8\u30dd\u30ed\u30b8\u30fc\u30fb\u570f\u8ad6\u30fb\u5fae\u5206\u5e7e\u4f55-sample"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 431,
+    "title": "\u30db\u30e2\u30ed\u30b8\u30fc\u4ee3\u6570\u5165\u9580\u3068Weil\u30da\u30a2\u30ea\u30f3\u30b0\u306e\u5b9a\u7fa9"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 432,
+    "title": "\u30c9\u30a4\u30c4\u306e\u56fd\u7c4d\u6cd5\u6539\u6b63\u3068\u4e8c\u91cd\u56fd\u7c4d\u554f\u984c"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 433,
+    "title": "\u91cf\u5b50\u63a8\u5b9a\u7406\u8ad6\u306b\u3088\u308b\u4e0d\u78ba\u5b9a\u6027\u95a2\u4fc2\u306e\u5b9a\u5f0f\u5316"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 434,
+    "title": "\u91cf\u5b50\u96c6\u5408\u8ad6\u3068\u91cf\u5b50\u529b\u5b66\u306e\u89e3\u91c8\u554f\u984c"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 435,
+    "title": "\u89e3\u6790\u529b\u5b66\u306e\u57fa\u790e"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 436,
+    "title": "\u91cf\u5b50\u7269\u7406\u5b66B(\u91cf\u5b50\u529b\u5b66\u304b\u3089\u73fe\u4ee3\u7269\u7406\u5b66\u3078)"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 437,
+    "title": "\u300c\u60aa\u9b54\u300d\u3068\u306e\u53d6\u5f15-\u30a8\u30f3\u30c8\u30ed\u30d4\u30fc\u3092\u3081\u3050\u3063\u3066"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 438,
+    "title": "\u91cf\u5b50\u529b\u5b66\u5165\u9580-\u524d\u91ce\u660c\u5f18"
+  },
+  {
+    "authors": "\u5009\u6fa4\u6cbb\u6a39",
+    "id": 439,
+    "title": "\u91cf\u5b50\u529b\u5b66-\u5009\u6fa4\u6cbb\u6a39"
+  },
+  {
+    "authors": "tajima hiro",
+    "id": 440,
+    "title": "\u91cf\u5b50\u529b\u5b66\uff29\u3000\u8b1b\u7fa9\u5185\u5bb9"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 441,
+    "title": "\u91cf\u5b50\u529b\u5b66\u306e\u57fa\u790e-\u4e5d\u5dde\u5de5\u696d\u5927\u5b66\u5de5\u5b66\u90e8 \u5cb8\u6839\u9806\u4e00\u90ce"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 442,
+    "title": "\u6570\u5b66\u8005\u306e\u305f\u3081\u306e\u91cf\u5b50\u529b\u5b66\u5165\u9580-\u539f\u9686"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 443,
+    "title": "GaN\u9752\u8272LED\u3001LD\u5b9f\u73fe\u3078\u306e\u6b69\u307f-\u4e2d\u6751\u4fee\u4e8c"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 444,
+    "title": "09-1\u5e74\u5ea6\u300c\u91cf\u5b50\u529b\u5b66B,C\u300d\u8b1b\u7fa9\u9332-\u5927\u5834\u4e00\u90ce"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 445,
+    "title": "\u76f8\u5bfe\u8ad6\u7684\u91cf\u5b50\u529b\u5b66-E.ENZOU"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 446,
+    "title": "\u91cf\u5b50\u529b\u5b66\u53f2-\u5929\u91ce\u6e05"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 447,
+    "title": "\u91cf\u5b50\u529b\u5b66-\u77f3\u5ddd\u5065\u4e09"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 448,
+    "title": "\u91cf\u5b50\u529b\u5b66I-\u5bcc\u5c71\u5927\u5b66\u7406\u5b66\u90e8\u7269\u7406\u5b66\u6559\u5ba4-\u6817\u672c\u731b"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 449,
+    "title": "Q&A \u706b\u5c71\u5674\u706b-\u7b2c1\u7ae0\u3000\u3042\u306e\u5c71\u306f\u5927\u4e08\u592b\uff1f"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 450,
+    "title": "Q&A \u706b\u5c71\u5674\u706b-\u7b2c2\u7ae0\u3000\u706b\u5c71\u3063\u3066\u3069\u3093\u306a\u201d\u5c71\u201d\uff1f"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 451,
+    "title": "Q&A \u706b\u5c71\u5674\u706b-\u7b2c3\u7ae0\u3000\u707c\u71b1\u306e\u30de\u30b0\u30de\u306e\u6b63\u4f53\u306f\uff1f"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 452,
+    "title": "Q&A \u706b\u5c71\u5674\u706b-\u7b2c4\u7ae0\u3000\u5674\u706b\u3067\u4f55\u304c\u5674\u304d\u51fa\u308b\u306e\u304b\uff1f"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 453,
+    "title": "Q&A \u706b\u5c71\u5674\u706b-\u7b2c5\u7ae0\u3000\u6d41\u308c\u51fa\u3066\u3044\u308b\u306e\u306f\u306a\u3044\uff1f"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 454,
+    "title": "Q&A \u706b\u5c71\u5674\u706b-\u7b2c6\u7ae0\u3000\u706b\u5c71\u5927\u56fd\u65e5\u672c\u306e\u706b\u5c71\u6d3b\u52d5\u306e\u7279\u5fb4\u306f\uff1f"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 455,
+    "title": "Q&A \u706b\u5c71\u5674\u706b-\u7b2c7\u7ae0\u3000\u3075\u308b\u3055\u3068\u306e\u706b\u5c71\u306b\u3064\u3044\u3066\u6559\u3048\u3066\uff01"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 456,
+    "title": "Q&A \u706b\u5c71\u5674\u706b-\u7b2c8\u7ae0\u3000\u706b\u5c71\u306e\u6075\u307f\u3092\u77e5\u308a\u305f\u3044\uff01"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 457,
+    "title": "Q&A \u706b\u5c71\u5674\u706b-\u7b2c9\u7ae0\u3000\u706b\u5c71\u306e\u707d\u5bb3\u304b\u3089\u8eab\u3092\u5b88\u308b\u306b\u306f\uff1f"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 458,
+    "title": "Q&A \u706b\u5c71\u5674\u706b-\u76ee\u6b21"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 459,
+    "title": "\u300e\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u30b5\u30a4\u30a8\u30f3\u30b9\u306e\u57fa\u672c\u300f\u30b7\u30ea\u30fc\u30ba\u7b2c\uff11\u56de \u300c\u8a00\u8a9e\u7406\u8ad6\u306e\u8a71\u3092\u3057\u3088\u3046\u300d -28 3 61"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 460,
+    "title": "\u300e\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u30b5\u30a4\u30a8\u30f3\u30b9\u306e\u57fa\u672c\u300f\u30b7\u30ea\u30fc\u30ba\u7b2c2\u56de \u5e30\u7d0d\u3068\u518d\u5e30 \u2014\u8868\u793a\u7684\u610f\u5473\u8ad6\u306e\u7b2c\u4e00\u6b69\u2014 -29 1 30"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 461,
+    "title": "AOP\u3068\u30e1\u30bf\u30c7\u30fc\u30bf\u30a2\u30ce\u30c6\u30fc\u30b7\u30e7\u30f3\u3092\u7528\u3044\u305f\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u5171\u6709\u6a5f\u80fd\u5b9f\u88c5\u30d7\u30ed\u30bb\u30b9\u306e\u81ea\u52d5\u5316-22 222"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 462,
+    "title": "EDSAC Initial Orders and Squares Program"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 463,
+    "title": "The Haskell Road to Logic, Math and Programming"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 464,
+    "title": "Introduction-to-Objective-Caml-book"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 465,
+    "title": "Haskell\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0-\u6587\u5b57\u5217\u9593\u306e\u8ddd\u96e2-\u30e2\u30ca\u30c9\u3092\u4f7f\u3063\u3066-"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 466,
+    "title": "MinCaml\u30b3\u30f3\u30d1\u30a4\u30e9-25 2 28"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 467,
+    "title": "Haskell\u5468\u308a"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 468,
+    "title": "Objective Caml 3.12\u306e\u30e2\u30b8\u30e5\u30fc\u30eb\u6a5f\u80fd"
+  },
+  {
+    "authors": "ohtsu",
+    "id": 469,
+    "title": "Node.js \u306e\u4e2d\u8eab\u3092\u898b\u3066\u307f\u3088\u3046\u3002 src/node.cc \u306e\u3056\u3063\u3068\u3057\u305f\u6b69\u304d\u65b9"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 470,
+    "title": "JAVA\u30bd\u30fc\u30b9\u30b3\u30fc\u30c9\u306b\u304a\u3051\u308b\u5354\u8abf\u30af\u30e9\u30b9\u7fa4\u306e\u62bd\u51fa-paper"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 471,
+    "title": "OWL\u610f\u5473\u8ad6\u306b\u57fa\u3065\u304fCLOS\u30aa\u30d6\u30b8\u30a7\u30af\u30c8\u6307\u5411\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0 -28 2 236"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 472,
+    "title": "\u300e\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u5de5\u5b66\u306e\u5b9f\u8a3c\u7684\u30a2\u30d7\u30ed\u30fc\u30c1\u300f\u30b7\u30ea\u30fc\u30ba\u7b2c5\u56de \u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u30ea\u30dd\u30b8\u30c8\u30ea\u30de\u30a4\u30cb\u30f3\u30b0-30 2 52"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 473,
+    "title": "Domain-specific-Languages-and-Code-Synthesis-Useing-Haskell"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 474,
+    "title": "GitHubKaigi.key"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 475,
+    "title": "Git\u3092\u4f7f\u3063\u305f\u5206\u6563\u578b\u30bd\u30fc\u30b7\u30e3\u30eb\u30d6\u30c3\u30af\u30de\u30fc\u30af\u30b7\u30b9\u30c6\u30e0\u00b7Gitmarks MOONGIFT"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 476,
+    "title": "Mercurial \u306b\u3088\u308b\u5206\u6563\u30ea\u30d3\u30b8\u30e7\u30f3\u7ba1\u7406"
+  },
+  {
+    "authors": "Hoff, Jerry; Chapple, Mike",
+    "id": 477,
+    "title": "Securing the SDLC For Dummies, WhiteHat Security Edition"
+  },
+  {
+    "authors": "JPCERT/CC",
+    "id": 478,
+    "title": "\u30af\u30ed\u30b9\u30b5\u30a4\u30c8\u30ea\u30af\u30a8\u30b9\u30c8\u30d5\u30a9\u30fc\u30b8\u30a7\u30ea(CSRF)\u3068\u305d\u306e\u5bfe\u7b56"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 479,
+    "title": "\u8eca\u7a93\u304b\u3089\u306eTDD"
+  },
+  {
+    "authors": "Tanaka Akira",
+    "id": 480,
+    "title": "open3\u306e\u306f\u306a\u3057-tokyo-rubykaigi-03-akr-2010"
+  },
+  {
+    "authors": "Apigee",
+    "id": 482,
+    "title": "Are You Where Your Customers Are? Retail 3.0: Digital Transformation"
+  },
+  {
+    "authors": "Nijim, Sharif; Pagano, Brian",
+    "id": 483,
+    "title": "APIs For Dummies, Apigee Special Edition"
+  },
+  {
+    "authors": "masa-i",
+    "id": 484,
+    "title": "HTML5 \u30bf\u30b0\u2605\u30c1\u30fc\u30c8\u30b7\u30fc\u30c8"
+  },
+  {
+    "authors": "\u4e0a\u5ca1\u771f\u4e5f",
+    "id": 485,
+    "title": "Simply efficient functional reactivity"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 486,
+    "title": "\u30a6\u30a7\u30c3\u30d6\u30d6\u30e9\u30a6\u30b6\u300cLunascape\u300d-24 4 139"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 487,
+    "title": "B\u30e1\u30bd\u30c3\u30c9\u3068\u652f\u63f4\u30c4\u30fc\u30eb-24 2 8"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 488,
+    "title": "Event-B \u30ea\u30d5\u30a1\u30a4\u30f3\u30e1\u30f3\u30c8\u306b\u57fa\u3065\u304f\u30b7\u30b9\u30c6\u30e0\u30fb\u30e2\u30c7\u30ea\u30f3\u30b0-31 1 43"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 489,
+    "title": "Spin\u3092\u7528\u3044\u305f\u30d0\u30a4\u30ca\u30ea\u30e2\u30c7\u30eb\u691c\u67fb-paper"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 490,
+    "title": "Towards Formal Verification of Memory Properties using Separation logic-22 606"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 491,
+    "title": "161204 Mastering the FreeRTOS Real Time Kernel-A Hands-On Tutorial Guide"
+  },
+  {
+    "authors": "gvanloo",
+    "id": 493,
+    "title": "BCM2835 ARM Peripherals.docx"
+  },
+  {
+    "authors": "O'Reilly Media",
+    "id": 494,
+    "title": "Designing for the Internet of Things"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 495,
+    "title": "EMBEDDED-SOFTWARE-DEVELOPEMENT-WITH-ECOS-0130354732"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 496,
+    "title": "FreeRTOS Reference Manual V9.0.0"
+  },
+  {
+    "authors": "T-Engine\u30d5\u30a9\u30fc\u30e9\u30e0",
+    "id": 497,
+    "title": "GettingStartedTK2"
+  },
+  {
+    "authors": "nakamura",
+    "id": 498,
+    "title": "OpenEL"
+  },
+  {
+    "authors": "okamura",
+    "id": 499,
+    "title": "JASA-GJ-PF-26-OpenEL-1.0-1-jp"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 500,
+    "title": "\u65e5\u7528\u54c1\u3067\u30e9\u30b8\u30aa\u3092\u4f5c\u308d\u3046\u300c\u5098\u30e9\u30b8\u30aa\u300d"
+  },
+  {
+    "authors": "Micrium Inc.",
+    "id": 501,
+    "title": "\u00b5C/OS-III Users Manual"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 502,
+    "title": "OS\u6559\u6750\u3092\u4e8b\u4f8b\u3068\u3057\u305f\u3001\u30a2\u30b9\u30da\u30af\u30c8\u6307\u5411\u306b\u3088\u308b\u30bd\u30fc\u30b9\u30b3\u30fc\u30c9\u3068\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u306e\u95a2\u9023\u4ed8\u3051-2278paper"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 503,
+    "title": "DevicePlus\u30ed\u30dc\u30c3\u30c8\u76f8\u64b2\u8a2d\u8a08\u6280\u6cd5"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 504,
+    "title": "\u30e6\u30ab\u30a4\u5de5\u5b66\u306e\u96fb\u5b50\u5de5\u4f5c\u5165\u9580-\u30bc\u30ed\u304b\u3089\u4f5c\u308b\u30e9\u30a4\u30f3\u30c8\u30ec\u30fc\u30b5\u30fc"
+  },
+  {
+    "authors": "b1500148",
+    "id": 505,
+    "title": "\u30eb\u30cd\u30b5\u30b9\u534a\u5c0e\u4f53\u30bb\u30df\u30ca\u30fc\u300c\u30ea\u30a2\u30eb\u30bf\u30a4\u30e0OS\u5165\u9580\u30b3\u30fc\u30b9\u300d"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 506,
+    "title": "swift solutions infopaper dltspositionpaper jp"
+  },
+  {
+    "authors": "moriyama",
+    "id": 507,
+    "title": "Arduino\u30d3\u30ae\u30ca\u30fc\u306e\u305f\u3081\u306e\u30e2\u30fc\u30bf\u30fc\u3001\u30ea\u30ec\u30fc\u3001\u30d6\u30b6\u30fc\u5236\u5fa1\u5165\u9580"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 508,
+    "title": "\u30a4\u30f3\u30c6\u30ebEdison\u958b\u767a\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 509,
+    "title": "OSS\u306e\u4e0d\u5177\u5408\u4fee\u6b63\u30d7\u30ed\u30bb\u30b9\u52b9\u7387\u5316\u306e\u305f\u3081\u306e\u30b3\u30df\u30c3\u30bf\u30fc\u63a8\u85a6\u3068\u4e0d\u5177\u5408\u4fee\u6b63\u6642\u671f\u306e\u4e88\u6e2c-DLPDFR009180 P1-111"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 510,
+    "title": "\u30aa\u30fc\u30d7\u30f3\u30bd\u30fc\u30b9\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306b\u9069\u3057\u305fCVS\u30ea\u30dd\u30b8\u30c8\u30ea\u306e\u968e\u5c64\u578b\u5206\u6563\u69cb\u6210\u6cd5\u306e\u7814\u7a76-1561paper"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 512,
+    "title": "Recursive Make Considered Harmful"
+  },
+  {
+    "authors": "acmsolver",
+    "id": 513,
+    "title": "testbook26_uva.doc"
+  },
+  {
+    "authors": "kazuhiro-y",
+    "id": 514,
+    "title": "\u535a\u58eb\u8ad6\u6587\u300c\u9ad8\u6027\u80fd\u3068\u4f4e\u6d88\u8cbb\u96fb\u529b\u3092\u30d7\u30ed\u30bb\u30c3\u30b5\u306b\u95a2\u3059\u308b\u7814\u7a76\u300dNAIST-IS-DD0961025"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 515,
+    "title": "\u5236\u5fa1\u5de5\u5b66-QANDA.dvi"
+  },
+  {
+    "authors": "\u6a61\u5ddd\u8c37 \u4eae\u6cbb",
+    "id": 516,
+    "title": "\u5236\u5fa1\u5de5\u5b66-Chapter 1 \u5236\u5fa1\u5bfe\u8c61\u3068\u72b6\u614b\u7a7a\u9593\u30e2\u30c7\u30eb"
+  },
+  {
+    "authors": "\u6a61\u5ddd\u8c37 \u4eae\u6cbb",
+    "id": 517,
+    "title": "\u5236\u5fa1\u5de5\u5b66-Chapter 2 \u72b6\u614b\u7a7a\u9593\u30e2\u30c7\u30eb\u306e\u89e3\u3068\u5b89\u5b9a\u6027"
+  },
+  {
+    "authors": "\u6a61\u5ddd\u8c37 \u4eae\u6cbb",
+    "id": 518,
+    "title": "\u5236\u5fa1\u5de5\u5b66-Chapter 3 \u53ef\u5236\u5fa1\u6027\u3068\u72b6\u614b\u30d5\u30a3\u30fc\u30c9\u30d0\u30c3\u30af"
+  },
+  {
+    "authors": "\u6a61\u5ddd\u8c37 \u4eae\u6cbb",
+    "id": 519,
+    "title": "\u5236\u5fa1\u5de5\u5b66-Chapter 4 \u53ef\u89b3\u6e2c\u6027\u3068\u72b6\u614b\u89b3\u6e2c\u5668"
+  },
+  {
+    "authors": "\u6a61\u5ddd\u8c37 \u4eae\u6cbb",
+    "id": 520,
+    "title": "\u5236\u5fa1\u5de5\u5b66-Chapter 5 \u6700\u9069\u30ec\u30ae\u30e5\u30ec\u30fc\u30bf"
+  },
+  {
+    "authors": "\u6a61\u5ddd\u8c37 \u4eae\u6cbb",
+    "id": 521,
+    "title": "\u5236\u5fa1\u5de5\u5b66-Chapter 6 \u30ed\u30d0\u30b9\u30c8\u5236\u5fa1"
+  },
+  {
+    "authors": "\u6a61\u5ddd\u8c37 \u4eae\u6cbb",
+    "id": 522,
+    "title": "\u5236\u5fa1\u5de5\u5b66-Chapter 7 \u30eb\u30fc\u30d7\u6574\u5f62\u8a2d\u8a08\u624b\u6cd5"
+  },
+  {
+    "authors": "\u6a61\u5ddd\u8c37 \u4eae\u6cbb",
+    "id": 523,
+    "title": "\u5236\u5fa1\u5de5\u5b66-Chapter 8 \u30c7\u30a3\u30b8\u30bf\u30eb\u5236\u5fa1"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 524,
+    "title": "\u5165\u529b\u5236\u7d04\u3068\u5c40\u6240\u6700\u9069\u6027\u3092\u8003\u616e\u3057\u305f\u975e\u7dda\u5f62\u5236\u5fa1\u7cfb\u8a2d\u8a08-DLPDFR009363 P1-94"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 525,
+    "title": "BSD\u30aa\u30da\u30ec\u30fc\u30c6\u30a3\u30f3\u30b0\u30b7\u30b9\u30c6\u30e0\u7528IPv6\u30e2\u30d3\u30ea\u30c6\u30a3\u30d7\u30ed\u30c8\u30b3\u30eb\u30b9\u30bf\u30c3\u30af\u306e\u8a2d\u8a08\u3068\u5b9f\u88c5-24 4 23"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 526,
+    "title": "Mindstorms EV3\u306b\u304a\u3051\u308b\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u74b0\u5883"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 527,
+    "title": "Evernote\u00d7\u60c5\u5831\u30ab\u30fc\u30c9\u77e5\u7684\u751f\u7523"
+  },
+  {
+    "authors": "tenntenn\u3001knsh14",
+    "id": 529,
+    "title": "\u9006\u5f15\u304dGo\u306b\u3088\u308b\u9759\u7684\u89e3\u6790"
+  },
+  {
+    "authors": "\u5927\u795e\u7950\u771f",
+    "id": 530,
+    "title": "\u4f5c\u3063\u3066\u5206\u304b\u308b\uff01x8664\u6a5f\u68b0\u8a9e\u5165\u9580"
+  },
+  {
+    "authors": "\u5927\u795e\u7950\u771f",
+    "id": 531,
+    "title": "\u30d5\u30eb\u30b9\u30af\u30e9\u30c3\u30c1\u3067\u4f5c\u308b!x86\uff3f64\u81ea\u4f5cOS"
+  },
+  {
+    "authors": "\u5927\u795e\u7950\u771f",
+    "id": 532,
+    "title": "\u30d5\u30eb\u30b9\u30af\u30e9\u30c3\u30c1\u3067\u4f5c\u308b!x86\uff3f64\u81ea\u4f5cOS \u30d1\u30fc\u30c84 \u307c\u304f\u3089\u306e\u30a4\u30fc\u30b5\u30cd\u30c3\u30c8\u30d5\u30ec\u30fc\u30e0!"
+  },
+  {
+    "authors": "\u5927\u795e\u7950\u771f",
+    "id": 533,
+    "title": "\u30d5\u30eb\u30b9\u30af\u30e9\u30c3\u30c1\u3067\u4f5c\u308b!UEFI\u30d9\u30a2\u30e1\u30bf\u30eb\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0"
+  },
+  {
+    "authors": "\u5927\u795e\u7950\u771f",
+    "id": 534,
+    "title": "\u30d5\u30eb\u30b9\u30af\u30e9\u30c3\u30c1\u3067\u4f5c\u308b!x86\uff3f64\u81ea\u4f5cOS \u30d1\u30fc\u30c85 \u3066\u3063\u3068\u308a\u3070\u3084\u304f\u30de\u30eb\u30c1\u30b3\u30a2"
+  },
+  {
+    "authors": "\u5927\u795e\u7950\u771f",
+    "id": 535,
+    "title": "\u30d0\u30a4\u30ca\u30ea\u751f\u7269\u5b66\u5165\u9580"
+  },
+  {
+    "authors": "\u5927\u795e\u7950\u771f",
+    "id": 536,
+    "title": "\u30d5\u30eb\u30b9\u30af\u30e9\u30c3\u30c1\u3067\u4f5c\u308b!x86\uff3f64\u81ea\u4f5cOS \u30d1\u30fc\u30c83 \u30b7\u30b9\u30c6\u30e0\u30b3\u30fc\u30eb\u306e\u8584\u3044\u672c"
+  },
+  {
+    "authors": "\u5927\u795e\u7950\u771f",
+    "id": 537,
+    "title": "\u30d5\u30eb\u30b9\u30af\u30e9\u30c3\u30c1\u3067\u4f5c\u308b!UEFI\u30d9\u30a2\u30e1\u30bf\u30eb\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0 \u30d1\u30fc\u30c82"
+  },
+  {
+    "authors": "\u5927\u795e\u7950\u771f",
+    "id": 538,
+    "title": "\u81ea\u4f5cOS\u81ea\u52d5\u5316\u306ePoC\u3068\u3057\u3066\u306e\u907a\u4f1d\u7684MBR"
+  },
+  {
+    "authors": "\u5927\u795e\u7950\u771f",
+    "id": 539,
+    "title": "\u30d5\u30eb\u30b9\u30af\u30e9\u30c3\u30c1\u3067\u4f5c\u308b!x86\uff3f64\u81ea\u4f5cOS \u30d1\u30fc\u30c82 ACPI\u3067HPET\u53d6\u5f97\u3057\u3066\u30b9\u30b1\u30b8\u30e5\u30fc\u30e9\u3092\u4f5c\u308b\u672c"
+  },
+  {
+    "authors": "\u5927\u795e\u7950\u771f",
+    "id": 540,
+    "title": "Ohgami's Commentary on OS5"
+  },
+  {
+    "authors": "\u5185\u7530\u516c\u592a",
+    "id": 541,
+    "title": "OS\u81ea\u4f5c\u6280\u8853 \u30b9\u30c6\u30c3\u30d7\u30a2\u30c3\u30d7\u554f\u984c\u96c6"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 542,
+    "title": "VizCommand\u3092\u652f\u3048\u308b\u6280\u8853 \u5b8c\u5168\u7248"
+  },
+  {
+    "authors": "\u5185\u7530 \u516c\u592a",
+    "id": 543,
+    "title": "Local APIC\u30bf\u30a4\u30de\u30fc\u5165\u9580"
+  },
+  {
+    "authors": "\u5927\u585a \u5927\u8f14",
+    "id": 544,
+    "title": "2020\u5e74\u306e\u30d6\u30ed\u30c3\u30af\u30c1\u30a7\u30fc\u30f3"
+  },
+  {
+    "authors": "ShortLovers",
+    "id": 545,
+    "title": "\u96fb\u5b50\u5de5\u4f5c\u521d\u5fc3\u8005\u304c\u3068\u308a\u3042\u3048\u305a\u57fa\u677f\u8a2d\u8a08\u3067\u304d\u308b\u3088\u3046\u306b\u306a\u308b\u672c(\u7acb\u3061\u8aad\u307f\u7248)"
+  },
+  {
+    "authors": "Kurun",
+    "id": 547,
+    "title": "Fuchsia \u30a2\u30fc\u30ad\u30c6\u30af\u30c1\u30e3 \u30ac\u30a4\u30c9"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 548,
+    "title": "M5Stack\u3067\u59cb\u3081\u308b\u7d44\u307f\u8fbc\u307fRust v1 1"
+  },
+  {
+    "authors": "\u5c71\u672c\u5c0f\u9244",
+    "id": 549,
+    "title": "Mac\u3067\u306f\u3058\u3081\u308bSTM32\u7b2c\u4e8c\u7248"
+  },
+  {
+    "authors": "naotaco",
+    "id": 550,
+    "title": "Rust on Bare{-}metal Raspberry Pi 1+2+3"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 551,
+    "title": "Operating System ManiaX up"
+  },
+  {
+    "authors": "makoyuki",
+    "id": 552,
+    "title": "dabble in..Extraedition OpenShift"
+  },
+  {
+    "authors": "Atsushi",
+    "id": 553,
+    "title": "\u30de\u30f3\u30ac\u3067\u308f\u304b\u308bDevRel 4C"
+  },
+  {
+    "authors": "Atsushi",
+    "id": 554,
+    "title": "\u30de\u30f3\u30ac\u3067\u5206\u304b\u308bDevRel"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 555,
+    "title": "\u82f1\u8a9e\u3067\u5e83\u304c\u308b\u958b\u767a\u8005\u306e\u30ad\u30e3\u30ea\u30a2"
+  },
+  {
+    "authors": "trkw\u3001miyaoka",
+    "id": 561,
+    "title": "JAMstack\u5b8c\u5168\u5165\u9580 \u30cf\u30a4\u30d1\u30d5\u30a9\u30fc\u30de\u30f3\u30b9Web\u30b5\u30a4\u30c8\u69cb\u7bc9"
+  },
+  {
+    "authors": "\u5bae\u7530 \u6df3\u5e73 (@miyajan)",
+    "id": 562,
+    "title": "GitHub Actions \u5b9f\u8df5\u5165\u9580"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 563,
+    "title": "Visual Studio Code Remote Dev & Cloud Code Guide"
+  },
+  {
+    "authors": "[\"Tomohiro Hashidate (@joker1007)\"]",
+    "id": 565,
+    "title": "RSpec Hacking Guide"
+  },
+  {
+    "authors": "\u6e21\u908a\u96c4",
+    "id": 566,
+    "title": "\uff031\u4eba\u30c1\u30fc\u30e0\u672c \u30ce\u30a6\u30cf\u30a6\u306a\u3057\u3067\u30821\u4eba\u3067\u306a\u3093\u3068\u304b\u306a\u308b React Native Expo\u3092\u4f7f\u3063\u305f\u30a2\u30d7\u30ea\u306e\u958b\u767a\u74b0\u5883\u69cb\u7bc9/\u30d3\u30eb\u30c9/\u30c7\u30d7\u30ed\u30a4/\u904b\u7528 (DL\u7248)"
+  },
+  {
+    "authors": "@bikunT1 extunderscore {}bikun",
+    "id": 567,
+    "title": "REDMINE\u8e0f\u307f\u51fa\u3059\u524d\u306b\u8aad\u3080\u672c"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 568,
+    "title": "Visual Studio Code Etension Start Book"
+  },
+  {
+    "authors": "@mottox2",
+    "id": 569,
+    "title": "Slack App\u958b\u767a\u30ec\u30b7\u30d4"
+  },
+  {
+    "authors": "@mottox2",
+    "id": 570,
+    "title": "GatsbyJS Guidebook"
+  },
+  {
+    "authors": "@mottox2",
+    "id": 571,
+    "title": "Slack App\u958b\u767a\u30ac\u30a4\u30c9"
+  },
+  {
+    "authors": "\u5bfa\u7530 \u6643\u5927/\u5cef\u5cb8 \u6d77",
+    "id": 573,
+    "title": "Laravel\u3068Nuxt\u3067\u306f\u3058\u3081\u308bSNS\u30b7\u30a7\u30a2\u30a2\u30d7\u30ea\u958b\u767a(for ykominami@gmail.com)"
+  },
+  {
+    "authors": "okada",
+    "id": 574,
+    "title": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u79d1\u5b66\u57fa\u790e"
+  },
+  {
+    "authors": "\u5927\u6fa4 \u79c0\u4e00",
+    "id": 575,
+    "title": "Spinnaker\u5165\u9580"
+  },
+  {
+    "authors": "\u4e2d\u6d25\u5ddd \u7be4\u53f8/\u8429\u91ce \u305f\u3044\u3058/Journeyman/\u9577\u5185 \u6bc5\u5fd7/\u5c71\u5d0e \u4e98/DevRel Meetup in Tokyo",
+    "id": 577,
+    "title": "\u958b\u767a\u8005\u5411\u3051\u30de\u30fc\u30b1\u30c6\u30a3\u30f3\u30b0 DevRel Q&A(for ykominami@gmail.com)"
+  },
+  {
+    "authors": "[\"\u4e2d\u6751\u6210\u6d0b\u3001\u76f8\u5ddd\u5149\"]",
+    "id": 578,
+    "title": "\u30ac\u30d9\u30fc\u30b8\u30b3\u30ec\u30af\u30b7\u30e7\u30f3\u306e\u30a2\u30eb\u30b4\u30ea\u30ba\u30e0\u3068\u5b9f\u88c5"
+  },
+  {
+    "authors": "\u682a\u5f0f\u4f1a\u793eKADOKAWA",
+    "id": 580,
+    "title": "\u65b0\u88c5\u6539\u8a02\u7248 Linux\u306e\u30d6\u30fc\u30c8\u30d7\u30ed\u30bb\u30b9\u3092\u307f\u308b"
+  },
+  {
+    "authors": "Michael Maguire",
+    "id": 582,
+    "title": "Google Sheets Programming With Google Apps Script (2015 Revision In Progress)"
+  },
+  {
+    "authors": "Kristof Mulier",
+    "id": 583,
+    "title": "Introduction to the STM32F7 FreeRTOS"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 585,
+    "title": "kolban-ESP32"
+  },
+  {
+    "authors": "Aaron Sumner\u3068Junichi Ito (\u4f0a\u85e4\u6df3\u4e00)\u3068AKIMOTO Toshiharu & \u9b5a\u632f\u6c5f",
+    "id": 586,
+    "title": "Everyday Rails - RSpec\u306b\u3088\u308bRails\u30c6\u30b9\u30c8\u5165\u9580-20200307"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 587,
+    "title": "Think Python 2nd"
+  },
+  {
+    "authors": "Allen B. Downey",
+    "id": 589,
+    "title": "Think Data Structures: Algorithms and Information Retrieval in Java"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 590,
+    "title": "Think Bayes"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 591,
+    "title": "Think Stats 2nd"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 592,
+    "title": "Think OS"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 593,
+    "title": "\u7406\u5de5\u7cfb\u306e\u305f\u3081\u306e\u30c8\u30dd\u30ed\u30b8\u30fc\u30fb\u570f\u8ad6\u30fb\u5fae\u5206\u5e7e\u4f55-17297"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 594,
+    "title": "ESP32\u3092VSCode\u3067\u30c7\u30d0\u30c3\u30b0\u3057\u3066\u307f\u305f \u8a2d\u5b9a\u30d5\u30a1\u30a4\u30eb\u4e00\u89a7"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 595,
+    "title": "microbitmicropython-book-extras"
+  },
+  {
+    "authors": "Vitaly Bragilevsky",
+    "id": 596,
+    "title": "Haskell in Depth MEAP V12"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 597,
+    "title": "Algorithm Design"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 598,
+    "title": "NervesInAction-20201029"
+  },
+  {
+    "authors": "iCARE Development Team",
+    "id": 599,
+    "title": "iCARE Tech Book"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 600,
+    "title": "Docker Kubernetes Made Easy Interactive eBook FINAL"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 601,
+    "title": "MIRANTIS-5_Guide_Enterprise_2020_V1"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 602,
+    "title": "GitOps - zip"
+  },
+  {
+    "authors": "k{-}abe",
+    "id": 603,
+    "title": "GCC\u958b\u767a\u74b0\u5883\u69cb\u7bc9\u5165\u9580(EV\u30ab\u30fc\u30c8\u7de8)"
+  },
+  {
+    "authors": "Stefan Bechtold, Sam Brannen, Johannes Link, Matthias Merdes, Marc Philipp, Juliette de Rancourt, Christian Stein",
+    "id": 604,
+    "title": "JUnit 5 User Guide"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 605,
+    "title": "\u95a2\u6570\u578b\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u8a00\u8a9e\u306b\u304a\u3051\u308b\u901a\u4fe1\u8a18\u8ff0\u306e\u578b\u4ed8\u3051-\u4eca\u4e95\u656c\u543e"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 606,
+    "title": "MDS CROSSTalk - MeltDown"
+  },
+  {
+    "authors": "Terence Parr",
+    "id": 607,
+    "title": "The Definitive ANTLR 4 Reference"
+  },
+  {
+    "authors": "\u65e5\u672c\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u30a4\u30cd\u30a4\u30d6\u30e9\u30fc\u682a\u5f0f\u4f1a\u793e & \u5c0f\u5ddd\u6643\u901a & \u4e45\u4fdd\u7530\u8061",
+    "id": 609,
+    "title": "\u5fb9\u5e95\u89e3\u8aacv6\u30d7\u30e9\u30b9"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 611,
+    "title": "IPSJ-MGN561209-Ruby\u306b\u3088\u308bDomain Specific Language\u306e\u5b9f\u969b"
+  },
+  {
+    "authors": "GoalKicker.com",
+    "id": 612,
+    "title": "JavaScript Notes for Professionals"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 613,
+    "title": "Kubernetes Best Practices"
+  },
+  {
+    "authors": "Boris Lublinsky",
+    "id": 614,
+    "title": "Serving Machine Learning Models"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 615,
+    "title": "TOPPERS\u7b2c3\u4e16\u4ee3\u30ab\u30fc\u30cd\u30eb\uff08ITRON\u7cfb\uff09\u7d71\u5408\u4ed5\u69d8\u66f8"
+  },
+  {
+    "authors": "Felienne Hermans",
+    "id": 616,
+    "title": "The Programmer's Brain MEAP V01"
+  },
+  {
+    "authors": "Mohamed Labouardy",
+    "id": 617,
+    "title": "Pipeline as Code MEAP V01"
+  },
+  {
+    "authors": "Tom Long",
+    "id": 619,
+    "title": "Good Code, Bad Code MEAP V02"
+  },
+  {
+    "authors": "\u8fbb\u702c\u84bc\u4f0a",
+    "id": 622,
+    "title": "\u300cdabble in...\u300d Extra Edition 2 - KeyCloak"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 623,
+    "title": "\u30af\u30e9\u30a6\u30c9\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306e\u57fa\u672c\u30a2\u30d7\u30ed\u30fc\u30c1\u3068Microsoft Azure"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 624,
+    "title": "\u65b0\u8208\u30af\u30e9\u30a6\u30c9\u306eMySQL\u4e92\u63dbDBaaS\u5fb9\u5e95\u6bd4\u8f03"
+  },
+  {
+    "authors": "Jason Dobies & Joshua Wood",
+    "id": 625,
+    "title": "Kubernetes Operators"
+  },
+  {
+    "authors": "Bilgin Ibryam & Roland Hu\u00df",
+    "id": 627,
+    "title": "Kubernetes Patterns"
+  },
+  {
+    "authors": "Burr Sutter & Kamesh Sampath",
+    "id": 628,
+    "title": "Knative Cookbook"
+  },
+  {
+    "authors": "Antonio Goncalves",
+    "id": 629,
+    "title": "Practising Quarkus : Quarkus"
+  },
+  {
+    "authors": "Antonio Goncalves",
+    "id": 630,
+    "title": "Understanding Quarkus : Quarkus"
+  },
+  {
+    "authors": "k-mana",
+    "id": 631,
+    "title": "Rust\u3067\u904a\u3076RISC-V\u30de\u30a4\u30b3\u30f3\u30dc\u30fc\u30c9Logan Nano"
+  },
+  {
+    "authors": "SATySFi",
+    "id": 632,
+    "title": "\u9032\u6357\u5927\u967808"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 633,
+    "title": "whitepaper anthos under the hood 2020"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 634,
+    "title": "\u500b\u4ebaWeb\u30b5\u30fc\u30d3\u30b9\u30b7\u30b9\u30c6\u30e0\u69cb\u6210\u4e8b\u5178v2 20201225"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 635,
+    "title": "948344-dzone-rc-core-dotnet"
+  },
+  {
+    "authors": "\u829d\u6751\u9054\u90ce",
+    "id": 636,
+    "title": "Visual Studio 2015 RTM 1st Step Guide"
+  },
+  {
+    "authors": "\u4e94\u5341\u5d50\u7950\u8cb4",
+    "id": 637,
+    "title": "Visual Studio Code 1st Step Guide FullContents"
+  },
+  {
+    "authors": "Vitaly Bragilevsky",
+    "id": 641,
+    "title": "Haskell in Depth MEAP V14"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 642,
+    "title": "Haskell in Depth - code"
+  },
+  {
+    "authors": "Anthony Shaw",
+    "id": 643,
+    "title": "CPython Internals: Your Guide to the Python 3 Interpreter"
+  },
+  {
+    "authors": "Ed Freitas",
+    "id": 644,
+    "title": "Electron Succinctly"
+  },
+  {
+    "authors": "Darren West",
+    "id": 645,
+    "title": "Elixir Succinctly"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 646,
+    "title": "Geeks Digest - January 2021 Edition"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 647,
+    "title": "netlify-headless-commerce-whitepaper"
+  },
+  {
+    "authors": "Rui Machado",
+    "id": 648,
+    "title": "PowerShell Succinctly"
+  },
+  {
+    "authors": "\u6709\u5c71\u572d\u4e8c",
+    "id": 649,
+    "title": "\u3010\u8ffd\u52a0Step\u3011\u4f5c\u3063\u3066\u5b66\u3076Android\u30a2\u30d7\u30ea\u958b\u767a\uff3bKotlin\u5bfe\u5fdc\uff3d"
+  },
+  {
+    "authors": "Mohamed Labouardy",
+    "id": 650,
+    "title": "Pipeline as Code MEAP V02"
+  },
+  {
+    "authors": "Tom Long",
+    "id": 652,
+    "title": "Good Code, Bad Code MEAP V03"
+  },
+  {
+    "authors": "Unknown",
+    "id": 657,
+    "title": "Effective Testing with RSpec 3 - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 658,
+    "title": "The Definitive ANTLR 4 Reference - code"
+  },
+  {
+    "authors": "Unknown",
+    "id": 659,
+    "title": "Programming Elixir \u2265 1.6 - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 660,
+    "title": "Quantum Computing - code"
+  },
+  {
+    "authors": "Unknown",
+    "id": 661,
+    "title": "Modern Front-End Development for Rails - code"
+  },
+  {
+    "authors": "Unknown",
+    "id": 662,
+    "title": "Agile Web Development with Rails 6 - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 663,
+    "title": "Technical Blogging, Second Edition - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 664,
+    "title": "Programming WebAssembly with Rust - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 665,
+    "title": "Programming Kotlin - code"
+  },
+  {
+    "authors": "Unknown",
+    "id": 666,
+    "title": "Programming Crystal - code"
+  },
+  {
+    "authors": "Unknown",
+    "id": 667,
+    "title": "Docker for Rails Developers - code"
+  },
+  {
+    "authors": "Unknown",
+    "id": 668,
+    "title": "Build Chatbot Interactions - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 669,
+    "title": "Create Your Successful Agile Project - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 670,
+    "title": "Xcode Treasures - code"
+  },
+  {
+    "authors": "Noel Rappin",
+    "id": 671,
+    "title": "Rails 5 Test Prescriptions"
+  },
+  {
+    "authors": "Unknown",
+    "id": 672,
+    "title": "Rails 5 Test Prescriptions - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 673,
+    "title": "Node.js 8 the Right Way - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 674,
+    "title": "Complex Network Analysis in Python - code"
+  },
+  {
+    "authors": "Unknown",
+    "id": 675,
+    "title": "Agile Web Development with Rails 5.1 - code"
+  },
+  {
+    "authors": "Unknown",
+    "id": 676,
+    "title": "Metaprogramming Ruby 2 - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 677,
+    "title": "Remote Pairing - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 679,
+    "title": "netlify-enterprise-performance-site-performance"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 680,
+    "title": "power 2"
+  },
+  {
+    "authors": "Fabrice Rastello et al.",
+    "id": 681,
+    "title": "SSA-based Compiler Design"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 682,
+    "title": "COINS\u30b3\u30f3\u30d1\u30a4\u30e9\u30fb\u30a4\u30f3\u30d5\u30e9\u30b9\u30c8\u30e9\u30af\u30c1\u30e3\u306e\u958b\u767a"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 683,
+    "title": "\u30e6\u30fc\u30b6\u30fc\u30e1\u30e2\u30bd\u30d5\u30c8my_help\u306e\u30c6\u30b9\u30c8\u4f5c\u6210\u53ca\u3073\u30b3\u30de\u30f3\u30c9\u306e\u6539\u826f"
+  },
+  {
+    "authors": "Austin Parker, Daniel Spoonhower, Jonathan Mace & Rebecca Isaacs",
+    "id": 684,
+    "title": "Distributed Tracing in Practice"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 685,
+    "title": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u5de5\u5b66\u7279\u8ad6\u95a2\u6570\u578b\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u8a00\u8a9eOCaml"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 687,
+    "title": "Geeks Digest - February 2021 Edition"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 688,
+    "title": "TOPPERS - eduWG BLE Remote"
+  },
+  {
+    "authors": "Roy Osherove",
+    "id": 689,
+    "title": "The Art of Unit Testing, Second Edition: with examples in C# - corrected 9172019"
+  },
+  {
+    "authors": "Roy Osherove",
+    "id": 691,
+    "title": "The Art of Unit Testing, Third Edition MEAP V04"
+  },
+  {
+    "authors": "Noel Rappin",
+    "id": 692,
+    "title": "Modern Front-End Development for Rails -B7"
+  },
+  {
+    "authors": "Felienne Hermans",
+    "id": 694,
+    "title": "The Programmer's Brain MEAP V03"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 695,
+    "title": "Benjamin C. Pierce-Advanced topics in types and programming languages-The MIT Press(2004)"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 696,
+    "title": "PRO2021 PelemayFp"
+  },
+  {
+    "authors": "\u65e5\u672c\u6697\u53f7\u901a\u8ca8\u30e6\u30fc\u30b6\u30fc\u4f1a\u3001\u6709\u5fd7\u4e00\u540c",
+    "id": 697,
+    "title": "\u30d6\u30ed\u30c3\u30af\u30c1\u30a7\u30fc\u30f3\u5408\u540c\u8a8c#1"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 698,
+    "title": "00\u5b66\u90e8_\u79d1\u76ee\u6848\u5185_\u672c\u6587\u901a\u3057.indb"
+  },
+  {
+    "authors": "Felienne Hermans",
+    "id": 699,
+    "title": "The Programmer's Brain MEAP V04"
+  },
+  {
+    "authors": "Pat Morin",
+    "id": 700,
+    "title": "Open Data Structures"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 701,
+    "title": "\u30c7\u30fc\u30bf\u5206\u6790\u306e\u305f\u3081\u306e\u7d71\u8a08\u5b66\u5165\u9580"
+  },
+  {
+    "authors": "kaneshin",
+    "id": 702,
+    "title": "Go\u8a00\u8a9e\u3089\u3057\u304fGo\u30b3\u30fc\u30c9\u3092\u5b9f\u88c5\u3059\u308b\u305f\u3081\u306e\u624b\u6cd5\u3068\u601d\u60f3"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 703,
+    "title": "Python\u30b3\u30fc\u30c8\u3099\u3092\u4ea4\u3048\u3066\u5b66\u3075\u3099\u95a2\u6570\u89e3\u6790 rev1"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 704,
+    "title": "\u30ab\u30fc\u30cd\u30eb\u30e2\u30b8\u30e5\u30fc\u30eb\u4f5c\u6210\u3067\u5b66\u3076Linux\u30ab\u30fc\u30cd\u30eb\u958b\u767a\u306e\u57fa\u790e\u77e5\u8b58 \u7b2c2\u7248"
+  },
+  {
+    "authors": "@ueokande",
+    "id": 705,
+    "title": "\u624b\u3092\u52d5\u304b\u3057\u306a\u304c\u3089\u5b66\u3076 \u30d6\u30e9\u30a6\u30b6\u62e1\u5f35 \u958b\u767a\uff3b\u57fa\u790e\u7de8\uff3d"
+  },
+  {
+    "authors": "Mohamed Labouardy",
+    "id": 706,
+    "title": "Pipeline as Code MEAP V03"
+  },
+  {
+    "authors": "Roy Osherove",
+    "id": 707,
+    "title": "The Art of Unit Testing 3E MEAP V05"
+  },
+  {
+    "authors": "\u5c0f\u51fa \u8aa0\u4e8c",
+    "id": 710,
+    "title": "Common Lisp \u3068 \u4eba\u5de5\u77e5\u80fd\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0[\u5168]"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 712,
+    "title": "\u300c3\u5bc6\u300d\u6982\u5ff5\u306e\u8a95\u751f\u3068\u5909\u9077 \u2015 \u65e5\u672c\u306eCOVID-19 \u5bfe\u7b56\u3068\u30b3\u30df\u30e5\u30cb\u30b1\u30fc\u30b7\u30e7\u30f3\u306e\u554f\u984c \u2015"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 713,
+    "title": "2020ScrumOverview"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 714,
+    "title": "\u4fee\u58eb\u8ad6\u6587 \u30e9\u30f3\u30c0\u30e0\u30c6\u30b9\u30c8\u3068\u30b7\u30f3\u30dc\u30ea\u30c3\u30af\u5b9f\u884c\u306e\u7d44\u307f\u5408\u308f\u305b\u306b\u3088\u308b\u7db2\u7f85\u7387\u306e\u5411\u4e0a"
+  },
+  {
+    "authors": "Brendan Burns",
+    "id": 715,
+    "title": "Designing Distributed Systems"
+  },
+  {
+    "authors": "Kief Morris",
+    "id": 716,
+    "title": "Infrastructure as Code - NGINX Preview Edition"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 717,
+    "title": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u30e2\u30c7\u30eb\u691c\u67fb\u3068\u30c6\u30b9\u30c8\u30b1\u30fc\u30b9\u751f\u6210\u306e\u7d71\u5408-IPSJ-JNL5302010"
+  },
+  {
+    "authors": "Auth0 Inc. Sebasti\u00e1n E. Peyrott",
+    "id": 719,
+    "title": "The JWT Handbook"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 720,
+    "title": "The Azure Cloud Native Architecture Mapbook"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 721,
+    "title": "\u91cf\u5b50\u6280\u8853\u5e8f\u8ad6"
+  },
+  {
+    "authors": "Akira Tanaka",
+    "id": 722,
+    "title": "\u8d85\u7c21\u5358\uff01\u82f1\u8a9e\u3067\u30d0\u30b0\u30ec\u30dd\u30fc\u30c8"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 723,
+    "title": "RTOS\u30a8\u30df\u30e5\u30ec\u30fc\u30bfQmOS\u9069\u7528\u306b\u3088\u308b\u30a2\u30b8\u30e3\u30a4\u30eb\u958b\u767a\u52b9\u7387\u5316"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 724,
+    "title": "\u5b9f\u8df5\u7684\u306aAI\u30c7\u30fc\u30bf\u6559\u6750"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 725,
+    "title": "\u5b9f\u8df5\u7684\u306a\u30c7\u30fc\u30bfAI\u6559\u6750-2"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 726,
+    "title": "\u672c\u6587-\u6b6f\u5185\u7642\u6cd5\u8a3a\u7642GL.indd"
+  },
+  {
+    "authors": "Brendan Burns, Joe Beda & Kelsey Hightower",
+    "id": 727,
+    "title": "Kubernetes: Up and Running"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 728,
+    "title": "osdc cheatsheet-jinja2"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 729,
+    "title": "parametric-vm"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 730,
+    "title": "RDVT-2021-akita c"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 731,
+    "title": "Scrum-Master-Practitioner\u2019s-Guide"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 732,
+    "title": "shinsho2019 mokuroku"
+  },
+  {
+    "authors": "\u5ca9\u6ce2\u66f8\u5e97",
+    "id": 733,
+    "title": "\u5ca9\u6ce2\u65b0\u66f8\u30fb\u5ca9\u6ce2\u30a2\u30af\u30c6\u30a3\u30d6\u65b0\u66f8\u30fb\u5ca9\u6ce2\u30b8\u30e5\u30cb\u30a2\u65b0\u66f8\u89e3\u8aac\u76ee\u9332\uff082020\u5e74\u5ea6\u7248\uff09"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 734,
+    "title": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u8a00\u8a9eGo\u5b8c\u5168\u5165\u9580"
+  },
+  {
+    "authors": "y-naito@xk9.so-net.ne.jp",
+    "id": 735,
+    "title": "\u4e16\u754c\u3092\u8aad\u308020210401"
+  },
+  {
+    "authors": "Matt K. Parker",
+    "id": 736,
+    "title": "Radically Collaborative Patterns for Software Makers"
+  },
+  {
+    "authors": "mottox2",
+    "id": 737,
+    "title": "React & GatsbyJS\u958b\u767a\u5165\u9580"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 738,
+    "title": "VS Code \u30c7\u30d0\u30c3\u30b0\u6280\u8853 2nd"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 739,
+    "title": "Rust\u3067\u59cb\u3081\u308b\u81ea\u4f5c\u7d44\u8fbc\u307fOS\u5165\u9580"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 740,
+    "title": "REST API\u306e\u305f\u3081\u306e\u81ea\u52d5\u30c6\u30b9\u30c8\u306e\u5b9f\u8df5"
+  },
+  {
+    "authors": "KEI@I like Sushi",
+    "id": 741,
+    "title": "ESP32\u3068ArduinoIDE\u3067\u59cb\u3081\u308bIoT\u30b7\u30b9\u30c6\u30e0\u69cb\u7bc9\u5165\u9580"
+  },
+  {
+    "authors": "\u30a8\u30a4\u30b8\u8a2d\u8a08\u4e8b\u52d9\u6240",
+    "id": 743,
+    "title": "\u5b9f\u8df5 FPGA\u30c6\u30b9\u30c8\u81ea\u52d5\u5316"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 744,
+    "title": "Windows\u3067\u306f\u3058\u3081\u308bSTM32 2021\u5e74\u7248.pdf"
+  },
+  {
+    "authors": "Fernando Doglio",
+    "id": 745,
+    "title": "Codes Well with Others MEAP V01"
+  },
+  {
+    "authors": "Fran\u00e7ois Chollet",
+    "id": 747,
+    "title": "Deep Learning with Python - First Edition"
+  },
+  {
+    "authors": "Nate Mara",
+    "id": 750,
+    "title": "Refactoring to Rust MEAP V02"
+  },
+  {
+    "authors": "Vitaly Bragilevsky",
+    "id": 754,
+    "title": "Haskell in Depth"
+  },
+  {
+    "authors": "Mohamed Labouardy",
+    "id": 756,
+    "title": "Pipeline as Code MEAP V04"
+  },
+  {
+    "authors": "Noel Rappin",
+    "id": 757,
+    "title": "Modern Front-End Development for Rails"
+  },
+  {
+    "authors": "Jesse Storimer",
+    "id": 758,
+    "title": "Working With Ruby Threads"
+  },
+  {
+    "authors": "\u8fbb\u702c\u84bc\u4f0a",
+    "id": 760,
+    "title": "KeyCloak(Rocket.Char)\u300cdabble in...\u300d Extra Edition 2"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 761,
+    "title": "\u3010\u30af\u30e9\u30a6\u30c9\u30b5\u30a4\u30f3\u3011\u30af\u30e9\u30a6\u30c9\u5951\u7d04\u6cd5\u5f8b\u30ac\u30a4\u30c9\u7b2c10\u7248_20210226"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 762,
+    "title": "TexGoodBye vol0"
+  },
+  {
+    "authors": "ka's@pbjpkas",
+    "id": 763,
+    "title": "\uff2c\u30c1\u30ab\u3067\u59cb\u3081\u308b\u30c6\u30b9\u30c8\u81ea\u52d5\u5316"
+  },
+  {
+    "authors": "makoyuki",
+    "id": 764,
+    "title": "OperatingSystemManiacs_2nd_4.0"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 765,
+    "title": "GROVE\u5bfe\u5fdc\u30b7\u30ea\u30fc\u30ba\u6d3b\u7528BOOK"
+  },
+  {
+    "authors": "user",
+    "id": 766,
+    "title": "THE HIBRID WORLD WAR"
+  },
+  {
+    "authors": "\u9234\u6728 \u7d75\u7406",
+    "id": 767,
+    "title": "\u3053\u308c\u304b\u3089\u306e\u4fdd\u967a\u8a3c\u30de\u30b9\u30ad\u30f3\u30b0\u6700\u9069\u89e3"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 768,
+    "title": "\u30b3\u30f3\u30c6\u30ca\u5229\u7528\u8005\u306b\u6367\u3052\u308b AWS Lambda \u306e\u65b0\u3057\u3044\u958b\u767a\u65b9\u5f0f.docx"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 769,
+    "title": "\u30b5\u30fc\u30d0\u30fc\u30ec\u30b9\u306e\u52c9\u5f37\u65b9\u6cd5\u3092\u805e\u3044\u3066\u307f\u305f.docx"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 770,
+    "title": "\u30cf\u30f3\u30ba\u30aa\u30f3\u306e\u300c\u8179\u843d\u3061\u554f\u984c\u300d\u3092 \u6539\u5584\u3059\u308b 5 Tips .docx"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 771,
+    "title": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u7121\u3057\u3067\u958b\u767a - Amazon Honeycode \u3092\u4f7f\u3063\u3066\u3001Slack \u3068\u9023\u643a\u3059\u308b\u30a2\u30d7\u30ea\u3092\u4f5c\u6210 .docx"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 772,
+    "title": "\u30b3\u30f3\u30c6\u30ca\u5229\u7528\u8005\u306b\u6367\u3052\u308b AWS Lambda \u306e\u65b0\u3057\u3044\u958b\u767a\u65b9\u5f0f \u7b2c2\u56de \u30b3\u30f3\u30c6\u30ca Lambda \u3092\u958b\u767a\u3001\u307e\u305a\u306f RIC \u3068 RIE \u3092\u4f7f\u3063\u3066\u307f\u3088\u3046 !.docx"
+  },
+  {
+    "authors": "Felienne Hermans",
+    "id": 773,
+    "title": "The Programmer's Brain MEAP V05"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 774,
+    "title": "a practical guide to home automation using open source tools"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 775,
+    "title": "How-to-build-toolchain"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 776,
+    "title": "Quantum computation adn Quantum information"
+  },
+  {
+    "authors": "Billy Yuen, Alexander Matyushentsev, Todd Ekenstam & Jesse Suen",
+    "id": 777,
+    "title": "GitOps and Kubernetes: Continuous Deployment with Argo CD, Jenkins X, and Flux"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 779,
+    "title": "AI\u3068\u6a5f\u68b0\u5b66\u7fd2\u306e\u91cd\u8981\u6027-2020"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 780,
+    "title": "\u79fb\u884c\u3068\u30e2\u30c0\u30ca\u30a4\u30bc\u30fc\u30b7\u30e7\u30f3\u306b\u95a2\u3059\u308b\u30ac\u30a4\u30c9"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 781,
+    "title": "AWS\u3067Windows\u30ef\u30fc\u30af\u30ed\u30fc\u30c9\u3092\u5b9f\u884c\u3059\u308b"
+  },
+  {
+    "authors": "nasum",
+    "id": 783,
+    "title": "\u30b3\u30f3\u30c6\u30ca\u6642\u4ee3\u306eWeb\u30b5\u30fc\u30d3\u30b9\u306e \u4f5c\u308a\u65b9-202107"
+  },
+  {
+    "authors": "Mohamed Labouardy",
+    "id": 784,
+    "title": "Pipeline as Code: Continuous Delivery with Jenkins, Kubernetes, and Terraform"
+  },
+  {
+    "authors": "Fernando Doglio",
+    "id": 786,
+    "title": "Skills of a Software Developer MEAP V03"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 787,
+    "title": "go-in-practice-source-code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 788,
+    "title": "Go-Web-Programming-Source code-part 1"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 789,
+    "title": "Go-Web-Programming-Source code-part 2"
+  },
+  {
+    "authors": "\u30c6\u30af\u30de\u30c8\u30ea\u30c3\u30af\u30b9\u682a\u5f0f\u4f1a\u793e",
+    "id": 790,
+    "title": "C++test\uff1aMISRA\u6e96\u62e0\u3078\u306e\u9053\u3092\u30b9\u30e0\u30fc\u30ba\u306b"
+  },
+  {
+    "authors": "\u30c6\u30af\u30de\u30c8\u30ea\u30c3\u30af\u30b9\u682a\u5f0f\u4f1a\u793e",
+    "id": 791,
+    "title": "C++test\uff1a\u30bb\u30ad\u30e5\u30a2\u306a\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 792,
+    "title": "\u306a\u305c\u5358\u4f53\u30c6\u30b9\u30c8\u306f\u5b9a\u7740\u3057\u306a\u3044\uff1f"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 793,
+    "title": "Deploying-NGINX-Plus-as-an-API-Gateway-eBook"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 794,
+    "title": "A Miniguide to Critical Thinking"
+  },
+  {
+    "authors": "Christopher Manning, Prabhakar Raghavan & Hinrich Schuetze",
+    "id": 795,
+    "title": "Introduction to Information Retrieval"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 796,
+    "title": "An Introduction to Statistical Learning with Applications in R"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 797,
+    "title": "A Byte of Vim"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 798,
+    "title": "CombinatorialAlgorithms"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 799,
+    "title": "git from bottom up"
+  },
+  {
+    "authors": "Al Sweigart",
+    "id": 800,
+    "title": "Hacking Secret Ciphers with Python"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 801,
+    "title": "Implementing_Functional_Languages_a_tutorial"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 802,
+    "title": "Introduction to Statistical Thought"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 803,
+    "title": "IntroStat"
+  },
+  {
+    "authors": "eugene yokota (@eed3si9n)",
+    "id": 804,
+    "title": "learning Scalaz"
+  },
+  {
+    "authors": "()",
+    "id": 805,
+    "title": "The Little Book of Semaphores"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 806,
+    "title": "Logic, Programming and Prog (2ED)"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 807,
+    "title": "Mastering Node"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 808,
+    "title": "Mathematics for the Physical Sciences"
+  },
+  {
+    "authors": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
+    "id": 809,
+    "title": "Mathematics for Machine Learning"
+  },
+  {
+    "authors": "Xavier Leroy & Didier R\u00e9my",
+    "id": 810,
+    "title": "Unix system programming in OCaml"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 811,
+    "title": "OnLisp"
+  },
+  {
+    "authors": "Max Hailperin",
+    "id": 812,
+    "title": "Operating Systems and Middleware: Supporting Controlled Interaction"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 813,
+    "title": "Partial_Solutions_Manual_Parallel_and_Distributed_Computation_Numerical_Methods"
+  },
+  {
+    "authors": "Allen B. Downey",
+    "id": 814,
+    "title": "Physical Modeling in MATLAB"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 815,
+    "title": "Planning Algorithms"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 816,
+    "title": "Practical_File_System_Design"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 817,
+    "title": "Programming Languages Application and Interpretation"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 818,
+    "title": "ProgrammingGroundUp-1-0-booksize"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 819,
+    "title": "stack computers book"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 820,
+    "title": "thinking-forth"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 821,
+    "title": "Think OCaml"
+  },
+  {
+    "authors": "Stephen Diehl",
+    "id": 822,
+    "title": "What I Wish I Knew When Learning Haskell"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 823,
+    "title": "Type Theory & Functional Progam"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 824,
+    "title": "Essential Coding Theory"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 825,
+    "title": "Practical_File_System_Design-code"
+  },
+  {
+    "authors": "\u81ea\u7531\u6c11\u4e3b\u515a",
+    "id": 826,
+    "title": "\u81ea\u7531\u6c11\u4e3b\u515a-\u4ee4\u548c3\u5e74\u653f\u7b56\u30d1\u30f3\u30d5\u30ec\u30c3\u30c8"
+  },
+  {
+    "authors": "\u81ea\u7531\u6c11\u4e3b\u515a",
+    "id": 827,
+    "title": "\u81ea\u7531\u6c11\u4e3b\u515a-\u4ee4\u548c3\u5e74\u653f\u6a29\u516c\u7d04"
+  },
+  {
+    "authors": "\u81ea\u7531\u6c11\u4e3b\u515a",
+    "id": 828,
+    "title": "\u81ea\u7531\u6c11\u4e3b\u515a-\u7dcf\u5408\u653f\u7b56\u96c62021 J-\u30d5\u30a1\u30a4\u30eb"
+  },
+  {
+    "authors": "youchan",
+    "id": 829,
+    "title": "iSeq \u63a2\u8a2a"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 830,
+    "title": "Rust\u30b8\u30a7\u30cd\u30ec\u30fc\u30bf\u5fb9\u5e95\u89e3\u8aac"
+  },
+  {
+    "authors": "\u30de\u30fc\u30af\u30a2\u30c3\u30d7\u8a00\u8a9e\u611b\u597d\u4f1a",
+    "id": 831,
+    "title": "Inside Sphinx"
+  },
+  {
+    "authors": "\u81ea\u7531\u6c11\u4e3b\u515a",
+    "id": 832,
+    "title": "\u81ea\u7531\u6c11\u4e3b\u515a-\u4ee4\u548c3\u5e74\u3053\u3069\u3082\u305f\u3061\u3078\u306e\u7d04\u675f"
+  },
+  {
+    "authors": "STMICROELECTRONICS",
+    "id": 834,
+    "title": "Data brief - STM32CubeIDE - Integrated development environment for STM32 products"
+  },
+  {
+    "authors": "user",
+    "id": 835,
+    "title": "\u30bc\u30ed\u304b\u3089\u82f1\u8a9e\u3067\u30b3\u30df\u30c3\u30b7\u30e7\u30f3\u306e\u306f\u3058\u3081\u304b\u305f \u4ef2\u9593\u5b89\u65b9 20200129\u6539\u8a02"
+  },
+  {
+    "authors": "a6s-cloud",
+    "id": 836,
+    "title": "\u30d7\u30e9\u30a4\u30d9\u30fc\u30c8\u3067\u306e\u30c1\u30fc\u30e0\u958b\u767a\u306e\u3059\u3059\u3081\u65b9"
+  },
+  {
+    "authors": "Yuu YOSHIMURA",
+    "id": 837,
+    "title": "The Rust Programming Language: 2018 Edition"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 838,
+    "title": "\u30c6\u30b9\u30c8\u30c4\u30fc\u30eb\u3092\u9078\u5b9a\u3059\u308b\u3046\u3048\u3067\u306e\u8a55\u4fa1\u306e\u30dd\u30a4\u30f3\u30c8\u3068\u306f"
+  },
+  {
+    "authors": "Women Who Go Tokyo",
+    "id": 839,
+    "title": "Go Starter Book"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 840,
+    "title": "\u8d85\u5c40\u6240\u5c64\u7406\u8ad6\u5165\u9580"
+  },
+  {
+    "authors": "Harold Abelson, Gerald Jay Sussman, Julie Sussman",
+    "id": 841,
+    "title": "Structure and Interpretation of Computer Programs, 2nd ed."
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 842,
+    "title": "\u6570\u5b66-\u7269\u7406\u3092\u5b66\u3073\u697d\u3057\u3080\u305f\u3081\u306b- \u66ab\u5b9a\u7248(2021\u5e742\u6708)"
+  },
+  {
+    "authors": "Mathias Biilmann & Phil Hawksworth",
+    "id": 843,
+    "title": "Modern Web Development on the JAMstack"
+  },
+  {
+    "authors": "Ritesh Modi & Jack Lee & and Rithin Skaria",
+    "id": 844,
+    "title": "Azure for Architects, Third Edition"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 845,
+    "title": "Python Cheatsheet whitepaper"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 846,
+    "title": "[INTERNAL COPY] SonarSource \u2013 Python.org PyCON Case Study"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 847,
+    "title": "Same File Different Changes The Potential of Meta-"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 848,
+    "title": "\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u30e2\u30c0\u30ca\u30a4\u30ba\u6210\u529f\u306e\u672c\u8cea\u306fDevOps\u306b\u3042\u308a"
+  },
+  {
+    "authors": "AWS",
+    "id": 849,
+    "title": "AWS Serverless Application Model - \u30c7\u30d9\u30ed\u30c3\u30d1\u30fc\u30ac\u30a4\u30c9"
+  },
+  {
+    "authors": "Java Code Geeks",
+    "id": 850,
+    "title": "Eclipse IDE Handbook"
+  },
+  {
+    "authors": "aihar",
+    "id": 851,
+    "title": "\u30a2\u30ab\u30c7\u30df\u30a2\u300c\u30e2\u30f3\u30b4\u30eb\u5e1d\u56fd\u304b\u3089\u5927\u6e05\u5e1d\u56fd\u3078\u300d20210918\u6620\u5199\u8cc7\u6599"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 852,
+    "title": "\u30a2\u30ab\u30c7\u30df\u30a2\u300c\u30e2\u30f3\u30b4\u30eb\u5e1d\u56fd\u304b\u3089\u5927\u6e05\u5e1d\u56fd\u3078\u300d20210918\u914d\u4ed8\u8cc7\u6599"
+  },
+  {
+    "authors": "BAKUNETSU VICTORY",
+    "id": 853,
+    "title": "\u65b0\u3057\u3044\u30c7\u30b8\u30bf\u30eb\u30ce\u30fc\u30c8\u8853\u3067\u7b2c\u4e8c\u306e\u8133\u3092\u3064\u304f\u308d\u3046"
+  },
+  {
+    "authors": "nasum",
+    "id": 854,
+    "title": "\u30b3\u30f3\u30c6\u30ca\u6642\u4ee3\u306eWeb\u30b5\u30fc\u30d3\u30b9\u306e \u4f5c\u308a\u65b9"
+  },
+  {
+    "authors": "Tyler Leonhardt, James Petty, Travis Plunk, Don Jones, Jeffery Hicks",
+    "id": 856,
+    "title": "Learn PowerShell in a Month of Lunches MEAP V17"
+  },
+  {
+    "authors": "Brenden Matthews",
+    "id": 857,
+    "title": "Code Like a Pro in Rust MEAP V02"
+  },
+  {
+    "authors": "Fran\u00e7ois Chollet",
+    "id": 859,
+    "title": "Deep Learning with Python - Second Edition"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 860,
+    "title": "Deep Learning with Python - Second Edition - code"
+  },
+  {
+    "authors": "Bernd Ruecker",
+    "id": 861,
+    "title": "Practical Process Automation"
+  },
+  {
+    "authors": "Mark Needham & Amy E. Hodler",
+    "id": 862,
+    "title": "Graph Algorithms"
+  },
+  {
+    "authors": "Sjoukje Zaal & Stefano Demiliani & Amit Malik",
+    "id": 863,
+    "title": "Azure DevOps Explained"
+  },
+  {
+    "authors": "Fernando Doglio",
+    "id": 864,
+    "title": "Skills of a Software Developer MEAP V04"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 866,
+    "title": "Code Like a Pro in Rust MEAP - code"
+  },
+  {
+    "authors": "Lily Mara",
+    "id": 867,
+    "title": "Refactoring to Rust MEAP V03"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 868,
+    "title": "refactoring-to-rust-main - code"
+  },
+  {
+    "authors": "Felienne Hermans",
+    "id": 869,
+    "title": "Exploring Productivity Tools"
+  },
+  {
+    "authors": "Roy Osherove",
+    "id": 871,
+    "title": "The Art of Unit Testing 3E MEAP V06"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 873,
+    "title": "The Art of Unit Testing 3E - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 875,
+    "title": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u6f14\u7fd2 Python 2019 \u30b3\u30e9\u30e0\u7de8"
+  },
+  {
+    "authors": "Felienne Hermans",
+    "id": 876,
+    "title": "The Programmer's Brain"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 877,
+    "title": "pipeline-as-code-with-jenkins-master"
+  },
+  {
+    "authors": "Tom Long",
+    "id": 878,
+    "title": "Good Code, Bad Code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 879,
+    "title": "javascript-on-things - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 880,
+    "title": "Building the Web of Things - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 881,
+    "title": "Machine Learning with TensorFlow - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 882,
+    "title": "Deep Learning with R - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 883,
+    "title": "Secrets of the JavaScript Ninja, Second Edition - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 884,
+    "title": "Secrets of the JavaScript Ninja - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 885,
+    "title": "CoreOS in Action: Running Applications on Container Linux - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 886,
+    "title": "Cross-Platform Desktop Applications - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 887,
+    "title": "iOS-Development-with-Swift"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 888,
+    "title": "Deep Learning and the Game of Go - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 889,
+    "title": "Getting Started with Google Colab Using PyTorch"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 890,
+    "title": "Getting Started with Google Colab Using TensorFlow"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 891,
+    "title": "Getting Started with Jupyter Notebook"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 892,
+    "title": "Create a Web Application Scaffold Generator in Go"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 893,
+    "title": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u6f14\u7fd2 Python 2019"
+  },
+  {
+    "authors": "Yuka O'oka",
+    "id": 895,
+    "title": "\u308a\u3042\u30af\u30c8\uff01 TypeScript\u3067\u59cb\u3081\u308b\u3064\u3089\u304f\u306a\u3044React\u958b\u767a \u7b2c3.1\u7248\u3010\u2161. React\u57fa\u790e\u7de8\u3011"
+  },
+  {
+    "authors": "Yuka O'oka",
+    "id": 896,
+    "title": "\u308a\u3042\u30af\u30c8\uff01 TypeScript\u3067\u59cb\u3081\u308b\u3064\u3089\u304f\u306a\u3044React\u958b\u767a \u7b2c3.1\u7248\u3010\u2160. \u8a00\u8a9e\u30fb\u74b0\u5883\u7de8\u3011"
+  },
+  {
+    "authors": "Yuka O'oka",
+    "id": 898,
+    "title": "\u308a\u3042\u30af\u30c8\uff01 TypeScript\u3067\u59cb\u3081\u308b\u3064\u3089\u304f\u306a\u3044React\u958b\u767a \u7b2c3.1\u7248\u3010\u2162. React\u5fdc\u7528\u7de8\u3011"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 901,
+    "title": "Visual Studio Code\u306e\u62e1\u5f35\u6a5f\u80fd\u3092\u4f5c\u3063\u3066Markdown\u8868\u793a\u3092\u6539\u9020\u3059\u308b\u672c"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 902,
+    "title": "Visual Studio Code\u306e\u62e1\u5f35\u6a5f\u80fd\u3092\u4f5c\u3063\u3066Markdown\u8868\u793a\u3092\u6539\u9020\u3059\u308b\u672c-code"
+  },
+  {
+    "authors": "k{-}abe\u7de8",
+    "id": 903,
+    "title": "C\u304b\u3089Rust\u306b\u30e2\u30fc\u30bf\u5236\u5fa1\u30ed\u30b8\u30c3\u30af\u3092\u79fb\u690d\u3059\u308b"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 904,
+    "title": "\u7406\u8ad6\u3068\u5b9f\u8df5\u306e\u67b6\u3051\u6a4b\uff5e\u30b7\u30b9\u30c6\u30e0\u9053\u7a0b\u304b\u3089\u30e2\u30c7\u30eb\u4e88\u6e2c\u5236\u5fa1(PFC)\uff5e"
+  },
+  {
+    "authors": "Fumiya",
+    "id": 905,
+    "title": "\u7c21\u5358\u306a\u4e8c\u8db3\u6b69\u884c\u30ed\u30dc\u30c3\u30c8\u306e\u4f5c\u308a\u65b9\uff5e\u6ed1\u3089\u304b\u306a\u52a0\u6e1b\u901f\u51e6\u7406\u3092\u52a0\u3048\u3066\uff5e"
+  },
+  {
+    "authors": "Fumiya",
+    "id": 906,
+    "title": "\u3088\u304f\u3042\u308b\u4e8c\u6163\u6027\u7cfbDC\u30e2\u30fc\u30bf\u30e2\u30c7\u30eb\u88fd\u4f5c\u306e\u5b9f\u969b\u306e\u3068\u3053\u308d"
+  },
+  {
+    "authors": "Wantedly\u57f7\u7b46\u90e8",
+    "id": 907,
+    "title": "WANTEDLY TECH BOOK 10"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 908,
+    "title": "USB2GPIO HANDBOOK"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 909,
+    "title": "SatNOGS_network\u3092\u4f7f\u3063\u3066\u307f\u308b"
+  },
+  {
+    "authors": "BOXP / \u4e00\u7bb1",
+    "id": 910,
+    "title": "Hito Hub\u3092\u652f\u3048\u308b\u6280\u8853"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 911,
+    "title": "\u306d\u3053\u306f\u3046\u3059\u901a\u4fe1\u6e96\u5099\u53f7 20200316"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 912,
+    "title": "\u60c5\u5831\u51e6\u7406-\u535a\u58eb\u8ab2\u7a0b\u9032\u5b66\u306e\u30e1\u30ea\u30c3\u30c8\u30fb\u30c7\u30e1\u30ea\u30c3\u30c8"
+  },
+  {
+    "authors": "Wantedly\u57f7\u7b46\u90e8",
+    "id": 913,
+    "title": "WANTEDLY TECH BOOK"
+  },
+  {
+    "authors": "Wantedly\u57f7\u7b46\u90e8",
+    "id": 914,
+    "title": "WANTEDLY TECH BOOK 2"
+  },
+  {
+    "authors": "Wantedly\u57f7\u7b46\u90e8",
+    "id": 915,
+    "title": "WANTEDLY TECH BOOK 3"
+  },
+  {
+    "authors": "Wantedly\u57f7\u7b46\u90e8",
+    "id": 916,
+    "title": "WANTEDLY TECH BOOK 4"
+  },
+  {
+    "authors": "Wantedly\u57f7\u7b46\u90e8",
+    "id": 917,
+    "title": "WANTEDLY TECH BOOK 5"
+  },
+  {
+    "authors": "Wantedly\u57f7\u7b46\u90e8",
+    "id": 918,
+    "title": "WANTEDLY TECH BOOK 6"
+  },
+  {
+    "authors": "Wantedly\u57f7\u7b46\u90e8",
+    "id": 919,
+    "title": "WANTEDLY TECH BOOK 8"
+  },
+  {
+    "authors": "Wantedly\u57f7\u7b46\u90e8",
+    "id": 920,
+    "title": "WANTEDLY TECH BOOK 7"
+  },
+  {
+    "authors": "\u8fbb\u702c\u84bc\u4f0a",
+    "id": 921,
+    "title": "KeyCloak\uff08Roecket.Chat\uff09SSO\u300cdabble in...\u300d Extra Edition 2"
+  },
+  {
+    "authors": "Tyler Leonhardt, James Petty, Travis Plunk, Don Jones, Jeffery Hicks",
+    "id": 923,
+    "title": "Learn Powershell in Month of Lunches MEAP V19"
+  },
+  {
+    "authors": "David Muller",
+    "id": 925,
+    "title": "Intuitive Python"
+  },
+  {
+    "authors": "Dmitry Zinoviev",
+    "id": 926,
+    "title": "Pythonic Programming"
+  },
+  {
+    "authors": "Frank Hunleth, Bruce A. Tate",
+    "id": 928,
+    "title": "Build a Binary Clock with Elixir and Nerves"
+  },
+  {
+    "authors": "Jeremy McAnally, Assaf Arkin & Jeremy McAnally & Assaf Arkin",
+    "id": 930,
+    "title": "Ruby in Practice"
+  },
+  {
+    "authors": "\u5ddd\u53e3 \u96c4\u6cbb",
+    "id": 932,
+    "title": "\u3010WP\u3011\u793e\u54e1\u306e\u81ea\u5df1\u89e3\u6c7a\u3092\u4fc3\u9032\u3059\u308b\u554f\u3044\u5408\u308f\u305b\u5bfe\u5fdc\u306e\u6574\u7406\u8853"
+  },
+  {
+    "authors": "Ryuta Suzuki",
+    "id": 933,
+    "title": "\u8131\u300cPPAP\u300d\u306b\u6d3b\u7528\u3067\u304d\u308bMicrosoft 365\u306e\u6a5f\u80fd\u3092\u307e\u3068\u3081\u3066\u7d39\u4ecb"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 934,
+    "title": "CircleCI 01"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 935,
+    "title": "CircleCI 02"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 936,
+    "title": "CircleCI 03"
+  },
+  {
+    "authors": "Unknown",
+    "id": 937,
+    "title": "Ruby In Practice - code"
+  },
+  {
+    "authors": "aihar",
+    "id": 938,
+    "title": "\u30a2\u30ab\u30c7\u30df\u30a2\u300c\u30e2\u30f3\u30b4\u30eb\u5e1d\u56fd\u304b\u3089\u5927\u6e05\u5e1d\u56fd\u3078\u300d20211120\u6cf3\u8005\u8cc7\u6599"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 939,
+    "title": "\u30a2\u30ab\u30c7\u30df\u30a2\u300c\u30e2\u30f3\u30b4\u30eb\u5e1d\u56fd\u304b\u3089\u5927\u6e05\u5e1d\u56fd\u3078\u300d20211120\u914d\u5e03\u8cc7\u6599"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 940,
+    "title": "Complete and Easy Bidirectional Typecheck for Higher-Rank Polymorphism"
+  },
+  {
+    "authors": "Sato",
+    "id": 943,
+    "title": "\u6848\u4ef6\u53c2\u8003\u8cc7\u6599-from-slack-rubyjp-freelancer"
+  },
+  {
+    "authors": "Administrator",
+    "id": 944,
+    "title": "\u3010R0211101422\u3011\u30ac\u30a4\u30c9\u30e9\u30a4\u30f3\u6982\u8981\uff08\u6eb6\u3051\u8fbc\u307f\uff09\u77ef\u6b63\u65bd\u8a2d\u306b\u304a\u3051\u308b\u611f\u67d3\u75c7\u5bfe\u7b56"
+  },
+  {
+    "authors": "Apollo Graph, Inc.",
+    "id": 945,
+    "title": "GraphQL at Enterprise Scale"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 946,
+    "title": "IBM Q\u3068Blueqat\u3067\u30bc\u30ed\u304b\u3089\u59cb\u3081\u308b\u91cf\u5b50\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 947,
+    "title": "the-chief-architects-guide-to-gdpr-cockroach-labs"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 948,
+    "title": "TOPPERS\u958b\u767a\u8005\u4f1a\u8b70\u30ec\u30dd\u30fc\u30c82021"
+  },
+  {
+    "authors": "Kosei Sakamoto & Fukang Liu & Yuto Nakano & Shinsaku Kiyomoto & and Takanori Isobe",
+    "id": 949,
+    "title": "Rocca: An Efficient AES-based Encryption Scheme for Beyond 5G"
+  },
+  {
+    "authors": "\u5927\u5ca1\u7531\u4f73",
+    "id": 951,
+    "title": "\u308a\u3042\u30af\u30c8\uff01 TypeScript\u3067\u59cb\u3081\u308b\u3064\u3089\u304f\u306a\u3044React\u958b\u767a \u7b2c3.1\u7248\u3010\u2162. React\u5fdc\u7528\u7de8\u3011"
+  },
+  {
+    "authors": "Victor Shoup",
+    "id": 952,
+    "title": "A Computational Introduction to Number Theory and Algebra (Version 2)"
+  },
+  {
+    "authors": "Sanjoy Mahajan",
+    "id": 953,
+    "title": "Street-Fighting Mathematics"
+  },
+  {
+    "authors": "Univalent Foundations Program",
+    "id": 954,
+    "title": "Homotopy Type Theory: Univalent Foundations of Mathematics"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 955,
+    "title": "Learning Ionic_Code - code"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 956,
+    "title": "SKILL UP 2016 DEVELOPER SKILLS REPORT"
+  },
+  {
+    "authors": "Vivek Pala",
+    "id": 957,
+    "title": "Go Cookbook - code"
+  },
+  {
+    "authors": "Aaron Torres",
+    "id": 959,
+    "title": "Go Cookbook"
+  },
+  {
+    "authors": "Kamran Amini",
+    "id": 960,
+    "title": "EXTREME C"
+  },
+  {
+    "authors": "Gaurav Thingalaya",
+    "id": 961,
+    "title": "EXTREME C - code"
+  },
+  {
+    "authors": "Maur\u00edcio Aniche",
+    "id": 963,
+    "title": "Effective Software Testing MEAP V02"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 964,
+    "title": "Wizard Bible \u4e8b\u4ef6\u304b\u3089\u8003\u3048\u308b\u30b5\u30a4\u30d0\u30fc\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3"
+  },
+  {
+    "authors": "Nills Franssens & Shivakumar Gopalakrishnan & Gunther Lenz",
+    "id": 965,
+    "title": "Hands-on Kubernetes on Azure, Third Edition"
+  },
+  {
+    "authors": "Fernando Doglio",
+    "id": 967,
+    "title": "Skills of a Software Developer MEAP V05"
+  },
+  {
+    "authors": "Iain Foulds",
+    "id": 968,
+    "title": "Learn Azure in a Month of Lunches"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 969,
+    "title": "What Does This Notation Mean Anyway? BNF-Style Notation as it is Actually Used"
+  },
+  {
+    "authors": "micsato",
+    "id": 970,
+    "title": "\u7d4c\u9a13\u30bc\u30ed\u304b\u3089\u59cb\u3081\u308bIoR\u30c7\u30d0\u30a4\u30b9\u5165\u9580"
+  },
+  {
+    "authors": "Fernando Doglio",
+    "id": 971,
+    "title": "Skills of a Successful Software Engineer MEAP V07"
+  },
+  {
+    "authors": "Maur\u00edcio Aniche",
+    "id": 972,
+    "title": "Effective Software Testing MEAP V04"
+  },
+  {
+    "authors": "James Stanier",
+    "id": 973,
+    "title": "Effective Remote Work"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 974,
+    "title": "1\u4eba\u60c5\u30b7\u30b9"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 975,
+    "title": "eBook_\u5c0e\u5165\u4e8b\u4f8b_211028.indd"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 976,
+    "title": "\u5831\u544a-\u300c\u5929\u7687\u9000\u4f4d\u7b49\u306b\u95a2\u3059\u308b\u7687\u5ba4\u5178\u7bc4\u7279\u4f8b\u6cd5\u6848\u306b\u5bfe\u3059\u308b\u9644\u5e2f\u6c7a\u8b70\u300d\u306b\u95a2\u3059\u308b\u6709\u8b58\u8005\u4f1a\u8b70"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 977,
+    "title": "\u5831\u544a(\u6982\u8981)-\u300c\u5929\u7687\u9000\u4f4d\u7b49\u306b\u95a2\u3059\u308b\u7687\u5ba4\u5178\u7bc4\u7279\u4f8b\u6cd5\u6848\u306b\u5bfe\u3059\u308b\u9644\u5e2f\u6c7a\u8b70\u300d\u306b\u95a2\u3059\u308b\u6709\u8b58\u8005\u4f1a\u8b70"
+  },
+  {
+    "authors": "Jonen Tsukasa",
+    "id": 978,
+    "title": "Lessons from Japan: High-income countries have common problems - \u30a2\u30c0\u30e0\u30fb\u30dd\u30fc\u30bc\u30f3"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 979,
+    "title": "rubrik\u306e\u5c0e\u5165\u306b\u3088\u308a\u30d0\u30c3\u30af\u30a2\u30c3\u30d7\u904b\u7528\u306e\u5287\u7684\u306a\u7701\u529b\u5316\u3092\u5b9f\u73fe\u3057\u305f\u30a8\u30eb\u30c6\u30c3\u30af\u30b9"
+  },
+  {
+    "authors": "Jonen Tsukasa",
+    "id": 980,
+    "title": "Credible Irresponsiblity Revisited - \u30dd\u30fc\u30eb\u30fb\u30af\u30eb\u30fc\u30b0\u30de\u30f3"
+  },
+  {
+    "authors": "\u30cb\u30b3\u30cb\u30b3\u30c1\u30e3\u30f3\u30cd\u30eb\uff1a\u793e\u4f1a\u30fb\u8a00\u8ad6",
+    "id": 981,
+    "title": "\u4eca\u9031\u306e\u9031\u520a\u6587\u6625\u30c7\u30b8\u30bf\u30eb-2021-6-10-\u3008\u5fb9\u5e95\u691c\u8a3c\u3009\u30ef\u30af\u30c1\u30f3\u9045\u308c \u5143\u51f6\u306f\u5b89\u500d\u664b\u4e09 \u56de\u907f\u3059\u308b\u30c1\u30e3\u30f3\u30b9\u306f4\u56de\u3042\u3063\u305f-\u9031\u520a\u6587\u6625\u30c7\u30b8\u30bf\u30eb- \u9031\u520a\u6587\u6625\u30c7\u30b8\u30bf\u30eb(\u9031\u520a\u6587\u6625\u30c7\u30b8\u30bf\u30eb) - \u30cb\u30b3\u30cb\u30b3\u30c1\u30e3\u30f3\u30cd\u30eb\uff1a\u793e\u4f1a\u30fb\u8a00\u8ad6"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 982,
+    "title": "IDaaS\u9078\u5b9a\u30ac\u30a4\u30c9"
+  },
+  {
+    "authors": "\u53c2\u8b70\u9662",
+    "id": 983,
+    "title": "\u8ca1\u653f\u91d1\u878d\u88fd\u4f5c\u306b\u95a2\u3059\u308b\u8003\u3048\u65b9-\u56fd\u6c11\u6c11\u4e3b\u515a\u7d4c\u6e08\u8abf\u67fb\u4f1a-\u4ee4\u548c3\u5e7412\u670823\u65e5"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 984,
+    "title": "\u91cf\u5b50\u529b\u5b66\u88dc\u8b1b-\u300c\u91cf\u5b50\u529b\u5b6610\u8b1b\u300d\u306e\u8aa4\u8a18\u8a02\u6b63\u3068\u88dc\u8db3-\u521d\u7248_2021-11-11_\u7b2c6\u7248_2021-12-3"
+  },
+  {
+    "authors": "\u30ac\u30fc\u30c8\u30ca\u2015\u30b8\u30e3\u30d1\u30f3\u682a\u5f0f\u4f1a\u793e",
+    "id": 985,
+    "title": "\u30b9\u30e9\u30a4\u30c91\u679a\u3067\u4f1d\u308f\u308bIT\u6226\u7565"
+  },
+  {
+    "authors": "\u7fa9\u55e3",
+    "id": 986,
+    "title": "2021\u5e74\u672b\u6642\u70b9\u306e\u30b7\u30ca\u30ea\u30aa-\u4e0a\u5ff5\u53f8"
+  },
+  {
+    "authors": "micsato",
+    "id": 987,
+    "title": "\u7d4c\u9a13\u30bc\u30ed\u304b\u3089\u59cb\u3081\u308bIoT\u30c7\u30d0\u30a4\u30b9\u5165\u9580"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 988,
+    "title": "\u7b2c2\u90e8 \u73fe\u4ee3\u6570\u5b66\u63a2\u691c\u968a \u3044\u308d\u3044\u308d\u306a\u4f8b\u3068\u8a08\u7b97"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 989,
+    "title": "Excel VBA\u30d7\u30ed\u30b0\u30e9\u30de\u30fc\u306e\u305f\u3081\u306eGoogle Apps Script\u5165\u9580"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 990,
+    "title": "COMET-II\u4e92\u63db\u30d7\u30ed\u30bb\u30c3\u30b5\u4e0a\u306b\u304a\u3051\u308bITRON\u4ed5\u69d8OS\u306b\u95a2\u3059\u308b\u7814\u7a76"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 991,
+    "title": "2022\u5e74\u306e\u96fb\u5e33\u6cd5\u6539\u6b63\u306b\u5411\u3051\u3066\u4eca\u304b\u3089\u3067\u304d\u308b\u696d\u52d9\u6539\u5584\u3068\u306f"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 992,
+    "title": "Introducing categories to the practicing physicist"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 993,
+    "title": "\u5317\u6d77\u9053\u5927\u5b66 \u5927\u5b66\u9662\u5de5\u5b66\u7814\u7a76\u9662\u5927\u5b66\u9662\u5de5\u5b66\u9662\u5de5\u5b66\u90e8\u5e83\u5831\u8a8c \u3048\u3093\u3058\u306b\u3042 No.422"
+  },
+  {
+    "authors": "Maur\u00edcio Aniche",
+    "id": 994,
+    "title": "Effective Software Testing MEAP V03"
+  },
+  {
+    "authors": "SUSE",
+    "id": 995,
+    "title": "\u4e0d\u78ba\u5b9f\u306a\u7d4c\u6e08\u74b0\u5883\u4e0b\u3067\u30aa\u30fc\u30d7\u30f3\u30bd\u30fc\u30b9\u30a4\u30ce\u30d9\u30fc\u30b7\u30e7\u30f3\u3092\u6d3b\u7528\u3059\u308b5\u3064\u306e\u65b9\u6cd5"
+  },
+  {
+    "authors": "Lawrence Miller",
+    "id": 996,
+    "title": "IaaS For Dummies\u00ae, Oracle \u7279\u96c6\u53f7\u7b2c 4 \u7248"
+  },
+  {
+    "authors": "alg-d",
+    "id": 997,
+    "title": "\u570f\u8ad6\u3068\u306f\u4f55\u304b"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 998,
+    "title": "\u65e5\u672c\u8a9e\u7248K3s\u30de\u30cb\u30e5\u30a2\u30eb-Rancher K3s\u516c\u5f0f\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u3088\u308a-"
+  },
+  {
+    "authors": "\u8ca1\u52d9\u7701",
+    "id": 999,
+    "title": "2020/10/20 \u8ca1\u52d9\u7701\u8ca1\u52d9\u7dcf\u5408\u653f\u7b56\u7814\u7a76\u6240 \u4eba\u53e3\u52d5\u614b\u3068\u7d4c\u6e08\u793e\u4f1a\u306e\u5909\u5316\u306b\u95a2\u3059\u308b\u7814\u7a76\u4f1a \u7b2c\u4e00\u56de\u5831\u544a\u300c\u65e5\u672c\u3067\u5c11\u5b50\u5316\u5bfe\u7b56\u306f\u306a\u305c\u5931\u6557\u3057\u305f\u306e\u304b\u300d"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1000,
+    "title": "Architecting for Scale"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1001,
+    "title": "Azure AI Services at Scale for Cloud, Mobile, and Edge"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1002,
+    "title": "\u570f\u8ad6\u3068\u7fa4\u306e\u8868\u73fe\u8ad6\u3068\u91cf\u5b50\u529b\u5b66"
+  },
+  {
+    "authors": "Lily Mara",
+    "id": 1003,
+    "title": "Refactoring to Rust MEAP V04"
+  },
+  {
+    "authors": "Fernando Doglio",
+    "id": 1004,
+    "title": "Skills of a Successful Software Engineer MEAP V06"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1005,
+    "title": "\u8ff0\u8a9e\u8ad6\u7406\u3068SSReflect\u306e\u30bf\u30af\u30c6\u30a3\u30af"
+  },
+  {
+    "authors": "\u8c37\u6751 \u7701\u543e",
+    "id": 1006,
+    "title": "\u7269\u7406\u5b66\u8005\u306e\u305f\u3081\u306e\u570f\u8ad6\u5165\u9580"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1007,
+    "title": "vmware_kubernetes_03"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1008,
+    "title": "\u30e2\u30c0\u30f3\u306a\u7d71\u5408\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u3067API\u4e3b\u5c0e\u306e\u30b7\u30b9\u30c6\u30e0\u9593\u9023\u643a\u3092\u30b7\u30f3\u30d7\u30eb\u306b\u3059\u308b"
+  },
+  {
+    "authors": "aihar",
+    "id": 1009,
+    "title": "\u30a2\u30ab\u30c7\u30df\u30a2\u300c\u30e2\u30f3\u30b4\u30eb\u5e1d\u56fd\u304b\u3089\u5927\u6e05\u5e1d\u56fd\u3078\u300d20211204\u6620\u5199\u8cc7\u6599"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1010,
+    "title": "\u30a2\u30ab\u30c7\u30df\u30a2\u300c\u30e2\u30f3\u30b4\u30eb\u5e1d\u56fd\u304b\u3089\u5927\u6e05\u5e1d\u56fd\u3078\u300d20211204\u914d\u5e03\u8cc7\u6599"
+  },
+  {
+    "authors": "Fernando Doglio",
+    "id": 1011,
+    "title": "Skills of a Software Developer MEAP V06"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1012,
+    "title": "NGINX\u30af\u30c3\u30af\u30d6\u30c3\u30af"
+  },
+  {
+    "authors": "Travis Plunk, Tyler Leonhardt, Don Jones & Jeffrey Hicks & Travis Plunk & Tyler Leonhardt & Don Jones & and Jeffrey Hicks",
+    "id": 1013,
+    "title": "Learn PowerShell in a Month of Lunches: Covers Windows, Linux, and macOS MEAP V19"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1014,
+    "title": "Slack\u30b3\u30cd\u30af\u30c8\u3067\u9867\u5ba2\u30ed\u30a4\u30e4\u30eb\u30c6\u30a3\u5411\u4e0a\u3068\u30d3\u30b8\u30cd\u30b9\u306e\u6210\u9577\u3092\u5b9f\u73fe"
+  },
+  {
+    "authors": "ka's@pbjpkas",
+    "id": 1015,
+    "title": "\uff2c\u30c1\u30ab\u3067\u59cb\u3081\u308b\u30c6\u30b9\u30c8\u81ea\u52d5\u5316 {-}3{-}"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1016,
+    "title": "\u500b\u4ebaWeb\u30b5\u30fc\u30d3\u30b9\u30b7\u30b9\u30c6\u30e0\u69cb\u6210\u4e8b\u5178v3"
+  },
+  {
+    "authors": "\u96fb\u5b50\u30e9\u30a4\u30c0\u30fc",
+    "id": 1017,
+    "title": "\u30ed\u30b8\u30c3\u30afIC\u3067\u5275\u308bCPU\u30ad\u30c3\u30c8 TTM8 \u7d44\u7acb\u8aac\u660e\u66f8"
+  },
+  {
+    "authors": "\u96fb\u5b50\u30e9\u30a4\u30c0\u30fc",
+    "id": 1018,
+    "title": "\u30ed\u30b8\u30c3\u30afIC\u3067\u5275\u308bCPU\u30ad\u30c3\u30c8 TTM8 \u53d6\u6271\u8aac\u660e\u66f8"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1019,
+    "title": "\u30b9\u30b1\u30b8\u30e5\u30fc\u30ea\u30f3\u30b0\u554f\u984c\u306e\u304a\u306f\u306a\u3057"
+  },
+  {
+    "authors": "show",
+    "id": 1020,
+    "title": "\u88c1\u5224 \uff5e\u500b\u4eba\u4e8b\u696d\u4e3b\u3068\u3057\u3066\u682a\u5f0f\u4f1a\u793e\u306b\u6c11\u4e8b\u8a34\u8a1f\u3092\u8d77\u3053\u3057\u3066\u4e8b\u5b9f\u4e0a\u52dd\u8a34\u3057\u305f\u8a71\uff5e"
+  },
+  {
+    "authors": "\u5c71\u7530 \u82f1\u4f38",
+    "id": 1021,
+    "title": "\u624b\u8efd\u306b\u4f7f\u3046 Docker \u306e\u672c"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1022,
+    "title": "debian-new-contributor-guide-v1.0.0"
+  },
+  {
+    "authors": "\u592a\u9f13",
+    "id": 1023,
+    "title": "Google Cloud\u3068GitHub Actions\u3067Pull Request\u9023\u52d5\u74b0\u5883\u3092\u4f5c\u308b\u672c"
+  },
+  {
+    "authors": "ka's@pbjpkas",
+    "id": 1024,
+    "title": "Python\u3067\u59cb\u3081\u308b\u30c6\u30b9\u30c8\u30c4\u30fc\u30eb\u88fd\u4f5c"
+  },
+  {
+    "authors": "DevRel/Book",
+    "id": 1025,
+    "title": "\u4e00\u518a\u3067\u5206\u304b\u308b\u3002\u30aa\u30f3\u30e9\u30a4\u30f3\u30a4\u30d9\u30f3\u30c8\u306e\u306f\u3058\u3081\u65b9\uff01"
+  },
+  {
+    "authors": "DevRel/Book",
+    "id": 1026,
+    "title": "\u4e00\u518a\u3067\u5206\u304b\u308b\u3002\u958b\u767a\u8005\u30b3\u30df\u30e5\u30cb\u30c6\u30a3\u306e\u4f5c\u308a\u65b9\u3001\u80b2\u3066\u65b9"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1027,
+    "title": "\u30b9\u30bf\u30fc\u30c8\u30a2\u30c3\u30d7\u8d77\u696d\u5bb6\u5411\u3051\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u30c7\u30ea\u30d0\u30ea\u30fc\u30ac\u30a4\u30c9"
+  },
+  {
+    "authors": "\u4e0d\u660e",
+    "id": 1028,
+    "title": "\u306f\u3058\u3081\u3066\u306eVisual Studio Code API"
+  }
+]
