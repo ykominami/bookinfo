@@ -1,105 +1,129 @@
+from logging import basicConfig, getLogger, DEBUG
+from sqlite3 import dbapi2
 from sqlite3db import Sqlite3db
-# from ndl import Ndl
+
+
+# basicConfig(level=DEBUG)  デバッグ時にアンコメントしよ
 
 class AppDb:
-  def __init__(self, db_file, table_name, table_def_stmt):
+  def __init__(self, cmd, db_file, table_name, table_def_stmt):
+    self.logger = getLogger(__name__)
+    self.logger.debug('using debug. start running')
+    self.logger.debug('finished running')
+
+    self.cmd = cmd
+    self.db_file = db_file
     self.table_name = table_name
     self.table_def_stmt = table_def_stmt
-    ensure_sql = 'SELECT id FROM {0} WHERE id = 1'.format(self.table_name)
-    self.db = Sqlite3db(db_file, self.table_def_stmt, ensure_sql)
-    print("AppDb.__init__: db_file={0}".format(db_file))
+    self.ensure_sql = 'SELECT id FROM {0} WHERE id = 1'.format(self.table_name)
+    self._db = Sqlite3db(self.cmd, self.db_file, self.table_def_stmt, self.ensure_sql)
+    self.logger.debug("AppDb.__init__: db_file={0}".format(db_file))
     self.insert_sql = '''INSERT INTO {0}
      (ASIN, title, authors, publishers, publication_date, purchase_date, textbook_type, cde_contenttype, content_type)
      VALUES (:ASIN, :title, :authors, :publishers, :publication_date, :purchase_date, :textbook_type, :cde_contenttype, :content_type)'''.format(self.table_name)
+    self.insert_sql_2 = '''INSERT INTO {0} (ASIN) VALUES (:ASIN)'''.format(self.table_name)
 
-  def ensure_connect(self):
-    self.db.ensure_connect()
+  @property
+  def db(self):
+    return self._db
 
-  def test_insert(self, val):
-    try:
-      sql = "INSERT INTO test (val) VALUES ('{0}')"
-      stmt = sql.format(val)
-      print(stmt)
-      self.db.execute_and_commit(stmt)
-      ret = True
-    except self.db.sqlite3.ProgrammingError as err:
-      print('1-T sqlite3.ProgrammingError: {0}'.format(err))
+  @db.setter
+  def db(self, arg):
+    self._db = arg
 
-    return ret
+  def create_table(self):
+    self.logger.debug("AppDb create_table")
+    self.db.create_table_and_commit()
+    self.db.close()
 
-  def insert_all(self, data_list):
+  def insert_all_and_commit(self, data_list):
     ret = False
-    try:
-      for dict_rec in data_list:
-        self.db.execute(self.insert_sql, dict_rec)
-      ret = True
-    except self.db.sqlite3.ProgrammingError as err:
-      print('1-1 sqlite3.ProgrammingError: {0}'.format(err))
+    count = 0
+    for dict_rec in data_list:
+      try:
+        cursor, execute_ret = self.db.execute(self.insert_sql, dict_rec)
+        count += 1
+      except self.db.sqlite3.ProgrammingError as err:
+        self.logger.error('appdb.py 1-1 sqlite3.ProgrammingError: {0}'.format(err))
+        execute_ret = False
+      except self.db.sqlite3.OperationalError as err:
+        self.logger.error('appdb.py 1-2 sqlite3.OperationalError: {0}'.format(err))
+        self.logger.error('appdb.py self.insert_sql=%s' % self.insert_sql)
+        execute_ret = False
 
-    if ret == True:
+  def insert_unique_record_all_and_commit(self, data_list):
+    ret = False
+    count = 0
+    for dict_rec in data_list:
+      if self.select_none(dict_rec['ASIN']) == True:
+        try:
+          cursor, execute_ret = self.db.execute(self.insert_sql, dict_rec)
+          count += 1
+        except self.db.sqlite3.ProgrammingError as err:
+          self.logger.error('appdb.py 1-1 sqlite3.ProgrammingError: {0}'.format(err))
+          execute_ret = False
+        except self.db.sqlite3.OperationalError as err:
+          self.logger.error('appdb.py 1-2 sqlite3.OperationalError: {0}'.format(err))
+          self.logger.error('appdb.py self.insert_sql=%s' % self.insert_sql)
+        execute_ret = False
+
+    if count > 0:
       self.db.commit()
+      self.logger.debug("self.db_commit")
+      ret = True
 
     return ret
 
-  def insert(self, ASIN, title, authors, publishers, publication_date, purchase_date, textbook_type, cde_contenttype, content_type):
+  def insert_and_commit(self, ASIN, title, authors, publishers, publication_date, purchase_date, textbook_type, cde_contenttype, content_type):
     ret = False
     try:
       sql = "INSERT INTO {0} (ASIN, title, authors, publishers, publication_date, purchase_date, textbook_type, cde_contenttype, content_type) VALUES ('{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}')"
       #self.db.execute_and_commit(sql.format(self.table_name, ASIN, title, authors, publishers, publication_date, purchase_date, textbook_type, cde_contenttype, content_type))
       stmt = sql.format(self.table_name, ASIN, title, authors, publishers, publication_date, purchase_date, textbook_type, cde_contenttype, content_type)
-      #print(stmt)
-      self.db.execute_and_commit(stmt)
-      ret = True
+      #self.logger.debug(stmt)
+      cursor, execute_ret = self.db.execute_and_commit(stmt)
+      ret = execute_ret
     except self.db.sqlite3.ProgrammingError as err:
-      print('1-2 sqlite3.ProgrammingError: {0}'.format(err))
+      self.logger.error('1-2 sqlite3.ProgrammingError: {0}'.format(err))
 
     return ret
 
   def update(self, ASIN, stock):
     ret = False
     try:
-      self.db.execute_and_commit('UPDATE bookshelf SET stock = "{0}" WHERE ASIN = "{1}"'.format(stock, ASIN))
-      ret = True
+      cursor, execute_ret = self.db.execute_and_commit('UPDATE bookshelf SET stock = "{0}" WHERE ASIN = "{1}"'.format(stock, ASIN))
+      ret = execute_ret
     except self.db.sqlite3.ProgrammingError as err:
-      print('1-3 sqlite3.ProgrammingError: {0}'.format(err))
+      self.logger.error('1-3 sqlite3.ProgrammingError: {0}'.format(err))
 
     return ret
 
-  def select_one(self, value):
+  def select_one_record(self, value, specified_num):
     ret = False
     cursor = None
+    records = []
 
     try:
-      cursor = self.db.execute('SELECT * FROM {0} WHERE ASIN = "{1}"'.format(self.table_name, value))
-      #print("select_one: A")
-      if cursor != None:
-        #print("select_one: B")
-        lista = cursor.fetchall()
-
-        size = len( lista )
-        if size == 1:
-          for x in lista:
-            for y in x:
-              pass
+      sql = 'SELECT * FROM {0} WHERE ASIN = "{1}"'.format(self.table_name, value)
+      cursor, execute_ret = self.db.execute(sql)
+      #self.logger.debug("select_one: A")
+      if (execute_ret == True) & (cursor != None):
+        #self.logger.debug("select_one: B")
+        records = cursor.fetchall()
+        size = len( records )
+        if size == specified_num:
           ret = True
     except self.db.sqlite3.ProgrammingError as err:
-      print('1-5 sqlite3.ProgrammingError: {0}'.format(err))
+      self.logger.error('1-5 sqlite3.ProgrammingError: {0}'.format(err))
 
+    return [ret, records]
+
+  def select_one(self, value):
+    ret, records = self.select_one_record(value, 1)
     return ret
 
   def select_none(self, value):
-    ret = False
-    cursor = None
-
-    try:
-      cursor = self.db.execute('SELECT * FROM {0} WHERE ASIN = "{1}"'.format(self.table_name, value))
-      if cursor != None:
-        size = len( cursor.fetchall() )
-        if size == 0:
-          ret = True
-    except self.db.sqlite3.ProgrammingError as err:
-      print('1-6 sqlite3.ProgrammingError: {0}'.format(err))
-
+    ret, records = self.select_one_record(value, 0)
     return ret
 
   def select_all_as_dict(self, list):
@@ -107,15 +131,15 @@ class AppDb:
     ret = False
 
     try:
-      cursor = self.db.execute('SELECT * FROM {0}'.format(self.table_name))
-      if cursor != None:
+      cursor, execute_ret = self.db.execute('SELECT * FROM {0}'.format(self.table_name))
+      if (execute_ret == True) & (cursor != None):
         for r in cursor.fetchall():
           list.append( {'id': r['id'], 'ASIN': r['ASIN'], 'title': r['title'], 'authors': r['authors'], 'publishers': r['publishers'], 
                       'publication_date': r['publication_date'], 'purchase_date': r['purchase_date'], 'textbook_type': r['textbook_type'], 
                       'cde_contenttype': r['cde_contenttype'], 'content_type': r['content_type']} )
         ret = True
     except self.db.sqlite3.ProgrammingError as err:
-      print('1-4 sqlite3.ProgrammingError: {0}'.format(err))
+      self.logger.error('1-4 sqlite3.ProgrammingError: {0}'.format(err))
 
     return ret
 
@@ -124,47 +148,17 @@ class AppDb:
     ret = False
 
     try:
-      cursor = self.db.execute('SELECT * FROM {0}'.format(self.table_name))
-      if cursor != None:
+      cursor, execute_ret = self.db.execute('SELECT * FROM {0}'.format(self.table_name))
+      if (execute_ret == True) & (cursor != None):
         for r in cursor.fetchall():
           list.append( [r['id'], r['ASIN'], r['title'], r['authors'], r['publishers'], 
                         r['publication_date'], r['purchase_date'], r['textbook_type'], 
                         r['cde_contenttype'], r['content_type'] ] )
         ret = True
     except self.db.sqlite3.ProgrammingError as err:
-      print('1-4 sqlite3.ProgrammingError: {0}'.format(err))
+      self.logger.error('1-4 sqlite3.ProgrammingError: {0}'.format(err))
 
     return ret
 
   def close(self):
     self.db.close()
-
-  def get(self):
-    ret = False
-    rows = []
-
-    try:
-      self.cur.execute('SELECT * FROM {0}'.format(self.table_name))
-      for r in self.cur.fetchall():
-        rows.append( {'id': r['id'], 'ASIN': r['ASIN'], 'title': r['title'], 'authors': r['authors'], 'publishers': r['publishers'],
-                      'publication_date': r['publication_date'], 'purchase_date': r['purchase_date'],
-                      'textbook_type': r['textbook_type'], 'cde_contenttype': r['cde_contenttype'], 'content_type': r['content_type']} )
-      ret = True
-    except self.db.sqlite3.ProgrammingError as err:
-      print('1-7 sqlite3.ProgrammingError: {0}'.format(err))
-
-    return rows
-
-  def set(self, values):
-    ret = False
-    place_holder = ','.join('?'*len(values))
-    sql = f'INSERT INTO {self.table_name} VALUES ({place_holder})'
-
-    try:
-      self.db.execute(sql, values)
-      self.conn.commit()
-      ret = True
-    except self.db.sqlite3.ProgrammingError as err:
-      print('1-8 sqlite3.ProgrammingError: {0}'.format(err))
-
-    return ret

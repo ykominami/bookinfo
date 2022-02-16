@@ -13,6 +13,10 @@ from websocket_server import WebsocketServer
 class OrenoServer:
 
     def __init__(self):
+        self.logger = getLogger(__name__)
+        self.logger.debug('using debug. start running')
+        self.logger.debug('finished running')
+
         self.HOST = 'localhost'
         self.HTTP_PORT = 8080
         self.WS_PORT = 8081
@@ -119,7 +123,7 @@ class OrenoDataBase:
         # データベースへコミット。これで変更が反映される。
         self.conn.commit()
       except sqlite3.OperationalError as err:
-        print( "Sqlite3db create_table sqlite3.OperationalError: {0}".format(err) )
+        logger.debug( "Sqlite3db create_table sqlite3.OperationalError: {0}".format(err) )
 
     def get(self):
         self.cur.execute('SELECT * FROM ndl')
