@@ -1,3 +1,4 @@
+from logging import basicConfig, getLogger, DEBUG
 import os.path
 import argparse
 import csv
@@ -12,8 +13,12 @@ from googleapiclient.errors import HttpError
 
 class GoogleApiClientx:
   def __init__(self, env):
+    self.logger = getLogger(__name__)
+    self.logger.debug('using debug. start running')
+    self.logger.debug('finished running')
+
     self.env = env
-    self.SCOPES = env.get_SCOPES()
+    self.SCOPES = env.SCOPES
     # The ID and range of a sample spreadsheet.
     # SAMPLE_SPREADSHEET_ID = '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms'
     self.SPREADSHEET_ID = self.env.SPREADSHEET_ID #'1bx2wC_XhNvQOhdNiK1JTx1UcfXHMHpsMelxuhk0yrEo'
@@ -26,7 +31,7 @@ class GoogleApiClientx:
 
   def get_file_paths(self, path):
     target_path = os.path.join(path , 'webapi*.csv')
-    print( 'target_path=%s'  % (target_path) )
+    self.logger.debug( 'target_path=%s'  % (target_path) )
     files = glob.glob( target_path )
     return files
 
@@ -38,7 +43,7 @@ class GoogleApiClientx:
 
   def prepare_creds(self):
     """Shows basic usage of the Sheets API.
-    Prints values from a sample spreadsheet.
+    self.logger.debugs values from a sample spreadsheet.
     """
     creds = None
     #
@@ -77,4 +82,4 @@ class GoogleApiClientx:
       resource.append(spreadsheetId=self.SPREADSHEET_ID, range=self.RANGE_NAME,
                       valueInputOption='USER_ENTERED', body=body).execute()
     except HttpError as err:
-      print(err)
+      self.logger.debug(err)
