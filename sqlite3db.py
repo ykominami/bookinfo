@@ -4,30 +4,31 @@ from pathlib import Path
 import os
 
 class Sqlite3db:
-  def init_for_create(self, p):
-    if not p.exists():
+  def init_for_create(self, path):
+    if not path.exists():
       self.valid_db = True
 
-  def init_for_update(self, p):
+  def init_for_update(self, path):
     self.logger.debug("init_for_update   -----------")
-    self.logger.debug(p)
-    if p.exists():
-      statinfo = os.stat(p)
+    self.logger.debug(path)
+    if path.exists():
+      statinfo = os.stat(path)
       if statinfo.st_size > 0:
         self.valid_db = True
     self.logger.debug("init_for_update E -----------")
 
-  def __init__(self, cmd, db_file, table_def_stmt, ensure_sql):
+  #def __init__(self, cmd, db_file, table_def_stmt):
+  def __init__(self, cmd, db_file, env):
     self.logger = getLogger(__name__)
     self.logger.debug('using debug. start running')
     self.logger.debug('finished running')
 
     self.sqlite3 = sqlite3
     self.db_file = db_file
-    self.table_def_stmt = table_def_stmt
-    self.ensure_sql = ensure_sql
+    self.env = env
+    #self.table_def_stmt = table_def_stmt
 
-    self.table_def = False
+    #self.table_def = False
     self.conn = None
     self.cursor = None
     self.valid_db = False
@@ -45,28 +46,31 @@ class Sqlite3db:
     self.logger.debug("self.db_file=%s" % (self.db_file))
 
     if self.conn == None:
+      self.logger.debug(self.db_file)
       self.conn = sqlite3.connect(self.db_file, check_same_thread = False,
         detect_types=sqlite3.PARSE_DECLTYPES|sqlite3.PARSE_COLNAMES)
       sqlite3.dbapi2.converters['DATETIME'] = sqlite3.dbapi2.converters['TIMESTAMP']
       self.conn.row_factory = sqlite3.Row
-      self.logger.debug("sqlite3db.py connect None -> conn=", self.conn)
+      self.logger.debug("sqlite3db.py connect None -> conn={}".format(self.conn))
 
     self.logger.debug("sqlite3db.py 2 connect=")
     self.logger.debug(self.conn)
     self.cursor = self.conn.cursor()
     self.logger.debug(self.cursor)
 
-  def create_table_and_commit(self):
-    self.create_table()
+  def create_table_and_commit(self, key):
+    self.create_table(key)
     # データベースへコミット。これで変更が反映される。
     self.conn.commit()
 
-  def create_table(self):
+  def create_table(self, key):
     ret = False
     cursor = self.get_cursor()
     #cursor)
     try:
-      cursor.execute(self.table_def_stmt)
+      sql = self.env.d[key]['table_def_stmt']
+      #print(sql)
+      cursor.execute(sql)
       ret = True
     except sqlite3.OperationalError as err:
       self.logger.error( "Sqlite3db create_table sqlite3.OperationalError: {0}".format(err) )
