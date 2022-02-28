@@ -77,7 +77,6 @@ class KindleList(AppBase):
 
   '''
   def make_purchase_table_record(self, item, dict):
-    #print(item)
     if item.get('purchase_date', None) != None:
       dt = datetime.datetime.strptime( item['purchase_date'], "%Y-%m-%dT%H:%M:%S+0000" )
       year_str = "%04d" % dt.year
@@ -96,7 +95,6 @@ class KindleList(AppBase):
     return ret_dict
 
   def make_progress_table_record(self, item, dict):
-    #print(item)
     if item.get('progress_date', None) != None:
       dt = datetime.datetime.strptime( item['progress_date'], "%Y-%m-%dT%H:%M:%S+0000" )
       year_str = "%04d" % dt.year

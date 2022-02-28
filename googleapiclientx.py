@@ -31,7 +31,7 @@ class GoogleApiClientx:
             "values": data
             }
     ret = self.upload2gss_append_with_body(body, clear_flag)
-    print(ret)
+    logger.debug(ret)
     return ret
 
   def get_spreadsheet_service(self):
@@ -59,21 +59,21 @@ class GoogleApiClientx:
     try:
       resource = sheet.values()
       if clear_flag:
-        print("clear all")
+        logger.debug("clear all")
         resource.clear(spreadsheetId=self.SPREADSHEET_ID, range=clear_range).execute()
       else:
-        print("Not clear all")
+        logger.debug("Not clear all")
 
       ret = resource.append(spreadsheetId=self.SPREADSHEET_ID, range=self.RANGE_NAME,
                       valueInputOption='USER_ENTERED', body=body).execute()
     except HttpError as err:
       self.logger.debug(err)
 
-    print(ret)
+    logger.debug(ret)
     return ret
 
   def upload2gss_batchUpdate(self, request):
-    print('googleapiclientx.py | upload2gss_batchUpdate')
+    logger.debug('googleapiclientx.py | upload2gss_batchUpdate')
     body={'requests':request}
 
     ret = self.upload2gss_batchUpdate_with_body(body)
@@ -88,10 +88,8 @@ class GoogleApiClientx:
     return ret
 
   def upload2gss_batchUpdate_with_body(self, body, clear_flag=False):
-    print("googleapiclientx.py | upload2gss_batchUpdate_with_body")
-    print("body={}".format(body))
-    #exit(0)
-    #creds = self.prepare_creds()
+    logger.debug("googleapiclientx.py | upload2gss_batchUpdate_with_body")
+    logger.debug("body={}".format(body))
     clear_range = self.env_table['clear_range'] #"A1:J"
     response = None
     sheetid = None
@@ -103,14 +101,14 @@ class GoogleApiClientx:
     try:
       resource = sheet.values()
       if clear_flag:
-        print("clear all")
+        logger.debug("clear all")
         resource.clear(spreadsheetId=self.SPREADSHEET_ID, range=clear_range).execute()
       response = sheet.batchUpdate(spreadsheetId=self.SPREADSHEET_ID, body=body).execute()
       sheetid=response['replies'][0]['addSheet']['properties']['sheetId']
-      print(response['replies'][0]['addSheet']['properties'])
+      logger.debug(response['replies'][0]['addSheet']['properties'])
     except HttpError as err:
       self.logger.debug(err)
-    print(sheetid)
+    logger.debug(sheetid)
 
     return response
 

@@ -25,23 +25,16 @@ class AppBase:
     self.newline = db['newline']
     self.table_env = {}
     self.credential = Credential(env_gcp)
-    #self.credential.try_prepare_creds()
 
   def dictarray2db(self, key, nary):
     Util.escape_single_quote_all(nary, self.env.d[key]['text_fields'])
-    #print("={}".format(key))
-    #print(nary)
-    #print("len={}".format(len(nary)))
     ret = self.appdb.insert_unique_record_all_and_commit(key, nary)
     return ret
 
   def create_table(self, key):
-    #self.logger.debug("KindleList create_table")
-    #self.appdb.create_table(key)
     self.appdb.create_table_and_commit(key)
 
   def db_close(self):
-    #self.logger.debug("KindleList db_close")
     self.appdb.close()
 
   def csv2dict(self):
@@ -64,15 +57,16 @@ class AppBase:
   def db2gss_append(self, key, clear_flag=False):
     listx = []
     ret = self.appdb.select_all_as_dict(key, listx)
+    return ret
 
   def db2gss_batchUpdate2(self, key, clear_flag=False):
-    print('appbase.py | db2gss_batchUpdate2')
+    self.logger.debug('appbase.py | db2gss_batchUpdate2')
     #exit(0)
     listx = []
     requests = []
     ret = self.appdb.select_all_as_dict(key, listx)
     if ret and len(listx) > 0:
-      print("db2gss_batchUpdate")
+      self.logger.debug("db2gss_batchUpdate")
       gac = self.get_googleapiclientx(key)
       if gac:
         requests.append({
@@ -117,18 +111,16 @@ class AppBase:
           })
 
         body = { 'requests': requests }
-        print(body)
-        print("====")
         #gac.upload2gss_append_with_body(body)
         gac.upload2gss_batchUpdate_with_body(body, clear_flag)
 
   def db2gss_batchUpdate(self, key, sheetname, clear_flag=False):
-    print('appbase.py | db2gss_batchUpdate')
+    self.logger.debug('appbase.py | db2gss_batchUpdate')
     #exit(0)
     listx = []
     ret = self.appdb.select_all_as_dict(key, listx)
     if ret and len(listx) > 0:
-      print("db2gss_batchUpdate")
+      self.logger.debug("db2gss_batchUpdate")
       gac = self.get_googleapiclientx(key)
       if gac:
         requests=[]
@@ -145,7 +137,7 @@ class AppBase:
         gac.upload2gss_batchUpdate_with_body(body, clear_flag)
 
   def db2gss_update(self, key, data, clear_flag=False):
-    print('appbase.py | db2gss_update_0')
+    self.logger.debug('appbase.py | db2gss_update_0')
     listx = []
     ret = self.appdb.select_all_as_dict(key, listx)
     if ret and len(listx) > 0:
@@ -158,12 +150,12 @@ class AppBase:
         gac.upload2gss_update_with_body(listx, value_input_option, insert_data_option, clear_flag)
 
   def db2gss_update_0(self, key, data, clear_flag=False):
-    print('appbase.py | db2gss_update_0')
+    self.llogger.debug('appbase.py | db2gss_update_0')
     #exit(0)
     listx = []
     ret = self.appdb.select_all_as_dict(key, listx)
     if ret and len(listx) > 0:
-      print("db2gss_batchUpdate")
+      self.logger.debug("db2gss_batchUpdate")
       gac = self.get_googleapiclientx(key)
       if gac:
         #range_ = 'sheet1'+"!A1:B10"
@@ -234,17 +226,13 @@ class AppBase:
 
 
   def get_gss(self, key):
-    print("get_gss")
+    self.logger.debug("get_gss")
     response = None
-    #self.logger.debug(list)
     gac = self.get_googleapiclientx(key)
     if gac:
       range_val = 'Sheet10!A1:B10'
 
-      #gac.upload2gss_append_with_body(body)
       ranges = [range_val]
       include_grid_data = True
       response = gac.gss_get(ranges, include_grid_data)
-      #print(list2)
-      #gac.upload2gss( listx2 )
     return response

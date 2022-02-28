@@ -51,11 +51,9 @@ class AppDb:
     count = 0
     for dict_rec in data_list:
       ret = self.select_none(key, dict_rec[self.env.d[key]['id_field']])
-      #print(ret)
       if ret == True:
         try:
           sql = self.env.d[key]['insert_sql']
-          #print(sql)
           cursor, execute_ret = self.db.execute(sql, dict_rec)
           count += 1
         except self.db.sqlite3.ProgrammingError as err:
@@ -80,16 +78,12 @@ class AppDb:
     table = self.env.d[key]
     try:
       sql = 'SELECT * FROM {0} WHERE {1} = "{2}"'.format(table['table_name'], table['id_field'], value)
-      #print("sql=%s" % sql)
       cursor, execute_ret = self.db.execute(sql)
       self.logger.debug("select_one: A")
       if (execute_ret == True) & (cursor != None):
         self.logger.debug("select_one: B")
         records = cursor.fetchall()
         size = len( records )
-        #print("size=%d" % size)
-        #print("specified_num=%d" % specified_num)
-        #print(records[0])
         if size == specified_num:
           ret = True
           self.logger.debug("select_one: C")
@@ -143,12 +137,12 @@ class AppDb:
         columns_str = ','.join(columns)
         sql = 'SELECT {1} FROM {0}'.format(table['table_name'], columns_str)
 
-      print("sql=%s" % sql)
+      self.logger.debug("sql=%s" % sql)
       cursor, execute_ret = self.db.execute(sql)
-      print("execute_ret={}".format(execute_ret))
-      print("cursor={}".format(cursor))
+      self.logger.debug("execute_ret={}".format(execute_ret))
+      self.logger.debug("cursor={}".format(cursor))
       if (execute_ret == True) & (cursor != None):
-        print("appdb select_all")
+        self.logger.debug("appdb select_all")
         for r in cursor.fetchall():
           if columns == None:
             list.append( [ r.values() ] )

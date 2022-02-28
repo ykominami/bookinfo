@@ -26,18 +26,18 @@ class Credential:
     self.credentials = env_gcp['credentials']
 
   def prepare_creds(self):
-    print(self.token_path)
+    logger.debug(self.token_path)
     if not self.creds:
-      print("credentail 1")
+      logger.debug("credentail 1")
       if os.path.exists(self.token_path):
-        print("credentail 12")
+        logger.debug("credentail 12")
         with open(self.token_path, 'rb') as token:
-          print("credentail 2")
+          logger.debug("credentail 2")
           self.creds = pickle.load(token)
       else:
-        print("credentail 13")
+        logger.debug("credentail 13")
     else:
-      print("credentail 3")
+      logger.debug("credentail 3")
     if not self.creds or not self.creds.valid:
         if self.creds and self.creds.expired and self.creds.refresh_token:
             self.creds.refresh(Request())
@@ -49,8 +49,6 @@ class Credential:
         with open(self.token_path, 'wb') as token:
             pickle.dump(self.creds, token)
     return self.creds
-    print("credentail 4")
-    exit(0)
 
   def prepare_creds_0(self):
     if not self.creds and os.path.exists(self.token_path):

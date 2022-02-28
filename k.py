@@ -6,6 +6,16 @@ import argparse
 from calibrex import Calibrex
 import json
 
+# basicConfig(level=CRITICAL)
+# basicConfig(level=ERROR)
+# basicConfig(level=WARNING)
+basicConfig(level=INFO)
+#basicConfig(level=DEBUG)  #デバッグ時にアンコメントしよ
+# basicConfig(level=NOTSET)
+logger = getLogger(__name__)
+logger.debug('main using debug. start running')
+logger.debug('main finished running')
+
 
 def cmd_get(inst, target_name, target):
   response = inst.get_gss('purchase')
@@ -39,14 +49,14 @@ def cmd_update(inst, target_name, target):
 
 
 def cmd_batchUpdate(inst, target_name, target):
-  print('appbase.py | cmd_batchUpdate')
+  logger.debug('appbase.py | cmd_batchUpdate')
   sheetname = 'sheet10'
   #exit(0)
   inst.db2gss_batchUpdate('purchase', sheetname)
 
 
 def cmd_batchUpdate2(inst, target_name, target):
-  print('appbase.py | cmd_batchUpdate2')
+  logger.debug('appbase.py | cmd_batchUpdate2')
   #exit(0)
   inst.db2gss_batchUpdate2('purchase')
 
@@ -72,11 +82,11 @@ def db_process(env, target_name, cmd):
   elif cmd == 'update':
     cmd_update(inst, target_name, target)
   elif cmd == 'batchupdate':
-    print('k.py | batchupdate')
+    logger.debug('k.py | batchupdate')
     #exit(0)
     cmd_batchUpdate(inst, target_name, target)
   elif cmd == 'batchupdate2':
-    print('k.py | batchupdate2')
+    logger.debug('k.py | batchupdate2')
     #exit(0)
     cmd_batchUpdate2(inst, target_name, target)
   elif cmd == 'append':
@@ -88,42 +98,20 @@ def db_process(env, target_name, cmd):
     response = json.loads(content)
     list = response['sheets']
     list2 = [ it['data'] for it in list]
-    #print( list2[0] )
     list3 = [ x['rowData'] for x in list2[0]]
-    #print(list3[0])
     x = json.dumps(list3, separators=(',', ':'), sort_keys=True, indent=4)
-    print(x)
-    '''
-    for x in list2:
-      print(x)
-      print('')
-    '''
-
-  #elif cmd == 'append':
-  #  inst.cmd_update2(target_name, target, gcp)
+    logger.debug(x)
   else:
     logger.error("unknown command: {}".format(cmd))
     sys.exit(1)
   inst.db_close()
 
-# basicConfig(level=CRITICAL)
-# basicConfig(level=ERROR)
-# basicConfig(level=WARNING)
-#basicConfig(level=INFO)
-basicConfig(level=DEBUG)  #デバッグ時にアンコメントしよ
-# basicConfig(level=NOTSET)
-logger = getLogger(__name__)
-logger.debug('main using debug. start running')
-logger.debug('main finished running')
-
 parser = argparse.ArgumentParser()
 parser.add_argument('target', help='target help')
 parser.add_argument('cmd', help='cmd help')
 args = parser.parse_args(sys.argv[1:])
-#logger.debug("--")
 TARGET = args.target.lower()
 CMD = args.cmd.lower()
-#exit()
 
 env3 = Env3()
 db_process(env3, TARGET, CMD)
