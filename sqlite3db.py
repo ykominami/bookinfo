@@ -40,6 +40,12 @@ class Sqlite3db:
       #
     self.connect()
 
+  def dict_factory(self, cursor, row):
+    d = {}
+    for idx, col in enumerate(cursor.description):
+      d[col[0]] = row[idx]
+    return d
+
   def connect(self):
     self.logger.debug("sqlite3db.py connect=")
     self.logger.debug(self.conn)
@@ -50,7 +56,8 @@ class Sqlite3db:
       self.conn = sqlite3.connect(self.db_file, check_same_thread = False,
         detect_types=sqlite3.PARSE_DECLTYPES|sqlite3.PARSE_COLNAMES)
       sqlite3.dbapi2.converters['DATETIME'] = sqlite3.dbapi2.converters['TIMESTAMP']
-      self.conn.row_factory = sqlite3.Row
+      #self.conn.row_factory = sqlite3.Row
+      self.conn.row_factory = self.dict_factory
       self.logger.debug("sqlite3db.py connect None -> conn={}".format(self.conn))
 
     self.logger.debug("sqlite3db.py 2 connect=")
@@ -69,7 +76,6 @@ class Sqlite3db:
     #cursor)
     try:
       sql = self.env.d[key]['table_def_stmt']
-      #print(sql)
       cursor.execute(sql)
       ret = True
     except sqlite3.OperationalError as err:
