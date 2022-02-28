@@ -19,7 +19,7 @@ class KindleList(AppBase):
 
   def create_table(self, key):
     self.logger.debug("KindleList create_table")
-    self.appdb.create_table(key)
+    self.appdb.create_table_and_commit(key)
 
   def db_close(self):
     self.logger.debug("KindleList db_close")

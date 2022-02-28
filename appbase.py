@@ -25,7 +25,7 @@ class AppBase:
     self.newline = db['newline']
     self.table_env = {}
     self.credential = Credential(env_gcp)
-    self.credential.try_prepare_creds()
+    #self.credential.try_prepare_creds()
 
   def dictarray2db(self, key, nary):
     Util.escape_single_quote_all(nary, self.env.d[key]['text_fields'])
@@ -37,7 +37,8 @@ class AppBase:
 
   def create_table(self, key):
     #self.logger.debug("KindleList create_table")
-    self.appdb.create_table(key)
+    #self.appdb.create_table(key)
+    self.appdb.create_table_and_commit(key)
 
   def db_close(self):
     #self.logger.debug("KindleList db_close")
@@ -144,7 +145,20 @@ class AppBase:
         gac.upload2gss_batchUpdate_with_body(body, clear_flag)
 
   def db2gss_update(self, key, data, clear_flag=False):
-    print('appbase.py | db2gss_update')
+    print('appbase.py | db2gss_update_0')
+    listx = []
+    ret = self.appdb.select_all_as_dict(key, listx)
+    if ret and len(listx) > 0:
+      gac = self.get_googleapiclientx(key)
+      if gac:
+        table = self.env.d[key]
+        range_ = table['RANGE_NAME']
+        value_input_option = 'USER_ENTERED'
+        insert_data_option = 'OVERWRITE'
+        gac.upload2gss_update_with_body(listx, value_input_option, insert_data_option, clear_flag)
+
+  def db2gss_update_0(self, key, data, clear_flag=False):
+    print('appbase.py | db2gss_update_0')
     #exit(0)
     listx = []
     ret = self.appdb.select_all_as_dict(key, listx)

@@ -104,7 +104,7 @@ class Env3:
       'table_columns':table_columns_kindle_book,
       'text_fields':text_fields_kindle_book,
       'id_field':'ASIN',
-      'SPREADSHEET_ID':'1bx2wC_XhNvQOhdNiK1JTx1UcfXHMHpsMelxuhk0yrEo',
+      'SPREADSHEET_ID':'1h7HE9S3fzDVa8TclQySC_bokN8v6bGmYL-VrKjm6iXM',
       'SAMPLE_RANGE_NAME':'A2:E',
       'RANGE_NAME':'sheet10!A1:Z',
       'MAJOR_DIMENSION':'ROWS',
@@ -416,7 +416,8 @@ class Env3:
     #self.d['calibre'] = init_calibre()
     self.d['gcp'] = {}
     self.d['gcp']['credentials'] = 'client_secret_855711122174-5itvr3iu0fpa5un9fvl6j3f1qu1su19m.apps.googleusercontent.com.json'
-    self.d['gcp']['token'] = 'token.json'
+    #self.d['gcp']['token'] = 'token.json'
+    self.d['gcp']['token'] = 'token.pickle'
     self.d['gcp']['SCOPES'] = ['https://www.googleapis.com/auth/spreadsheets']
     self.db_dir = Path( r'C:\Users\ykomi\cur\python\kindledb' )
 

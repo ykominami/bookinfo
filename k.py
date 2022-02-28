@@ -18,15 +18,18 @@ def cmd_append(inst, target_name, target):
   nary = []
   inst.db2gss_append('purchase')
 
+def cmd_create(inst, target_name, target):
+  inst.create_table('book')
+  inst.create_table('purchase')
+  inst.create_table('progress')
+
 def cmd_update(inst, target_name, target):
-  db_fname = target.get_latest_db_fname()
-  target.set_db_fname( db_fname )
   #inst = Calibrex(target, CMD)
   nary = []
-  ret = self.src2db('book', nary)
-  #self.db2gss_update('book')
+  ret = inst.src2db('book', nary)
+  inst.db2gss_update('book', nary)
   listx = []
-  ret = self.get_id_from_db('book', listx)
+  ret = inst.get_id_from_db('book', listx)
   dict = { x[1]:x[0] for x in listx }
   nary_purchase = inst.dictarray_for_purchase(nary, dict)
   #self.dictarray2db('purchase', nary_purchase)
@@ -53,6 +56,13 @@ def db_process(env, target_name, cmd):
     return None
   gcp = env.d['gcp']
   target = env.d[target_name]
+  if cmd == 'create':
+    db_fname = target.get_new_db_fname()
+    target.set_db_fname( db_fname )
+  elif cmd == 'update':
+    db_fname = target.get_latest_db_fname()
+    target.set_db_fname( db_fname )
+
   klass = env.d['klass'][target_name]
   inst = klass(target, gcp, cmd)
   if cmd == 'get':

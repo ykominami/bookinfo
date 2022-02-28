@@ -27,7 +27,7 @@ class AppDb:
   def db(self, arg):
     self._db = arg
 
-  def create_table(self, key):
+  def create_table_and_commit(self, key):
     self.logger.debug("AppDb create_table")
     self.db.create_table_and_commit(key)
 
