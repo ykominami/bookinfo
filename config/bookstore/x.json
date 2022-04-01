@@ -1,0 +1,62 @@
+{
+  "dict_bookstore_db": {
+    "db_file_ext": "sqlite",
+    "db_fname_base": "",
+    "db_id": 0,
+    "encoding": "utf_8_sig",
+    "newline": ""
+  },
+  "dict_bookstore_book": {
+      "MAJOR_DIMENSION": "ROWS",
+      "RANGE_NAME": "sheet10!A1:Z",
+      "SAMPLE_RANGE_NAME": "A2:E",
+      "SPREADSHEET_ID": "",
+      "clear_range": "A1:J",
+      "id_field": "asin",
+      "id_related_columns": [
+          "id",
+          "asin"
+      ],
+      "table_columns": [],
+      "table_name": "book",
+      "text_fields": []
+  },
+  "dict_bookstore_progress": {
+      "SPREADSHEET_ID": "",
+      "table_name": "progress",
+      "text_fields": []
+  },
+  "dict_bookstore_purchase": {
+      "MAJOR_DIMENSION": "ROWS",
+      "RANGE_NAME": "A1",
+      "SAMPLE_RANGE_NAME": "A2:E",
+      "SPREADSHEET_ID": "",
+      "clear_range": "A1:J",
+      "id_field": "ext_id",
+      "table_name": "purchase",
+      "text_fields": []
+  },
+  "spreadsheet_ids": {
+      "2014": "1C5AW-QPwJoMn9NcKRZMIScO5fB63KbWKiO2XE0kHDSc",
+      "2015": "1aE_ckhR6jqdF233vLJ124MFzSUsB7m_dWguKg4NEQFU",
+      "2016": "1ABSIIio25bDy3_jNZWkuKs4yUNGBDfuY_k9trl0IpW0",
+      "2017": "1BQVRjVGqw98aaQZ24ZXnTFw9cVOn07r-LFKI2gPK_0Y",
+      "2018": "113anNUwziaOobJQCgfJJrhTPdgRLAfplXrDfhoSkcq0",
+      "2019": "1F4zFRKTnX2G4Ffd83_BAZotSIXk6L9u7diSgCD-XW5k",
+      "2020": "1r0VK42-ZRMVqkIrED1O_xR8ap-uWBKkPD6tPTZvzE_E",
+      "2021": "1ShcCrP8x3V3XC028dvZjirMLY0c1Gj4Qc1U1vBn6Uu4",
+      "2022": "1JAqTpaLFUJX1m5GCFRCKaKARMDJkPxZkFvGPvWT3Jsc"
+  },
+  "text_fields_bookstore_book": [
+      "xid",
+      "asin",
+      "title",
+      "authors",
+      "publishers",
+      "publication_date",
+      "purchase_date",
+      "read_status",
+      "shape",
+      "category"
+  ]
+}

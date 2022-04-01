@@ -26,45 +26,28 @@ class Credential:
     self.credentials = env_gcp['credentials']
 
   def prepare_creds(self):
-    logger.debug(self.token_path)
+    self.logger.debug(self.token_path)
     if not self.creds:
-      logger.debug("credentail 1")
+      self.logger.debug("credentail 1")
       if os.path.exists(self.token_path):
-        logger.debug("credentail 12")
+        self.logger.debug("credentail 12")
         with open(self.token_path, 'rb') as token:
-          logger.debug("credentail 2")
+          self.logger.debug("credentail 2")
           self.creds = pickle.load(token)
       else:
-        logger.debug("credentail 13")
+        self.logger.debug("credentail 13")
     else:
-      logger.debug("credentail 3")
+      self.logger.debug("credentail 3")
     if not self.creds or not self.creds.valid:
-        if self.creds and self.creds.expired and self.creds.refresh_token:
-            self.creds.refresh(Request())
-        else:
-            flow = InstalledAppFlow.from_client_secrets_file(
-                self.credentials, self.SCOPES)
-            self.creds = flow.run_local_server(port=0)
-        # Save the credentials for the next run
-        with open(self.token_path, 'wb') as token:
-            pickle.dump(self.creds, token)
-    return self.creds
-
-  def prepare_creds_0(self):
-    if not self.creds and os.path.exists(self.token_path):
-      with open(self.token_path, 'rb') as token:
-        self.creds = pickle.load(token)
-    # If there are no (valid) credentials available, let the user log in.
-    if not self.creds or not self.creds.valid:
-        if self.creds and self.creds.expired and self.creds.refresh_token:
-            self.creds.refresh(Request())
-        else:
-            flow = InstalledAppFlow.from_client_secrets_file(
-                self.credentials, self.SCOPES)
-            self.creds = flow.run_local_server(port=0)
-        # Save the credentials for the next run
-        with open(self.token_path, 'wb') as token:
-            pickle.dump(self.creds, token)
+      if self.creds and self.creds.expired and self.creds.refresh_token:
+        self.creds.refresh(Request())
+      else:
+        flow = InstalledAppFlow.from_client_secrets_file(
+          self.credentials, self.SCOPES)
+        self.creds = flow.run_local_server(port=0)
+      # Save the credentials for the next run
+      with open(self.token_path, 'wb') as token:
+        pickle.dump(self.creds, token)
     return self.creds
 
   def try_prepare_creds(self):
@@ -74,9 +57,8 @@ class Credential:
       try:
         creds = self.prepare_creds()
         return [True, creds]
-      #except google.auth.exceptions.RefreshError:
       except:
-        self.logger.debug("RefreshError")
+        self.logger.critical("RefreshError")
         Path(self.token_path).unlink(True)
         counter += 1
     return [False, creds]

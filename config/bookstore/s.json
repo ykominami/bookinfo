@@ -1,0 +1,5 @@
+{
+  "table_columns_bookstore_book":             ["id"],
+  "table_columns_bookstore_purchase": ["id"],
+  "table_columns_bookstore_progress": ["id"]
+}

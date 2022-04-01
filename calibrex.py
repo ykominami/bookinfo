@@ -14,10 +14,12 @@ class Calibrex(AppBase):
 
     super().__init__(env, env_gcp, cmd)
 
+  '''
   def test_csv2db(self):
     val0 = "O'm a tes't strin'g"
     s = self.escape_single_quote(val0)
     self.appdb.test_insert(s)
+  '''
 
   def csv2dict0(self):
     ret = False
@@ -75,9 +77,9 @@ class Calibrex(AppBase):
     self.dictarray2db('purchase', nary_purchase)
     nary_purchase = [ it for it in nary_purchase if it.get('purchase_date', None) != None ]
     self.dictarray2db('purchase', nary_purchase)
-    self.db2gss('purchase', gcp)
+    self.db2gss_update('purchase', gcp)
 
     nary_progress = self.dictarray_for_progress(nary, dict)
     nary_progress = [ it for it in nary_progress if it.get('progress_date', None) != None ]
     self.dictarray2db('progress', nary_progress)
-    self.db2gss('progress', gcp)
+    self.db2gss_update('progress', gcp)

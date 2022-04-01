@@ -7,15 +7,15 @@ from sqlite3db import Sqlite3db
 
 class AppDb:
   #def __init__(self, cmd, db_file, table_name, table_def_stmt, id_field, insert_sql, table_columns):
-  def __init__(self, cmd, db_file, env):
+  def __init__(self, cmd, db_file, specific_env):
     self.logger = getLogger(__name__)
     self.logger.debug('using debug. start running')
     self.logger.debug('finished running')
 
     self.cmd = cmd
     self.db_file = db_file
-    self.env = env
-    self._db = Sqlite3db(self.cmd, self.db_file, self.env)
+    self.specific_env = specific_env
+    self._db = Sqlite3db(self.cmd, self.db_file, self.specific_env)
 
     self.logger.debug("AppDb.__init__: db_file={0}".format(db_file))
 
@@ -36,24 +36,24 @@ class AppDb:
     count = 0
     for dict_rec in data_list:
       try:
-        cursor, execute_ret = self.db.execute(self.env.d[key]['insert_sql'], dict_rec)
+        cursor, execute_ret = self.db.execute(self.specific_env.obj[key]['insert_sql'], dict_rec)
         count += 1
       except self.db.sqlite3.ProgrammingError as err:
         self.logger.error('appdb.py 1-1 sqlite3.ProgrammingError: {0}'.format(err))
         execute_ret = False
       except self.db.sqlite3.OperationalError as err:
         self.logger.error('appdb.py 1-2 sqlite3.OperationalError: {0}'.format(err))
-        self.logger.error('appdb.py self.insert_sql=%s' % self.env.d[key]['insert_sql'])
+        self.logger.error('appdb.py self.insert_sql=%s' % self.specific_env.obj[key]['insert_sql'])
         execute_ret = False
 
   def insert_unique_record_all_and_commit(self, key, data_list):
     ret = False
     count = 0
     for dict_rec in data_list:
-      ret = self.select_none(key, dict_rec[self.env.d[key]['id_field']])
+      ret = self.select_none(key, dict_rec[self.specific_env.obj[key]['id_field']])
       if ret == True:
         try:
-          sql = self.env.d[key]['insert_sql']
+          sql = self.specific_env.obj[key]['insert_sql']
           cursor, execute_ret = self.db.execute(sql, dict_rec)
           count += 1
         except self.db.sqlite3.ProgrammingError as err:
@@ -75,18 +75,18 @@ class AppDb:
     ret = False
     cursor = None
     records = []
-    table = self.env.d[key]
+    table = self.specific_env.obj[key]
     try:
       sql = 'SELECT * FROM {0} WHERE {1} = "{2}"'.format(table['table_name'], table['id_field'], value)
       cursor, execute_ret = self.db.execute(sql)
-      self.logger.debug("select_one: A")
+      #self.logger.debug("select_one: A")
       if (execute_ret == True) & (cursor != None):
-        self.logger.debug("select_one: B")
+        #self.logger.debug("select_one: B")
         records = cursor.fetchall()
         size = len( records )
         if size == specified_num:
           ret = True
-          self.logger.debug("select_one: C")
+          #self.logger.debug("select_one: C")
     except self.db.sqlite3.ProgrammingError as err:
       self.logger.error('1-5 sqlite3.ProgrammingError: {0}'.format(err))
 
@@ -103,7 +103,7 @@ class AppDb:
   def select_all_as_dict(self, key, list):
     cursor = None
     ret = False
-    table = self.env.d[key]
+    table = self.specific_env.obj[key]
 
     try:
       cursor, execute_ret = self.db.execute('SELECT * FROM {0}'.format(table['table_name']))
@@ -128,7 +128,7 @@ class AppDb:
   def select_all(self, key, list, columns = None):
     cursor = None
     ret = False
-    table = self.env.d[key]
+    table = self.specific_env.obj[key]
 
     try:
       if columns == None:
@@ -156,3 +156,9 @@ class AppDb:
 
   def close(self):
     self.db.close()
+
+  def convert_boolean_to_integer(self, nary, boolean_fields=[]):
+    self.db.convert_boolean_to_integer(nary, boolean_fields)
+
+  def convert_integer_to_boolean(self, nary, boolean_fields=[]):
+    self.db.convert_integer_to_boolean(nary, boolean_fields)

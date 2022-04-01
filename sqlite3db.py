@@ -18,14 +18,14 @@ class Sqlite3db:
     self.logger.debug("init_for_update E -----------")
 
   #def __init__(self, cmd, db_file, table_def_stmt):
-  def __init__(self, cmd, db_file, env):
+  def __init__(self, cmd, db_file, specific_env):
     self.logger = getLogger(__name__)
     self.logger.debug('using debug. start running')
     self.logger.debug('finished running')
 
     self.sqlite3 = sqlite3
     self.db_file = db_file
-    self.env = env
+    self.specific_env = specific_env
     #self.table_def_stmt = table_def_stmt
 
     #self.table_def = False
@@ -75,7 +75,13 @@ class Sqlite3db:
     cursor = self.get_cursor()
     #cursor)
     try:
-      sql = self.env.d[key]['table_def_stmt']
+      '''
+      print("table_def_stmt {}".format( self.specific_env.obj['book'] ))
+      print("table_def_stmt {}".format( self.specific_env.obj['book']['table_def_stmt'] ))
+      print("table_def_stmt {}".format( self.specific_env.obj['book']['insert_sql'] ))
+      print("#2 sqlite3db create_table specific_env.obj.keys() {}".format( self.specific_env.obj.keys() ))
+      '''
+      sql = self.specific_env.obj[key]['table_def_stmt']
       cursor.execute(sql)
       ret = True
     except sqlite3.OperationalError as err:
@@ -137,3 +143,30 @@ class Sqlite3db:
   def close(self):
     self.close_cursor()
     self.close_conn()
+
+  def convert_boolean_to_integer(self, nary, boolean_fields=[]):
+    for dict in nary:
+      for h in boolean_fields:
+        if h in dict.keys():
+          if dict[h] != None:
+            if dict[h]:
+              dict[h] = 1
+            else:
+              dict[h] = 0
+    for dict in nary:
+      for h in boolean_fields:
+        self.logger.error("0 h={} keys={}".format(h, dict.keys()) )
+        if h in dict.keys():
+          self.logger.error("1 h={}".format(h))
+          if dict[h] != None:
+            self.logger.error("2 {}" .format(dict[h]))
+
+  def convert_integer_to_boolean(self, nary, boolean_fields=[]):
+    for dict in nary:
+      for h in boolean_fields:
+        if h in dict.keys():
+          if dict[h] != None:
+            if dict[h] == 1:
+              dict[h] = True
+            else:
+              dict[h] = False

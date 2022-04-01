@@ -1,0 +1,54 @@
+# book table_def_stmt
+    CREATE TABLE if not exists book (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      xid INTEGER UNIQUE,
+      bookstore STRING,
+      title STRING,
+      asin STRING,
+      authors STRING,
+      publishers STRING,
+      publication_date TEXT,
+      purchase_date TEXT,
+      read_status INTEGER,
+      shape INTEGER,
+      category STRING
+      )
+# purchase table_def_stmt
+CREATE TABLE if not exists purchase (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      asin STRING UNIQUE,
+      ext_id INTEGER UNIQUE,
+      purchase_date TEXT,
+      year STRING,
+      month STRING,
+      day STRING,
+      year_month STRING,
+      year_month_day STRING,
+      foreign key (ext_id) references book(id)
+      )
+# progress table_def_stmt
+CREATE TABLE if not exists progress (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      asin STRING UNIQUE,
+      ext_id INTEGER UNIQUE,
+      status INTEGER,
+      progress_date TEXT,
+      year STRING,
+      month STRING,
+      day STRING,
+      year_month STRING,
+      year_month_day STRING,
+      foreign key (ext_id) references book(id)
+      )
+# book insert_sql
+INSERT INTO book
+          (xid,  bookstore,  title,  asin,  authors,  publishers,  publication_date,  purchase_date,  read_status,  shape,  category)
+    VALUES (:xid, :bookstore, :title, :asin, :authors, :publishers, :publication_date, :purchase_date, :read_status, :shape, :category)
+# purchase insert_sql
+INSERT INTO purchase
+           ( asin,  ext_id,  purchase_date, year, month, day, year_month, year_month_day)
+    VALUES (:asin, :ext_id, :purchase_date, :year, :month, :day, :year_month, :year_month_day)
+# progress insert_sql
+INSERT INTO progress
+           ( asin,  ext_id,  status,  progress_date,  year,  month,  day,  year_month,  year_month_day)
+    VALUES (:asin, :ext_id, :status, :progress_date, :year, :month, :day, :year_month, :year_month_day)

@@ -8,18 +8,19 @@ from googleapiclientx import GoogleApiClientx
 from credential import Credential
 
 class AppBase:
-  def __init__(self, env, env_gcp, cmd):
+  def __init__(self, specific_env, env_gcp, cmd):
     self.logger = getLogger(__name__)
     self.logger.debug('using debug. start running')
     self.logger.debug('finished running')
 
-    self.env = env
+    self.specific_env = specific_env
     self.cmd = cmd
-    db = self.env.d['db']
+    db = self.specific_env.target.d['db']
+    #print("AppBase __init__ db={}".format(db))
     self.appdb = AppDb(
       self.cmd,
       db['db_file'],
-      self.env,
+      self.specific_env,
     )
     self.encoding = db['encoding']
     self.newline = db['newline']
@@ -27,8 +28,27 @@ class AppBase:
     self.credential = Credential(env_gcp)
 
   def dictarray2db(self, key, nary):
-    Util.escape_single_quote_all(nary, self.env.d[key]['text_fields'])
+    text_fields = []
+    if 'text_fields' in self.env.d[key].keys():
+      if self.env.d[key]['text_fields'] is not None:
+        text_fields = self.env.d[key]['text_fields']
+
+    array_to_string_fields = []
+    if 'array_to_string_fields' in self.env.d[key].keys():
+      if self.env.d[key]['array_to_string_fields'] is not None:
+        array_to_string_fields = self.env.d[key]['array_to_string_fields']
+
+    Util.escape_single_quote_all(nary, text_fields, array_to_string_fields)
+
+    boolean_fields = []
+    if 'boolean_fields' in self.env.d[key].keys():
+      if self.env.d[key]['boolean_fields'] is not None:
+        boolean_fields = self.env.d[key]['boolean_fields']
+
+    self.appdb.convert_boolean_to_integer(nary, boolean_fields)
+
     ret = self.appdb.insert_unique_record_all_and_commit(key, nary)
+
     return ret
 
   def create_table(self, key):
@@ -111,33 +131,11 @@ class AppBase:
           })
 
         body = { 'requests': requests }
-        #gac.upload2gss_append_with_body(body)
         gac.upload2gss_batchUpdate_with_body(body, clear_flag)
 
-  def db2gss_batchUpdate(self, key, sheetname, clear_flag=False):
-    self.logger.debug('appbase.py | db2gss_batchUpdate')
-    #exit(0)
-    listx = []
-    ret = self.appdb.select_all_as_dict(key, listx)
-    if ret and len(listx) > 0:
-      self.logger.debug("db2gss_batchUpdate")
-      gac = self.get_googleapiclientx(key)
-      if gac:
-        requests=[]
-        requests.append({
-            'addSheet':{
-                "properties":{
-                    "title": sheetname,
-                    "index": "0",
-                    }
 
-                }
-            })
-        body={'requests':requests}
-        gac.upload2gss_batchUpdate_with_body(body, clear_flag)
-
-  def db2gss_update(self, key, data, clear_flag=False):
-    self.logger.debug('appbase.py | db2gss_update_0')
+  def db2gss_update(self, key, *, clear_flag=False):
+    self.logger.debug('appbase.py | db2gss_update')
     listx = []
     ret = self.appdb.select_all_as_dict(key, listx)
     if ret and len(listx) > 0:
@@ -148,37 +146,6 @@ class AppBase:
         value_input_option = 'USER_ENTERED'
         insert_data_option = 'OVERWRITE'
         gac.upload2gss_update_with_body(listx, value_input_option, insert_data_option, clear_flag)
-
-  def db2gss_update_0(self, key, data, clear_flag=False):
-    self.llogger.debug('appbase.py | db2gss_update_0')
-    #exit(0)
-    listx = []
-    ret = self.appdb.select_all_as_dict(key, listx)
-    if ret and len(listx) > 0:
-      self.logger.debug("db2gss_batchUpdate")
-      gac = self.get_googleapiclientx(key)
-      if gac:
-        #range_ = 'sheet1'+"!A1:B10"
-        table = self.env.d[key]
-        range_ = table['RANGE_NAME']
-        v={}
-        v['range']=range_
-        v['majorDimension']="ROWS"
-        v['values']=[
-        [1,  2, 4],
-        [3,  4],
-        [4,  5],
-        [5,  6],
-        [6,  7],
-        [7,  8],
-        [8,  9],
-        [10, 11],
-        [12, 13],
-        ['test', 'スプレッドシートのテストですよ'],
-        ]
-        value_input_option = 'USER_ENTERED'
-        insert_data_option = 'OVERWRITE'
-        gac.upload2gss_update_with_body(v, value_input_option, insert_data_option, clear_flag)
 
   def get_id_from_db(self, key, nary):
     ret = self.appdb.select_all(key, nary, self.env.d[key]['id_related_columns'])
@@ -193,46 +160,15 @@ class AppBase:
   def src2db(self, table_name):
     raise NotImplementedError('not implement src2db')
 
-  def cmd_create(self, target_name, target):
-    self.logger.debug("create table {}".format(target_name))
-    db_fname = target.get_new_db_fname()
-    self.logger.debug(db_fname)
-    self.logger.debug("------ START")
-    target.set_db_fname( db_fname )
-    self.create_table('book')
-    self.create_table('purchase')
-    self.create_table('progress')
-
-    self.logger.debug("------ END")
-
-  def cmd_update(self, target_name, target):
-    self.logger.debug("update table {}".format(target_name))
-    db_fname = target.get_latest_db_fname()
-    self.logger.debug(db_fname)
-    self.logger.debug("------")
-    target.set_db_fname( db_fname )
-    #inst = Calibrex(target, CMD)
-    nary = []
-    ret = self.src2db('book', nary)
-    self.db2gss('book')
-    listx = []
-    ret = self.get_id_from_db('book', listx)
-    dict = { x[1]:x[0] for x in listx }
-    nary_purchase = self.dictarray_for_purchase(nary, dict)
-    self.dictarray2db('purchase', nary_purchase)
-    nary_purchase = [ it for it in nary_purchase if it.get('purchase_date', None) != None ]
-    self.dictarray2db('purchase', nary_purchase)
-    self.db2gss_update('purchase')
-
-
-  def get_gss(self, key):
+  def get_gss(self, key, *, ranges=None, value_render_option='FORMATTED_VALUE', date_time_render_option='FORMATTED_STRING'):
     self.logger.debug("get_gss")
-    response = None
+    response = {}
     gac = self.get_googleapiclientx(key)
     if gac:
-      range_val = 'Sheet10!A1:B10'
-
-      ranges = [range_val]
-      include_grid_data = True
-      response = gac.gss_get(ranges, include_grid_data)
+      if ranges == None:
+        range_val = 'Sheet1!A1:B10'
+        ranges = range_val
+      self.logger.debug("ranges={} value_render_option={} date_time_render_option={}".format(ranges, value_render_option, date_time_render_option))
+      response = gac.gss_get(ranges, value_render_option=value_render_option, date_time_render_option=date_time_render_option)
+      #response = {}
     return response

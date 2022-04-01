@@ -1,0 +1,5 @@
+{
+  "table_columns_bookstore_book":     ${table_columns_default_bookstore},
+  "table_columns_bookstore_purchase": ${table_columns_default_bookstore},
+  "table_columns_bookstore_progress": ${table_columns_default_bookstore}
+}

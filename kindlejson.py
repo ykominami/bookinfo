@@ -1,5 +1,4 @@
 from logging import basicConfig, getLogger, DEBUG
-import xml.etree.ElementTree as ET
 import csv
 import sys
 import os
@@ -7,11 +6,21 @@ import datetime
 from appbase import AppBase
 from appdb import AppDb
 from util import Util
-class KindleList(AppBase):
+
+import json
+from pathlib import PurePath, Path
+import re
+
+class KindleJSON(AppBase):
   def __init__(self, env, env_gcp, cmd):
     self.logger = getLogger(__name__)
-    self.logger.debug('KindleList using debug. start running')
-    self.logger.debug('KindleList finished running')
+    self.logger.debug('using debug. start running')
+    self.logger.debug('finished running')
+
+    self.json_file_list = []
+
+    home = os.environ['HOME']
+    self.json_parent_path = Path(home, "dotfiles", "kindle")
 
     super().__init__(env, env_gcp, cmd)
 
@@ -24,28 +33,28 @@ class KindleList(AppBase):
     self.appdb.close()
 
   def src2db(self, key, nary):
-    nary.extend(self.xml2dictarray(key))
+    nary.extend(self.json2dictarray(key))
     ret = self.dictarray2db(key, nary)
     return ret
 
-  def xml2dictarray(self, key):
-    nary = []
-    tree = ET.parse(self.env.d['db']['kindle_cache_file'])
-    root = tree.getroot()
+  def get_json_file_list(self):
+    item_list = list(self.json_parent_path.glob("*"))
+    for item in item_list:
+      if item.is_dir() == True:
+        if re.match(r'^[0-9]+$', item.name) != None:
+          self.json_file_list = self.json_file_list + list(item.glob("**/*"))
 
-    for book_info in root[2]:
-      ary = []
-      for info in book_info:
-        #authers publishers are nested
-        if len(info) == 0:
-          ary.append(info.text)
-        else:
-          info_list = [ s.text for s in info ]
-          s = ','.join(info_list)
-          #self.logger.debug("info_list=", info_list)
-          ary.append(s)
-      dict0 = { k: v for (k, v) in zip(self.env.d[key]['xml_headers'], ary)}
-      nary.append(dict0)
+  def json2dictarray(self, key):
+    nary = []
+    xdict = {}
+    self.get_json_file_list()
+    for n in self.json_file_list:
+      with Path(n).open( encoding='utf_8' ) as f:
+        dict = json.load(f)
+        itemlist = dict['itemsList']
+        #xdict = xdict | { item['asin']: item for item in itemlist }
+        nary = nary + itemlist
+
     return nary
 
   def make_purchase_table_record(self, item, dict):
@@ -56,13 +65,11 @@ class KindleList(AppBase):
       day_str = "%02d" % dt.day
       year_month_str = "%s%s" % (year_str, month_str)
       year_month_day_str = "%s%s%s" % (year_str, month_str, day_str)
-      ret_dict = {'ASIN':item['ASIN'], 'ext_id':dict[ item['ASIN'] ], 'purchase_date':item['purchase_date'], 
-      'year':year_str, 'month':month_str, 'day':day_str, 'year_month':year_month_str, 
+      ret_dict = {'asin':item['asin'], 'ext_id':dict[ item['asin'] ], 'purchase_date':item['purchase_date'], 
+      'year':year_str, 'month':month_str, 'day':day_str, 'year_month':year_month_str,
       'year_month_day':year_month_day_str}
     else:
-      ret_dict = {'ASIN':item['ASIN'], 'ext_id':dict[ item['ASIN'] ], 'purchase_date':None, 
-      'year':None, 'month':None, 'day':None, 'year_month':None, 
-      'year_month_day':None}
+      ret_dict = None
 
     return ret_dict
 
@@ -74,12 +81,10 @@ class KindleList(AppBase):
       day_str = "%02d" % dt.day
       year_month_str = "%s%s" % (year_str, month_str)
       year_month_day_str = "%s%s%s" % (year_str, month_str, day_str)
-      ret_dict = {'ASIN':item['ASIN'], 'ext_id':dict[ item['ASIN'] ], 'progress_date':item['progress_date'], 
-      'year':year_str, 'month':month_str, 'day':day_str, 'year_month':year_month_str, 
+      ret_dict = {'asin':item['asin'], 'ext_id':dict[ item['asin'] ], 'progress_date':item['progress_date'], 
+      'year':year_str, 'month':month_str, 'day':day_str, 'year_month':year_month_str,
       'year_month_day':year_month_day_str}
     else:
-      ret_dict = {'ASIN':item['ASIN'], 'ext_id':dict[ item['ASIN'] ], 'progress_date':None, 
-      'year':None, 'month':None, 'day':None, 'year_month':None, 
-      'year_month_day':None}
+      ret_dict = None
 
     return ret_dict
