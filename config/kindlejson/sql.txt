@@ -1,18 +1,20 @@
 # book table_def_stmt
     CREATE TABLE if not exists book (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
-      xid INTEGER UNIQUE,
-      bookstore STRING,
-      title STRING,
       asin STRING,
-      purchase_date TEXT,
-      read_status INTEGER,
-      shape INTEGER,
-      category STRING
+      webReaderUrl STRING,
+      productUrl STRING,
+      title STRING,
+      percentageRead INTEGER,
+      authors STRING,
+      resourceType STRING,
+      originType STRING,
+      mangaOrComicAsin INTEGER
       )
 # purchase table_def_stmt
 CREATE TABLE if not exists purchase (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
+      asin STRING UNIQUE,
       ext_id INTEGER UNIQUE,
       purchase_date TEXT,
       year STRING,
@@ -25,6 +27,7 @@ CREATE TABLE if not exists purchase (
 # progress table_def_stmt
 CREATE TABLE if not exists progress (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
+      asin STRING UNIQUE,
       ext_id INTEGER UNIQUE,
       status INTEGER,
       progress_date TEXT,
@@ -37,13 +40,13 @@ CREATE TABLE if not exists progress (
       )
 # book insert_sql
 INSERT INTO book
-           (xid,   bookstore,  title,  asin,   purchase_date,  read_status,  shape,  category)
-    VALUES (:xid, :bookstore, :title, :asin,  :purchase_date, :read_status, :shape, :category)
+           (asin, webReaderUrl, productUrl, title, percentageRead, authors, resourceType, originType, mangaOrComicAsin)
+    VALUES (:asin, :webReaderUrl, :productUrl, :title, :percentageRead, :authors, :resourceType, :originType, :mangaOrComicAsin)
 # purchase insert_sql
 INSERT INTO purchase
-           ( ext_id,  purchase_date, year, month, day, year_month, year_month_day)
-    VALUES (:ext_id, :purchase_date, :year, :month, :day, :year_month, :year_month_day)
+           ( asin,  ext_id,  purchase_date, year, month, day, year_month, year_month_day)
+    VALUES (:asin, :ext_id, :purchase_date, :year, :month, :day, :year_month, :year_month_day)
 # progress insert_sql
 INSERT INTO progress
-           ( ext_id,  status,  progress_date,  year,  month,  day,  year_month,  year_month_day)
-    VALUES (:ext_id, :status, :progress_date, :year, :month, :day, :year_month, :year_month_day)
+           ( asin,  ext_id,  status,  progress_date,  year,  month,  day,  year_month,  year_month_day)
+    VALUES (:asin, :ext_id, :status, :progress_date, :year, :month, :day, :year_month, :year_month_day)

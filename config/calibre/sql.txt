@@ -1,0 +1,74 @@
+# book table_def_stmt
+    CREATE TABLE if not exists book (
+      xid INTEGER PRIMARY KEY AUTOINCREMENT,
+
+      xxid STRING UNIQUE,
+      isbn STRING ,
+      id NUMBER UNIQUE,
+      uuid STRING UNIQUE,
+      comments STRING,
+
+      size NUMBER,
+      series STRING,
+      series_index NUMBER,
+      title STRING,
+      title_sort STRING,
+
+      tags STRING,
+      library_name STRING,
+      formats STRING,
+      timestamp NUMBER,
+      pubdate NUMBER,
+
+      publisher STRING,
+      authors STRING,
+      author_sort STRING,
+      cover STRING,
+      languages STRING,
+
+      rating NUMBER,
+      identifiers STRING
+      )
+# purchase table_def_stmt
+CREATE TABLE if not exists purchase (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      asin STRING UNIQUE,
+      ext_id INTEGER UNIQUE,
+      purchase_date TEXT,
+      year STRING,
+      month STRING,
+      day STRING,
+      year_month STRING,
+      year_month_day STRING,
+      foreign key (ext_id) references book(id)
+      )
+# progress table_def_stmt
+CREATE TABLE if not exists progress (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      asin STRING UNIQUE,
+      ext_id INTEGER UNIQUE,
+      status INTEGER,
+      progress_date TEXT,
+      year STRING,
+      month STRING,
+      day STRING,
+      year_month STRING,
+      year_month_day STRING,
+      purchase_date TEXT,
+      foreign key (ext_id) references book(id)
+      )
+# book insert_sql
+INSERT INTO book
+            ( xxid,  isbn,  id,  uuid,  comments,  size,  series,  series_index,  title,  title_sort,  tags,  library_name,  formats,  timestamp,  pubdate,  publisher,  authors,  author_sort,  cover,  languages,  rating,  identifiers)
+
+      VALUES(:xxid, :isbn, :id, :uuid, :comments, :size, :series, :series_index, :title, :title_sort, :tags, :library_name, :formats, :timestamp, :pubdate, :publisher, :authors, :author_sort, :cover, :languages, :rating, :identifiers)
+# purchase insert_sql
+INSERT INTO purchase
+           ( asin,  ext_id,  purchase_date, year, month, day, year_month, year_month_day)
+    VALUES (:asin, :ext_id, :purchase_date, :year, :month, :day, :year_month, :year_month_day)
+# progress insert_sql
+INSERT INTO progress
+           ( asin,  ext_id,  status,  progress_date,  year,  month,  day,
+           year_month,  year_month_day,
+           purchase_date)
+    VALUES (:asin, :ext_id, :status, :progress_date, :year, :month, :day, :year_month, :year_month_day)
