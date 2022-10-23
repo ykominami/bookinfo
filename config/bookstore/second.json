@@ -1,0 +1,5 @@
+{
+  "table_columns_book":     ${table_columns_default},
+  "table_columns_purchase": ${table_columns_default},
+  "table_columns_progress": ${table_columns_default}
+}

@@ -1,0 +1,62 @@
+# class階層
+AppBase
+  Bookstore
+  Calibrex
+  KindleList
+
+AppDb
+Configx
+Credential
+EnBase
+  nvBookstor
+  EnvCalibre
+  EnvKindleJSON
+  EnvKindleList
+EnvTarget
+GoogleApiClientx
+
+OrenoServer
+OrenoDataBase
+
+BaseHTTPRequestHandler
+  HttpHandler
+
+KindleJSON
+Sqlite3db
+Templatex
+Util
+
+main.py
+  kc = Kc
+  kd.db_process
+    createall
+      [bookstore]
+      2014,2022
+        cmd_create
+    updateall
+      [bookstore]
+      2014,2022
+      cmd_update_for_bookstore
+
+    create
+      cmd_create
+    update
+      [bookstore]
+      cmd_update
+
+      cmd_update(year指定なし)
+    batchupdate
+      cmd_batchupdate
+    batchupdate2
+      cmd_batchupdate2
+    append
+      cmd_append
+    json
+      (get.jsonファイルを読みこむ)
+    json2
+      cmd_jsonx
+    jsonall
+      2014,2022
+      cmd_jsonx
+
+=
